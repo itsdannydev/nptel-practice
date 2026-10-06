@@ -1,0 +1,116 @@
+{
+  "title": "Week 8",
+  "description": "Technology led Entrepreneurship",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What advantages can your business gain from identifying early adopters?",
+      "options": [
+        "Competitive disadvantage",
+        "Validate market demands through early feedback",
+        "Slow revenue generation",
+        "Requires less marketing effort"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the key characteristics that early-stage entrepreneurs should develop?",
+      "options": [
+        "An entrepreneurial mindset",
+        "Adaptability and resilience",
+        "Upholding ethical standards",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 3,
+      "question": "What is essential for delivering a compelling business pitch to investors?",
+      "options": [
+        "Detailed operational procedures",
+        "A scalable and profitable business model",
+        "Market size and demographics",
+        "Long-term industry trends"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "What role does a Minimum Viable Product (MVP) play in product development?",
+      "options": [
+        "Builds brand reputation without validation",
+        "Attracts early-adopter customers and validates the product idea",
+        "Focuses on short-term revenue generation",
+        "Prioritizes aesthetics over functionality"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "What are the initial steps involved in developing a Lean Canvas?",
+      "options": [
+        "Identify your target customers and users",
+        "List your customer's top three problems",
+        "Develop solutions for each identified problem",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "What factors must a product have to remain competitive in the market?",
+      "options": [
+        "Consistent product improvement and innovation",
+        "Incremental price increases",
+        "Limited scalability to control costs",
+        "Focus on low-impact trends"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "What term is used to describe legal protections that prevent unauthorized use of original creative works?",
+      "options": [
+        "Physical property",
+        "Intellectual property",
+        "Commercial asset",
+        "Industrial design"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Which types of intellectual property rights (IPR) protect innovations and creative works?",
+      "options": [
+        "Real estate and buildings",
+        "Patents, copyrights, trademarks, and trade secrets",
+        "Financial statements and records",
+        "Office equipment and tools"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "What is the primary focus of customer acquisition strategies for startups?",
+      "options": [
+        "Acquiring new customers efficiently and cost-effectively",
+        "Maximizing short-term sales revenue",
+        "Ignoring customer feedback for cost-saving",
+        "Relying on word-of-mouth marketing alone"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "How does a strong Unique Value Proposition (UVP) benefit a startup?",
+      "options": [
+        "Enhances the company's ability to attract and retain customers by clearly addressing their needs and preferences",
+        "Solely focuses on improving financial performance metrics without considering customer satisfaction",
+        "Prioritizes technological infrastructure over understanding customer needs",
+        "Concentrates on offering low-cost services at the expense of quality"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

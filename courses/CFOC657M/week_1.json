@@ -1,0 +1,116 @@
+{
+  "title": "Week 1",
+  "description": "Introduction to Entrepreneurship, What is Entrepreneurship GDC Program",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What makes an idea valuable even if it fails?",
+      "options": [
+        "Avoiding collaboration to prevent shared blame",
+        "Gaining valuable lessons and insights from the failure",
+        "Shifting focus to unrelated projects immediately",
+        "Disregarding accountability and blaming external factors"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "What key characteristics are essential for business success?",
+      "options": [
+        "The ability to balance expenses while maintaining product quality",
+        "Ignoring customer feedback to prioritize internal goals",
+        "Strategic planning and adaptability to market changes",
+        "Focusing solely on profit maximization"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "What is the primary objective of selling a product or service, and how does it address customer needs?",
+      "options": [
+        "Identifying and fulfilling customer and market needs",
+        "Maximizing profits through aggressive pricing strategies",
+        "Focusing on complex promotional campaigns",
+        "Offering discounts to increase sales"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "What makes an idea \"disruptive\"?",
+      "options": [
+        "Maintaining the existing state and avoiding innovation",
+        "Imitating successful competitors to gain market share",
+        "Introducing changes that challenge existing market norms",
+        "Strictly adhering to traditional market standards"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "How does entrepreneurship contribute to economic growth?",
+      "options": [
+        "By developing robust business models without innovation",
+        "By focusing solely on customer validation and discovery",
+        "By identifying and solving market problems effectively",
+        "By avoiding competitive risks through market isolation"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "What is emphasized in the Lean Startup methodology for product development?",
+      "options": [
+        "Graduation degrees as a prerequisite for entrepreneurship",
+        "Rigid execution of initial business plans",
+        "Financial optimization over product innovation",
+        "Continuous learning and validation through customer feedback"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "What are the key objectives of the Lean Startup methodology when launching a new product or service?",
+      "options": [
+        "Customer validation and iterative development",
+        "Company building without market analysis",
+        "Rapid scaling and long-term planning",
+        "Agile engineering without customer feedback"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "How do institutions foster innovation and entrepreneurship effectively?",
+      "options": [
+        "By connecting academic research to practical applications in the market",
+        "By focusing exclusively on theoretical research",
+        "By isolating themselves from marketplace collaborations",
+        "By discouraging experimentation within the institution"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "How can evidence-based entrepreneurship be defined and applied effectively?",
+      "options": [
+        "By utilizing validated learning through continuous experimentation and data analysis",
+        "By implementing the Build-Measure-Learn cycle to iteratively develop and improve products",
+        "By making decisions based on empirical evidence rather than assumptions",
+        "By regularly engaging with customers to gather feedback and validate ideas"
+      ],
+      "correctOption": [0, 1, 2, 3]
+    },
+    {
+      "id": 10,
+      "question": "What are some common mistakes startups make?",
+      "options": [
+        "Adopting the Lean Startup methodology",
+        "Focusing too much on the product and neglecting the market",
+        "Developing solutions without engaging potential customers",
+        "Preparing a business plan and estimating market size"
+      ],
+      "correctOption": [1, 2]
+    }
+  ]
+}

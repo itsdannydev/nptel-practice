@@ -1,0 +1,116 @@
+{
+  "title": "Week 6",
+  "description": "New-age Entrepreneurship",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which key elements are essential for successfully engaging customers using a human-centered approach in product development?",
+      "options": [
+        "Utilizing lean methods and tools",
+        "Building empathy and conducting user research",
+        "Relying on traditional marketing strategies",
+        "Concentrating solely on product ideas"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which factor is most critical when aligning a product with customer expectations during development?",
+      "options": [
+        "Conducting iterative testing and feedback loops",
+        "Emphasizing aesthetic appeal over functionality",
+        "Ignoring competitor analysis",
+        "Skipping the prototyping phase"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "How do design thinking, user research, and strategic planning benefit an organization?",
+      "options": [
+        "Links business operations with innovation efforts",
+        "Helps build mock-ups for product testing",
+        "Focuses on generating creative ideas only",
+        "Encourages quick decision-making without research"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "What should the primary objective of a design researcher and strategist be when working for a client?",
+      "options": [
+        "Focus solely on the product's core idea",
+        "Balance user needs, technological feasibility, and business objectives",
+        "Ensure customer experience takes precedence over business goals",
+        "Prioritize technical feasibility over desirability"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Which strategy is most effective for encouraging interviewees to share valuable information?",
+      "options": [
+        "Asking complex and detailed questions",
+        "Beginning with secondary objective",
+        "Building rapport and trust with the interviewee",
+        "Employing a rigid and formal interview structure"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "What are the essential characteristics of a robust design brief?",
+      "options": [
+        "Providing detailed technical specifications and timelines",
+        "Outlining comprehensive marketing strategies",
+        "Including extensive budget estimates",
+        "Identifying user pain points, mapping user journeys, and ensuring ecosystem fit"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "What is design management in relation to achieving organizational goals?",
+      "options": [
+        "Lateral thinking and creativity",
+        "Overseeing design teams and their timelines",
+        "Collaboration between stakeholders to meet business goals",
+        "A structured process for fulfilling business objectives through design"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "What are the three key qualities that a client seeks in a design firm?",
+      "options": [
+        "Discipline, speed, and high fees",
+        "Quality, speed, and transparency",
+        "Collaboration, extended timelines, and reliability",
+        "Minimal interaction, predictability, and discipline"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "What should be included in a comprehensive design brief to ensure project success?",
+      "options": [
+        "Detailed project timeline and budget",
+        "In-depth competitor analysis and benchmarking",
+        "Specific user personas and their pain points",
+        "Finalized marketing strategies and plans"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Why is it important for designers to empathize with both users and business goals?",
+      "options": [
+        "To ensure marketing and advertising success",
+        "To prioritize aesthetics over functionality",
+        "To balance creative ideas with realistic objectives",
+        "To reduce the complexity of the design process"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

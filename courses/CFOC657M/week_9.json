@@ -1,0 +1,116 @@
+{
+  "title": "Week 9",
+  "description": "Entrepreneurship as Academic Program - IITH case study",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What barriers must a designer or entrepreneur overcome to turn an idea into action?",
+      "options": [
+        "Lack of confidence in their skills",
+        "Fear of negative feedback",
+        "Difficulty in securing funding",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "What is the most important relationship for a startup to manage?",
+      "options": [
+        "Funding sources",
+        "Target customers",
+        "Technological infrastructure",
+        "Market needs"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "What types of funding are typically sought by early-stage entrepreneurs or startups?",
+      "options": [
+        "Government grants",
+        "Seed funding and crowdfunding",
+        "Long-term loans with high interest rates",
+        "Equity funds"
+      ],
+      "correctOption": [0, 1]
+    },
+    {
+      "id": 4,
+      "question": "What are some reasons why certain regions may lag in techno-entrepreneurial ventures?",
+      "options": [
+        "Education is focused solely on securing jobs",
+        "Abundance of natural resources reduces the need for innovation",
+        "Government policies discourage entrepreneurship",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 5,
+      "question": "What is the purpose of the incubation stage in the entrepreneurial journey?",
+      "options": [
+        "Developing a business plan and securing resources",
+        "Taking a product idea to commercialization",
+        "Conducting advanced research and development",
+        "Scaling the business for global markets"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "How does the role of an entrepreneur differ from that of an innovator?",
+      "options": [
+        "Entrepreneurs focus on maximizing profits, while innovators solve problems without business goals",
+        "Entrepreneurs see problems as business opportunities, while innovators focus solely on solving problems",
+        "Entrepreneurs work alone, while innovators always work in teams",
+        "Entrepreneurs need formal education, while innovators rely on creativity"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the purpose of clinical immersion in the healthcare sector for entrepreneurs?",
+      "options": [
+        "To provide administrative training and management skills",
+        "To identify unmet needs and gather insights for innovation",
+        "To develop marketing strategies for healthcare products",
+        "To focus on financial analysis and budget planning"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "What key factor ensures better execution of an entrepreneurial idea?",
+      "options": [
+        "Clear definition of customer needs and market gaps",
+        "Strong advertising strategy and brand presence",
+        "Advanced office infrastructure and equipment",
+        "Rigid adherence to the initial business plan"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "What is the process of transferring an idea to industry through intellectual property or technology transfer called?",
+      "options": [
+        "Entrepreneurship",
+        "Commercialization",
+        "Enterprise development",
+        "Incubation"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Which stage of the entrepreneurial journey focuses on the initial creation and development of a startup idea?",
+      "options": [
+        "Idea Generation Stage",
+        "Research Stage",
+        "Incubation Stage",
+        "Scaling Stage"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Week 4",
+  "description": "Innovation and Entrepreneurship, Solar Oven case-study Paradigm shift from Design to Entrepreneurship",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What could cause a startup to fail despite having an innovative product?",
+      "options": [
+        "Addressing user pain points effectively",
+        "Prioritizing customer satisfaction",
+        "Lack of understanding of customer needs",
+        "Regular customer feedback for product improvement"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following best captures the essence of the ‘outside-in thinking’ approach in product design?",
+      "options": [
+        "Creating products that cater to customer requirements",
+        "Enhancing internal operational processes",
+        "Focusing on excessive engineering solutions",
+        "Disregarding customer feedback in decision-making"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "In which areas do startups face challenges during their early stages?",
+      "options": [
+        "Scaling the business quickly",
+        "Building a skilled and cohesive team",
+        "Acquiring venture capital easily",
+        "Creating an effective marketing strategy"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "What strategies can effectively promote sustainable products in rural markets?",
+      "options": [
+        "Social media campaigns targeting urban audiences",
+        "Distribution through government schemes",
+        "Online marketing through digital platforms",
+        "Door-to-door sales in urban regions"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "What are some effective strategies to increase awareness about sustainable products?",
+      "options": [
+        "Collaborating with influential figures and forming partnerships",
+        "Solely relying on multi-level marketing and digital advertisements",
+        "Hosting engaging and interactive demonstrations",
+        "Building and educating communities"
+      ],
+      "correctOption": [0, 2, 3]
+    },
+    {
+      "id": 6,
+      "question": "How can pricing strategies improve the accessibility and financial viability of sustainable products?",
+      "options": [
+        "Offering direct sales without intermediaries",
+        "Government subsidies for eco-friendly products",
+        "Encouraging bulk orders from organizations",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "What factors are critical for a startup to attract investors?",
+      "options": [
+        "Demonstrating a real and solvable problem",
+        "Ignoring competition in the market",
+        "Focusing solely on futuristic technology",
+        "Providing vague or exaggerated solutions"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "What key considerations should businesses keep in mind when entering a new market?",
+      "options": [
+        "Understanding the cultural and economic environment",
+        "Avoiding market research and going with instincts",
+        "Ignoring local regulations and norms",
+        "Relying solely on existing products and services without adaptation"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "How are urgent or active problems identified on the problem recognition scale?",
+      "options": [
+        "By ignoring the problem entirely",
+        "Recognizing a problem and actively seeking a solution",
+        "Recognizing a problem but refusing to act on it",
+        "Adjusting to the problem without solving it"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "In the passive problem stage, what defines an individual's awareness of a problem on the problem recognition scale?",
+      "options": [
+        "No awareness of the problem exists",
+        "Awareness of the problem but no motivation to change",
+        "Motivation to change without understanding the problem",
+        "Recognizing the problem but being unable to act on it"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

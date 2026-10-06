@@ -1,0 +1,116 @@
+{
+  "title": "Week 10",
+  "description": "Creativity and Generating Product Ideas, From Idea to Proof of Concept, Network Entrepreneurship",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What creative thinking technique involves individuals imagining themselves as part of the problem or situation they are trying to solve?",
+      "options": [
+        "Fantasy analogy",
+        "Personal analogy",
+        "Symbolic analogy",
+        "CAD analogy"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a typical prototyping method?",
+      "options": [
+        "Additive methods",
+        "Subtractive methods",
+        "Forming methods",
+        "Lateral thinking"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 3,
+      "question": "What is the correct sequence during a product development process?",
+      "options": [
+        "Ideation → Concept Generation → Prototyping → Testing → Market Launch",
+        "Market Research → Concept Generation → Testing → Ideation → Prototyping",
+        "Concept Generation → Prototyping → Testing → Market Launch → Ideation",
+        "Ideation → Market Launch → Prototype → Testing → Concept Generation"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Which type of reasoning involves forming general conclusions from specific observations?",
+      "options": [
+        "Abductive reasoning",
+        "Deductive reasoning",
+        "Inductive reasoning",
+        "Analytical reasoning"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "How does frugality in product innovation benefit organizations?",
+      "options": [
+        "By increasing production costs to maximize resources",
+        "By minimizing waste and reducing costs through efficient use of resources",
+        "By prioritizing aesthetics over functionality",
+        "By focusing solely on rapid scaling without cost considerations"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "What is the primary purpose of a Proof of Concept (POC)?",
+      "options": [
+        "To validate the feasibility and viability of a new idea or concept",
+        "To generate the final product for market launch",
+        "To secure funding for large-scale production",
+        "To build prototypes for user feedback"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "What does prototyping aim to achieve in the design process?",
+      "options": [
+        "Finalizing the design for immediate market release",
+        "Creating models to test and improve design, functionality, and usability",
+        "Building large-scale production units for market distribution",
+        "Avoiding iterative development to save time"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the primary goal of Synectics in the design process?",
+      "options": [
+        "Encouraging exploration and breaking conventional thinking",
+        "Generating a single, perfect solution to a problem",
+        "Reaching consensus among team members quickly",
+        "Applying detailed technical analysis to refine existing concepts"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "How can entrepreneurs effectively collaborate with one another?",
+      "options": [
+        "By franchising their mutual businesses",
+        "By sharing resources and distributing production responsibilities",
+        "By competing in the same market segments",
+        "All of the above"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Why is it important for designers to create prototypes before deploying a product?",
+      "options": [
+        "To identify and resolve design flaws early in the process",
+        "To use prototypes as the final version for market release",
+        "To skip the need for market research and testing",
+        "To focus on aesthetics without user input"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

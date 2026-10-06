@@ -1,0 +1,116 @@
+{
+  "title": "Week 12",
+  "description": "Learning from examples Start-up PITCHES - Using Lean Canvas Model Part 2",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How does identifying problems early in the product design process help businesses?",
+      "options": [
+        "Leads to overemphasis on a single issue",
+        "Provides a well-defined direction for development",
+        "Assumes problems remain static throughout the process",
+        "Overlooks user insights during the design phase"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "What are the benefits of designing modular and customizable products?",
+      "options": [
+        "Increased customer satisfaction and enhanced efficiency",
+        "Higher production costs and limited scalability",
+        "Reduced customer engagement and feedback opportunities",
+        "Simplified designs with minimal user options"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "How does analyzing a \"Beachhead market\" help businesses during product launch?",
+      "options": [
+        "Spreads resources thinly across multiple segments",
+        "Identifies a focused customer segment for initial success",
+        "Skips customer research and prioritizes production",
+        "Avoids market segmentation entirely"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "How can networking be utilized effectively to harness its full potential?",
+      "options": [
+        "Limiting interactions to close friends only",
+        "Promoting products through targeted connections",
+        "Avoiding industry events and conferences",
+        "Keeping networking efforts informal and unstructured"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "What are the advantages of the \"Inverted Pyramid Model\" for product-centric businesses?",
+      "options": [
+        "Increased development costs due to complex designs",
+        "Improved customer focus by prioritizing their needs",
+        "Creation of complex product descriptions for a wider audience",
+        "Prioritizing concise messaging with a clear audience focus"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "What is the most crucial step in the product design process to ensure a startup's success?",
+      "options": [
+        "Identifying the target customer segment",
+        "Ignoring user feedback during early stages",
+        "Skipping competitor analysis to save time",
+        "Overlooking market research to focus on production"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "What is considered an ideal marketing strategy for startups?",
+      "options": [
+        "Expensive and extravagant campaigns",
+        "Short-term and aggressive advertising",
+        "Innovative and lean strategies",
+        "Random and unfocused marketing efforts"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "What factors should be prioritized when designing a product for the market?",
+      "options": [
+        "Irrelevant personal opinions and preferences",
+        "Customer needs and preferences",
+        "Excessive technical details and low usability",
+        "Low-impact trends to reduce risks"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Why is it important to emphasize the product solution when presenting a business idea?",
+      "options": [
+        "To focus on irrelevant features for market differentiation",
+        "To overemphasize minor market segments",
+        "To provide clarity on how the product addresses a specific problem",
+        "To focus on overambitious goals for investor appeal"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "What is an essential factor to focus on when pitching a business idea to investors?",
+      "options": [
+        "Presenting a vague and unclear concept",
+        "Avoiding discussions about market potential",
+        "Clearly articulating the value proposition and market fit",
+        "Presenting weak financial projections to lower expectations"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

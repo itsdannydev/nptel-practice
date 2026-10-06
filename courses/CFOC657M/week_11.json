@@ -1,0 +1,116 @@
+{
+  "title": "Week 11",
+  "description": "Learning from examples Start-up PITCHES - Using Lean Canvas Model Part 1",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the most effective approach for developing products that meet the needs of specially-abled people?",
+      "options": [
+        "User-centered design",
+        "Exclusivity in design",
+        "Profit maximization",
+        "Reducing production costs"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "What are the two key aspects to focus on when developing a product using assistive technology?",
+      "options": [
+        "Promoting awareness about digital alternatives",
+        "Making users independent and fostering social integration",
+        "Redesigning existing products for the market",
+        "Creating exclusive and expensive solutions"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "What are the critical factors for a product to succeed in the market?",
+      "options": [
+        "Being trendy and common",
+        "Being relevant and differentiated",
+        "Being cheap and generic",
+        "Being expensive and complex"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "What should a startup offer to persuade investors or customers to invest in or purchase its product?",
+      "options": [
+        "An unrealistic guaranteed return on investment",
+        "A unique and differentiated service or product",
+        "A vague and unclear value proposition",
+        "A low-cost product with limited functionality"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Why is it advisable to avoid using cheap materials when developing a product, especially in a B2C context?",
+      "options": [
+        "Cheap materials reduce production time significantly",
+        "Using cheap materials increases return and servicing costs",
+        "Cheap materials ensure better brand reputation",
+        "Cheap materials improve the product's aesthetic appeal"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "What potential risk factor could affect the viability of a startup's business model?",
+      "options": [
+        "Strong customer loyalty and retention",
+        "Reliance on a limited number of corporate clients",
+        "Rapidly decreasing operational costs",
+        "Established brand recognition"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "How does human-to-human interaction benefit product design compare to AI-based solutions?",
+      "options": [
+        "AI processes designs faster and more efficiently",
+        "Human interaction fosters empathy and understanding of individual needs",
+        "AI consistently improves through machine learning",
+        "AI offers a broader range of design capabilities"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "How can design contribute to the development of cognitive, motor, and analytical skills in children?",
+      "options": [
+        "By creating interactive games that encourage physical movement and coordination",
+        "By focusing solely on aesthetic appeal and trendy designs",
+        "By using advanced technology for entertainment purposes",
+        "By emphasizing cost-effectiveness over engagement"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "What factors should be prioritized when developing a product using evidence-based learning methodologies?",
+      "options": [
+        "Understanding target customers and measuring the impact of the solution",
+        "Increasing brand recognition and analyzing market competition",
+        "Allocating advertising budgets and determining technical specifications",
+        "Designing packaging and setting product pricing"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Why is it essential for a product to align with customer needs and preferences during its design?",
+      "options": [
+        "To reduce the cost of production",
+        "To ensure long-term customer satisfaction and loyalty",
+        "To focus on marketing trends exclusively",
+        "To simplify the manufacturing process"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

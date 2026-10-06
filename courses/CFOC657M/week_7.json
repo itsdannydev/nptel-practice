@@ -1,0 +1,116 @@
+{
+  "title": "Week 7",
+  "description": "Business Model Canvas",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which approach emphasizes collaboration, iteration, and a non-linear process to develop innovative solutions?",
+      "options": [
+        "Economic stability",
+        "Design thinking",
+        "Complacency",
+        "Short-term focus"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "What is a problem-solving methodology that encourages creative thinking by connecting seemingly unrelated concepts?",
+      "options": [
+        "Brainstorming",
+        "Synectics",
+        "Mind mapping",
+        "SWOT analysis"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "What are the most important three critical factors to consider when developing a product?",
+      "options": [
+        "Market Need, technical feasibility, and business viability",
+        "Advertisement, product packaging, and distribution networks",
+        "User sensibility, market size, and product range",
+        "Profit, market sensitivity, and employee strength"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Which tool graphically represents a business model and helps stakeholders understand it easily?",
+      "options": [
+        "Business Model Canvas",
+        "Balance sheet",
+        "Profit and loss statement",
+        "Organizational chart"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "Which stage of the Lean Startup cycle comes immediately after building a Minimum Viable Product (MVP)?",
+      "options": [
+        "Scaling production",
+        "Filing patents",
+        "Measuring customer feedback and learning from the results",
+        "Preparing financial statements"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "What makes a collaboration model beneficial for entrepreneurship?",
+      "options": [
+        "Provides access to resources",
+        "Offers networking opportunities",
+        "Creates a sense of community",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "What distinguishes the fractional ownership business model from other models?",
+      "options": [
+        "Shared ownership of physical assets",
+        "Focus on virtual assets and digital goods",
+        "Primary emphasis on intellectual property rights",
+        "Leasing equipment to businesses"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "What key criteria should a business model meet to achieve optimal success?",
+      "options": [
+        "High Initial Investment, Extensive Workforce, and Expensive Marketing",
+        "Clear Value Proposition, Scalability, and Sustainable Revenue Streams",
+        "Low Costs, Rapid Expansion, and Minimal Effort",
+        "Single Revenue Source, Limited Target Market, and High Complexity"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Which key performance metrics help to monitor a business’s success?",
+      "options": [
+        "Revenue growth, customer acquisition, and customer retention",
+        "Employee welfare, operational cost reduction, and inventory turnover",
+        "Brand recognition, social media reach, and product diversification",
+        "Customer retention, marketing spend, and aesthetic appeal"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Why is the Lean Canvas a valuable tool for startups?",
+      "options": [
+        "Helps secure large investments from venture capitalists",
+        "Develops a detailed five-year financial plan",
+        "Allows startups to test and iterate on their business model assumptions quickly",
+        "Designs a complex organizational structure for future growth"
+      ],
+      "correctOption": 2
+    }
+  ]
+}
