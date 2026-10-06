@@ -1,15 +1,15 @@
 import { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
-import QuizSession from '../components/QuizSession';
-import Results from '../components/Results';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
+import QuizRunner from '../components/QuizRunner';
 import { courseLabel, getCourse, loadWeek } from '../lib/courses';
-import { recordAttempt, type WeekProgress } from '../lib/progress';
-import type { AnswerResult, Course, Question, Week } from '../lib/types';
+import { parseQuizMode, QUIZ_MODE_LABELS, type Week } from '../lib/types';
 import { useTitle } from '../lib/useTitle';
 import NotFound from './NotFound';
 
 export default function Quiz() {
   const { courseId, week: weekParam } = useParams();
+  const [searchParams] = useSearchParams();
+  const mode = parseQuizMode(searchParams.get('mode'));
   const course = getCourse(courseId);
   const weekNumber = /^\d+$/.test(weekParam ?? '') ? Number(weekParam) : NaN;
 
@@ -39,7 +39,7 @@ export default function Quiz() {
   if (Number.isNaN(weekNumber) || week === null) return <NotFound what="week" />;
 
   return (
-    <>
+    <div className="prose">
       <nav className="crumbs" aria-label="Breadcrumb">
         <Link to="/">Courses</Link>
         <span aria-hidden="true"> / </span>
@@ -48,70 +48,28 @@ export default function Quiz() {
 
       {failed && <p className="empty">Couldn't load this week. Try reloading.</p>}
       {!failed && week === undefined && <p className="muted">Loading…</p>}
-      {week && <QuizRunner key={`${course.id}/${week.number}`} course={course} week={week} />}
-    </>
-  );
-}
-
-interface Run {
-  id: number;
-  questions: Question[];
-  /** Only full-week runs count toward saved progress */
-  full: boolean;
-}
-
-function QuizRunner({ course, week }: { course: Course; week: Week }) {
-  const [run, setRun] = useState<Run>({ id: 0, questions: week.questions, full: true });
-  const [results, setResults] = useState<AnswerResult[] | null>(null);
-  const [progress, setProgress] = useState<WeekProgress | undefined>();
-
-  function start(questions: Question[], full: boolean) {
-    setRun((prev) => ({ id: prev.id + 1, questions, full }));
-    setResults(null);
-    setProgress(undefined);
-  }
-
-  function finish(finished: AnswerResult[]) {
-    if (run.full) {
-      setProgress(
-        recordAttempt(
-          course.id,
-          week.number,
-          finished.filter((r) => r.correct).length,
-          finished.length,
-          finished.filter((r) => !r.correct).map((r) => r.question.id),
-        ),
-      );
-    }
-    setResults(finished);
-  }
-
-  return (
-    <>
-      <h1>{week.title}</h1>
-      {week.description && <p className="lede">{week.description}</p>}
-      {run.full ? null : <p className="badge">Retrying missed questions</p>}
-
-      {results ? (
-        <Results
-          results={results}
-          progress={progress}
-          onRetryMissed={() =>
-            start(
-              results.filter((r) => !r.correct).map((r) => r.question),
-              false,
-            )
-          }
-          onRestart={() => start(week.questions, true)}
-          backTo={
-            <Link to={`/c/${course.id}`} className="btn">
-              All weeks
-            </Link>
-          }
-        />
-      ) : (
-        <QuizSession key={run.id} questions={run.questions} onFinish={finish} />
+      {week && (
+        <>
+          <h1>
+            {week.title} <span className="badge">{QUIZ_MODE_LABELS[mode]}</span>
+          </h1>
+          {week.description && <p className="lede">{week.description}</p>}
+          <QuizRunner
+            key={`${course.id}/${week.number}/${mode}`}
+            courseId={course.id}
+            progressKey={week.number}
+            mode={mode}
+            initialQuestions={week.questions}
+            makeAttempt={() => week.questions}
+            restartLabel="Restart week"
+            backTo={
+              <Link to={`/c/${course.id}`} className="btn">
+                All weeks
+              </Link>
+            }
+          />
+        </>
       )}
-    </>
+    </div>
   );
 }

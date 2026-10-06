@@ -2,6 +2,7 @@ import { HashRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
 import CourseList from './pages/CourseList';
 import WeekList from './pages/WeekList';
 import Quiz from './pages/Quiz';
+import MixedQuiz from './pages/MixedQuiz';
 import NotFound from './pages/NotFound';
 
 function Layout() {
@@ -28,6 +29,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<CourseList />} />
           <Route path="c/:courseId" element={<WeekList />} />
+          <Route path="c/:courseId/mixed" element={<MixedQuiz />} />
           <Route path="c/:courseId/w/:week" element={<Quiz />} />
           <Route path="*" element={<NotFound />} />
         </Route>

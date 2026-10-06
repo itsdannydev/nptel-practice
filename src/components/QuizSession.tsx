@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import type { AnswerResult, Question } from '../lib/types';
+import type { AnswerResult, Question, QuizMode } from '../lib/types';
 
 export function sameSet(a: number[], b: number[]): boolean {
   return a.length === b.length && a.every((x) => b.includes(x));
@@ -7,11 +7,14 @@ export function sameSet(a: number[], b: number[]): boolean {
 
 interface Props {
   questions: Question[];
+  /** 'quiz' reveals right/wrong after each question; 'mock' just records and moves on. */
+  mode: Extract<QuizMode, 'quiz' | 'mock'>;
   onFinish: (results: AnswerResult[]) => void;
 }
 
-/** Runs through `questions` one at a time: select, check, next. */
-export default function QuizSession({ questions, onFinish }: Props) {
+/** Runs through `questions` one at a time: select, (check,) next. */
+export default function QuizSession({ questions, mode, onFinish }: Props) {
+  const reveals = mode === 'quiz';
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState<number[]>([]);
   const [checked, setChecked] = useState(false);
@@ -20,16 +23,13 @@ export default function QuizSession({ questions, onFinish }: Props) {
   const q = questions[index];
   const isCorrect = sameSet(selected, q.correct);
   const isLast = index === questions.length - 1;
+  const showAnswer = reveals && checked;
 
   function toggle(i: number) {
-    if (checked) return;
+    if (showAnswer) return;
     setSelected((prev) =>
       q.multi ? (prev.includes(i) ? prev.filter((x) => x !== i) : [...prev, i]) : [i],
     );
-  }
-
-  function check() {
-    if (!checked && selected.length > 0) setChecked(true);
   }
 
   function next() {
@@ -44,16 +44,25 @@ export default function QuizSession({ questions, onFinish }: Props) {
     setChecked(false);
   }
 
-  const primary = checked ? next : check;
+  function submit() {
+    if (selected.length === 0) return;
+    // Quiz mode: first submit reveals the answer; a second submit moves on.
+    // Mock mode: there's no reveal step, so one submit records the answer and moves on.
+    if (reveals && !checked) {
+      setChecked(true);
+      return;
+    }
+    next();
+  }
 
-  // Keyboard: 1-9 pick an option, Enter checks / moves on.
+  // Keyboard: 1-9 pick an option, Enter submits / moves on.
   useEffect(() => {
     function onKeyDown(e: KeyboardEvent) {
       if (e.ctrlKey || e.metaKey || e.altKey) return;
       if ((e.target as HTMLElement | null)?.closest('a')) return;
       if (e.key === 'Enter') {
         e.preventDefault();
-        primary();
+        submit();
       } else if (/^[1-9]$/.test(e.key)) {
         const i = Number(e.key) - 1;
         if (i < q.options.length) {
@@ -75,6 +84,7 @@ export default function QuizSession({ questions, onFinish }: Props) {
         Question {index + 1} of {questions.length}
       </p>
 
+      {q.sourceWeek !== undefined && <p className="source-tag">Week {q.sourceWeek}</p>}
       <fieldset className="question">
         <legend>{q.question}</legend>
         <p className="hint">{q.multi ? 'Select all that apply' : 'Select one answer'}</p>
@@ -85,7 +95,7 @@ export default function QuizSession({ questions, onFinish }: Props) {
             const isAnswer = q.correct.includes(i);
             let state = '';
             let tag = '';
-            if (checked) {
+            if (showAnswer) {
               if (isAnswer && isSelected) [state, tag] = ['correct', 'Correct'];
               else if (isAnswer) [state, tag] = ['missed', 'Correct answer'];
               else if (isSelected) [state, tag] = ['wrong', 'Incorrect'];
@@ -99,7 +109,7 @@ export default function QuizSession({ questions, onFinish }: Props) {
                   type={q.multi ? 'checkbox' : 'radio'}
                   name={`q-${q.id}`}
                   checked={isSelected}
-                  disabled={checked}
+                  disabled={showAnswer}
                   onChange={() => toggle(i)}
                 />
                 <span className="key" aria-hidden="true">
@@ -113,26 +123,28 @@ export default function QuizSession({ questions, onFinish }: Props) {
         </div>
       </fieldset>
 
-      <div className="actions" role="status" aria-live="polite">
-        {checked && (
-          <p className={`verdict ${isCorrect ? 'ok' : 'bad'}`}>
-            {isCorrect
-              ? 'Correct!'
-              : q.multi
-                ? 'Not quite — you need to select every correct option and nothing else.'
-                : 'Not quite.'}
-          </p>
-        )}
-      </div>
+      {reveals && (
+        <div className="actions" role="status" aria-live="polite">
+          {checked && (
+            <p className={`verdict ${isCorrect ? 'ok' : 'bad'}`}>
+              {isCorrect
+                ? 'Correct!'
+                : q.multi
+                  ? 'Not quite — you need to select every correct option and nothing else.'
+                  : 'Not quite.'}
+            </p>
+          )}
+        </div>
+      )}
 
       <div className="actions">
         <button
           type="button"
           className="btn primary"
-          onClick={primary}
+          onClick={submit}
           disabled={!checked && selected.length === 0}
         >
-          {checked ? (isLast ? 'Finish' : 'Next question') : 'Check answer'}
+          {showAnswer || !reveals ? (isLast ? 'Finish' : 'Next question') : 'Check answer'}
         </button>
         <span className="muted shortcut-hint">Press Enter</span>
       </div>

@@ -34,12 +34,38 @@ export interface Question {
   /** Indices of the correct options (always an array) */
   correct: number[];
   multi: boolean;
+  /** Which week this question came from; set only in a mixed (multi-week) quiz */
+  sourceWeek?: number;
 }
 
 export interface AnswerResult {
   question: Question;
   selected: number[];
   correct: boolean;
+}
+
+/**
+ * practice — questions with the correct answer already shown, just browse through.
+ * quiz     — current default: select an answer, check it, see right/wrong immediately.
+ * mock     — select an answer for every question first; scored together at the end.
+ */
+export const QUIZ_MODES = ['practice', 'quiz', 'mock'] as const;
+export type QuizMode = (typeof QUIZ_MODES)[number];
+
+export const QUIZ_MODE_LABELS: Record<QuizMode, string> = {
+  practice: 'Practice',
+  quiz: 'Quiz',
+  mock: 'Mock Test',
+};
+
+export const QUIZ_MODE_HINTS: Record<QuizMode, string> = {
+  practice: 'Browse questions with the correct answer already shown',
+  quiz: 'Answer each question and get checked right away',
+  mock: 'Answer every question, then see your score at the end',
+};
+
+export function parseQuizMode(value: string | null): QuizMode {
+  return (QUIZ_MODES as readonly string[]).includes(value ?? '') ? (value as QuizMode) : 'quiz';
 }
 
 export interface Week {

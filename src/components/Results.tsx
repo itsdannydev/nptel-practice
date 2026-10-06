@@ -1,17 +1,25 @@
 import type { ReactNode } from 'react';
 import type { AnswerResult } from '../lib/types';
-import type { WeekProgress } from '../lib/progress';
+import type { QuizProgress } from '../lib/progress';
 
 interface Props {
   results: AnswerResult[];
   /** Saved progress after this attempt; undefined for partial (retry) runs */
-  progress?: WeekProgress;
+  progress?: QuizProgress;
   onRetryMissed: () => void;
   onRestart: () => void;
+  restartLabel?: string;
   backTo: ReactNode;
 }
 
-export default function Results({ results, progress, onRetryMissed, onRestart, backTo }: Props) {
+export default function Results({
+  results,
+  progress,
+  onRetryMissed,
+  onRestart,
+  restartLabel = 'Restart',
+  backTo,
+}: Props) {
   const total = results.length;
   const score = results.filter((r) => r.correct).length;
   const missed = results.filter((r) => !r.correct);
@@ -42,7 +50,7 @@ export default function Results({ results, progress, onRetryMissed, onRestart, b
           </button>
         )}
         <button type="button" className="btn" onClick={onRestart}>
-          Restart week
+          {restartLabel}
         </button>
         {backTo}
       </div>
@@ -53,6 +61,9 @@ export default function Results({ results, progress, onRetryMissed, onRestart, b
           <ol className="review">
             {missed.map(({ question, selected }) => (
               <li key={question.id}>
+                {question.sourceWeek !== undefined && (
+                  <p className="review-week">Week {question.sourceWeek}</p>
+                )}
                 <p className="review-q">{question.question}</p>
                 <p className="review-a bad">
                   <span className="review-label">Your answer</span>

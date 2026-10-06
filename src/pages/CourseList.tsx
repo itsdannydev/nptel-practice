@@ -6,7 +6,7 @@ export default function CourseList() {
   useTitle('');
 
   return (
-    <>
+    <div className="prose">
       <h1>Courses</h1>
       <p className="lede">Pick a course, choose a week, and practice its quiz.</p>
 
@@ -30,6 +30,6 @@ export default function CourseList() {
           ))}
         </ul>
       )}
-    </>
+    </div>
   );
 }

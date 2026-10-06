@@ -1,9 +1,10 @@
-// Per-week quiz progress kept in localStorage. Everything is wrapped in try/catch
+// Quiz progress kept in localStorage: one entry per single week, or per mixed-week
+// combination (keyed by a string like `mix:2,5`). Everything is wrapped in try/catch
 // because storage can be unavailable (private windows, blocked site data).
 
 const STORAGE_KEY = 'nptel-progress:v1';
 
-export interface WeekProgress {
+export interface QuizProgress {
   /** Best number of correct answers across full attempts */
   best: number;
   /** Number of questions when `best` was recorded */
@@ -17,9 +18,10 @@ export interface WeekProgress {
   missedIds: number[];
 }
 
-type Store = Record<string, WeekProgress>;
+type Store = Record<string, QuizProgress>;
 
-const keyFor = (courseId: string, week: number) => `${courseId}/${week}`;
+/** `key` is a week number for a single week, or a string like `mix:2,5` for a mixed quiz. */
+const keyFor = (courseId: string, key: number | string) => `${courseId}/${key}`;
 
 function read(): Store {
   try {
@@ -38,23 +40,23 @@ function write(store: Store): void {
   }
 }
 
-export function getWeekProgress(courseId: string, week: number): WeekProgress | undefined {
-  return read()[keyFor(courseId, week)];
+export function getQuizProgress(courseId: string, key: number | string): QuizProgress | undefined {
+  return read()[keyFor(courseId, key)];
 }
 
 export function recordAttempt(
   courseId: string,
-  week: number,
+  key: number | string,
   correct: number,
   total: number,
   missedIds: number[],
-): WeekProgress {
+): QuizProgress {
   const store = read();
-  const key = keyFor(courseId, week);
-  const prev = store[key];
-  // If the week's question count changed since the last attempt, old scores aren't comparable.
+  const storeKey = keyFor(courseId, key);
+  const prev = store[storeKey];
+  // If the question count changed since the last attempt, old scores aren't comparable.
   const comparable = prev !== undefined && prev.total === total;
-  const next: WeekProgress = {
+  const next: QuizProgress = {
     best: comparable ? Math.max(prev.best, correct) : correct,
     total,
     last: correct,
@@ -62,7 +64,7 @@ export function recordAttempt(
     lastAt: Date.now(),
     missedIds,
   };
-  store[key] = next;
+  store[storeKey] = next;
   write(store);
   return next;
 }
