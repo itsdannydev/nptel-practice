@@ -49,6 +49,13 @@ export default function WeekList() {
     );
   }
 
+  const allSelected = weeks !== null && weeks.length > 0 && selected.length === weeks.length;
+
+  function toggleSelectAll() {
+    if (!weeks) return;
+    setSelected(allSelected ? [] : weeks.map((w) => w.number));
+  }
+
   function generateQuiz() {
     if (!course || selected.length === 0) return;
     const sorted = [...selected].sort((a, b) => a - b);
@@ -86,7 +93,15 @@ export default function WeekList() {
         <Link to="/">Courses</Link>
       </nav>
       <h1>{courseLabel(course)}</h1>
-      <p className="lede">{course.code} · select one or more weeks, then generate a quiz.</p>
+
+      <div className="week-toolbar">
+        <p className="lede">{course.code} · select one or more weeks, then generate a quiz.</p>
+        {weeks !== null && weeks.length > 0 && (
+          <button type="button" className="btn" onClick={toggleSelectAll}>
+            {allSelected ? 'Deselect all' : 'Select all'}
+          </button>
+        )}
+      </div>
 
       {failed && <p className="empty">Couldn't load the weeks for this course. Try reloading.</p>}
       {!failed && weeks === null && <p className="muted">Loading weeks…</p>}
