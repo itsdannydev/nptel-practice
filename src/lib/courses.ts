@@ -8,6 +8,13 @@ const metaModules = import.meta.glob<CourseMeta>('/courses/*/course.json', {
 });
 const weekModules = import.meta.glob<RawWeek>('/courses/*/week_*.json', { import: 'default' });
 
+// Images a question references via Markdown (![alt](/courses/<course>/images/<file>)).
+// Eager + resolved to their final (hashed, production-ready) URL, same idea as course.json.
+export const courseImages = import.meta.glob<string>(
+  '/courses/*/images/*.{png,jpg,jpeg,gif,webp,svg}',
+  { eager: true, import: 'default' },
+);
+
 const META_PATH = /^\/courses\/([^/]+)\/course\.json$/;
 const WEEK_PATH = /^\/courses\/([^/]+)\/week_(\d+)\.json$/;
 

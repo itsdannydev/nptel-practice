@@ -4,9 +4,13 @@ import { readdirSync, readFileSync, existsSync, statSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'courses');
+const repoRoot = join(dirname(fileURLToPath(import.meta.url)), '..');
+const root = join(repoRoot, 'courses');
 const errors = [];
 const warnings = [];
+
+// Matches Markdown image syntax: ![alt](path) — not a plain [text](link).
+const IMAGE_REF = /!\[[^\]]*\]\(([^)\s]+)(?:\s+"[^"]*")?\)/g;
 
 const isInt = (v) => Number.isInteger(v);
 const isText = (v) => typeof v === 'string' && v.trim() !== '';
@@ -73,6 +77,18 @@ function validateWeek(file, label) {
     else seenIds.add(q.id);
 
     if (!isText(q.question)) errors.push(`${at}: "question" must be a non-empty string`);
+    else {
+      for (const m of q.question.matchAll(IMAGE_REF)) {
+        const ref = m[1];
+        if (!ref.startsWith('/courses/')) {
+          errors.push(`${at}: image reference "${ref}" should start with /courses/<course>/images/...`);
+          continue;
+        }
+        if (!existsSync(join(repoRoot, ref))) {
+          errors.push(`${at}: image reference "${ref}" doesn't exist on disk`);
+        }
+      }
+    }
 
     const optionsOk =
       Array.isArray(q.options) && q.options.length >= 2 && q.options.every(isText);

@@ -71,6 +71,21 @@ All three keys are required. `session` is the year for now.
   ```
   "Refer to the statements given below:\n- Statement 1: ...\n- Statement 2: ...\nChoose the correct options:"
   ```
+- A question that needs an image (a graph, diagram, etc.) references it with Markdown image
+  syntax, pointing at a file under that course's own `images/` folder:
+  ```
+  courses/<course>/
+  ├── course.json
+  ├── images/
+  │   └── week_1_q10.png
+  └── week_1.json
+  ```
+  ```
+  "question": "What can be inferred from the graph shown below?\n\n![Vehicle composition by mode](/courses/<course>/images/week_1_q10.png)"
+  ```
+  The path always starts with `/courses/<course-folder>/images/`. `npm run validate` checks
+  the file actually exists; a path that doesn't resolve shows a visible "Image not found"
+  placeholder in the app instead of a silently broken image, so a typo is obvious either way.
 
 `npm run validate` checks all of this and reports the file and question at fault. Unknown keys
 (e.g. a typo like `correctOptions`) are reported as warnings.
@@ -79,7 +94,8 @@ All three keys are required. `session` is the year for now.
 
 Paste this into a new chat (ChatGPT, Claude, etc.) along with screenshots of each question —
 including whichever UI shows the accepted/correct answer. Fill in `{week_no}` / `{title}` /
-`{description}` at the top, then send it after the question screenshots.
+`{description}` / `{course_folder}` (the course's folder name under `courses/`) at the top,
+then send it after the question screenshots.
 
 `````
 We've gone through the quiz questions for this week in this conversation and in the attached
@@ -121,13 +137,20 @@ Each question object:
    - A blank line is required between the end of a list and the paragraph after it — without
      one, that next line gets absorbed into the list's last item instead of standing alone.
    - A line that must start with a literal hyphen (not a bullet) needs escaping: `\- like this`.
-8. Output **valid JSON only** — no explanations, no commentary, no text outside the JSON, no
-   extra fields beyond the ones above — in a single code block.
-9. Before answering, re-check your output against the full conversation and every screenshot:
-   confirm no question was dropped, and that each `correctOption` matches the option that was
-   actually marked or accepted as correct.
+8. If a question depends on an image you can't transcribe as text (a graph, diagram, map,
+   chart, etc.), don't describe or summarize it in prose. Insert a Markdown image reference
+   at that point instead, using this exact path shape:
+   `![short description of the image](/courses/{course_folder}/images/week_{week_no}_q{id}.png)`
+   and separately tell me after the JSON (outside the code block) which question(s) need an
+   image added, so I remember to supply the actual file.
+9. Output **valid JSON only** — no explanations, no commentary, no text outside the JSON, no
+   extra fields beyond the ones above — in a single code block. (Exception: the image
+   call-out from rule 8, which goes after the code block, not inside it.)
+10. Before answering, re-check your output against the full conversation and every screenshot:
+    confirm no question was dropped, and that each `correctOption` matches the option that was
+    actually marked or accepted as correct.
 
-### Example (covers every case: single-answer, multi-answer, a multi-statement question, and a table-based question)
+### Example (covers every case: single-answer, multi-answer, a multi-statement question, a table-based question, and one needing an image)
 
 ```json
 {
@@ -177,10 +200,23 @@ Each question object:
         "A-4, B-3, C-1, D-2"
       ],
       "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "What can be inferred from the graph shown below?\n\n![Share of registered vehicles by mode over time](/courses/{course_folder}/images/week_{week_no}_q5.png)",
+      "options": [
+        "Two-wheelers account for the major share of road transportation",
+        "The share of two-wheelers was roughly equal to cars, jeeps and taxis in the 1970s",
+        "Both of the above are true"
+      ],
+      "correctOption": 2
     }
   ]
 }
 ```
+
+(For question 5 above, I'd also tell you afterward: "Question 5 needs an image at
+`/courses/{course_folder}/images/week_{week_no}_q5.png` — please add the actual file.")
 
 Generate the final Week {week_no} - "{title}" with every question, option, and correct option
 from this conversation and the attached screenshots.

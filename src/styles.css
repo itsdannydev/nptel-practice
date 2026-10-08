@@ -714,6 +714,34 @@ h3 {
   text-align: left;
 }
 
+.question-image {
+  display: block;
+  max-width: 100%;
+  max-height: 60vh;
+  width: auto;
+  height: auto;
+  margin: 4px 0 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+}
+
+.question-image:last-child {
+  margin-bottom: 0;
+}
+
+/* A visible stand-in for a ![]() reference that didn't resolve to a real file — makes a
+   typo'd or not-yet-added image path obvious instead of a silently blank/broken <img>. */
+.question-image-missing {
+  display: block;
+  margin: 4px 0 8px;
+  padding: 12px 14px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
 .question-heading th,
 .review-q th {
   background: var(--surface);

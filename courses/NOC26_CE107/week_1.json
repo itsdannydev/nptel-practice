@@ -101,7 +101,7 @@
     },
     {
       "id": 10,
-      "question": "What can be inferred from the graph shown below? Select the correct answer from the options given.",
+      "question": "What can be inferred from the graph shown below? Select the correct answer from the options given.\n\n![Line graph of vehicle categories as a percentage of total registered motor vehicles in India, 1951 to 2016. Two wheelers rise from about 9% in 1951 to about 73% by 2016; cars, jeeps and taxis fall from about 52% to about 13% over the same period, with buses, goods vehicles and other vehicles each staying under 27% throughout.](/courses/NOC26_CE107/images/week_1_q10.webp)",
       "options": [
         "Two wheelers account for the major share of road transportation",
         "The percentage share of two wheelers were approximately equal to the composition of cars, jeeps and taxis in the 1970’s.",

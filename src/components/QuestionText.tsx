@@ -1,6 +1,7 @@
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import type { Components } from 'react-markdown';
+import { courseImages } from '../lib/courses';
 
 interface Props {
   text: string;
@@ -18,6 +19,20 @@ const components: Components = {
       <table>{children}</table>
     </div>
   ),
+  // A question image, referenced as ![alt](/courses/<course>/images/<file>). Resolved
+  // against the glob in lib/courses.ts; an unresolved path renders a visible placeholder
+  // instead of a silently-broken <img>, so a typo'd path is obvious while authoring.
+  img: ({ src, alt }) => {
+    const resolved = typeof src === 'string' ? courseImages[src] : undefined;
+    if (!resolved) {
+      return (
+        <span className="question-image-missing">
+          Image not found: <code>{String(src)}</code>
+        </span>
+      );
+    }
+    return <img className="question-image" src={resolved} alt={alt ?? ''} loading="lazy" />;
+  },
 };
 
 /**
