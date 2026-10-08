@@ -13,6 +13,38 @@ npm run validate   # only check the course JSON
 The build uses `HashRouter` and a relative base, so `dist/` works on any static host
 (GitHub Pages, Netlify, Cloudflare Pages, …) with no server config.
 
+## Deploying (Vercel) + search/analytics setup
+
+Live at **nptel.danny.co.in**. Steps that need your own accounts (can't be done from here):
+
+1. **Push to GitHub**, then [import the repo in Vercel](https://vercel.com/new) — it
+   auto-detects Vite, no config needed (build `vite build`, output `dist`).
+2. **Add the domain**: Vercel project → Settings → Domains → add `nptel.danny.co.in`.
+   It'll show you a DNS record to create; add that at wherever `danny.co.in`'s DNS is
+   managed, then wait for it to verify (follow Vercel's on-screen instructions exactly —
+   the record it asks for can vary by plan/region).
+3. **Google Search Console**: add a property for `https://nptel.danny.co.in`, verify
+   ownership (HTML-tag or file method is simplest once the site is live), then submit
+   `https://nptel.danny.co.in/sitemap.xml` under Sitemaps. Note: the app uses `HashRouter`
+   (`#/c/...` URLs), which browsers never send to the server — so only the root `/` is a
+   crawlable, indexable page. That's expected; it's also why `sitemap.xml` only lists one
+   URL. Individual course/week pages won't show up as separate search results.
+4. **Microsoft Clarity**: create a project for the site, copy its Project ID.
+5. **Google Analytics (GA4)**: create a property, copy its Measurement ID (`G-XXXXXXX`).
+6. In Vercel → Settings → Environment Variables, add:
+   ```
+   VITE_CLARITY_ID=<id from step 4>
+   VITE_GA_MEASUREMENT_ID=<id from step 5>
+   ```
+   Then **redeploy** — Vite bakes these in at build time, so just saving the env vars
+   doesn't retroactively affect the last build. Either one can be left unset to skip that
+   tracker; see `src/lib/analytics.ts`. Neither ever loads in `npm run dev` — only in a
+   production build, and only for whichever ID is actually set — so local testing never
+   pollutes real data. `.env.example` documents both vars for local testing if you want it.
+7. *(Optional, worth it)* **UptimeRobot** (free): add a monitor for
+   `https://nptel.danny.co.in`. Neither of the above tracks uptime — this is the actual
+   source if you want a real uptime number/status page to cite.
+
 ## Adding content
 
 One folder per course under `courses/`. The folder name is a unique id used in URLs.
