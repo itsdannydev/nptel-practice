@@ -1,0 +1,112 @@
+{
+  "title": "Week 12",
+  "description": "Case studies of highway, railway and airport projects, OpenLCA tool for life Cycle Assessment, STAN for material flow analysis",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following options is not an application of the OpenLCA tool?",
+      "options": [
+        "Carbon footprint",
+        "Water footprint",
+        "Life cycle costing",
+        "Project viability"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "The STAN tool for Material Flow Analysis was published by _________.",
+      "options": [
+        "University of Nottingham",
+        "Yale University",
+        "Technical University, Wien",
+        "University of Chicago"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "The first edition of the SDG India Index (Index 1.0) was launched in the year __________",
+      "options": [
+        "2017",
+        "2018",
+        "2019",
+        "2020"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "The sustainable indicators should not be __________.",
+      "options": [
+        "Easily measurable",
+        "Acceptable to all",
+        "Influenced by any interest groups",
+        "Easily understandable"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "A measure of how much of earth's resources we are using is called ecological footprint?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "OECD stands for ____________________.",
+      "options": [
+        "Organisation for Economic Co-ordination and Development",
+        "Organisation for Ecological Co-operation and Development",
+        "Organisation for Ecological Co-ordination and Development",
+        "Organisation for Economic Co-operation and Development"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "In STAN for material flow analysis, the \"box made of dash lines\" represent ____________.",
+      "options": [
+        "Process",
+        "Flow",
+        "System boundary",
+        "Text box"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "In STAN for material flow analysis, \"broad and dark lines\" represent __________.",
+      "options": [
+        "Higher flow",
+        "Input flows",
+        "Output flows",
+        "System boundary"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "The Environmental Performance Index (EPI) was developed by ___________?",
+      "options": [
+        "University of Nottingham",
+        "Yale University",
+        "Technical University, Wien",
+        "University of Chicago"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "International institutions which provide assistance as grants/loan to developing countries are called Multilateral development banks.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

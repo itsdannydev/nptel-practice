@@ -1,0 +1,114 @@
+{
+  "title": "Week 9",
+  "description": "Decision support systems for EIA of transport infrastructures",
+  "questions": [
+    {
+      "id": 1,
+      "question": "The Calculation of Road Traffic Noise (CoRTN) model was developed by the Transport and Road Research Laboratory and the Department of Transport of _________.",
+      "options": [
+        "United States of America",
+        "United Kingdom",
+        "Germany",
+        "Japan"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is an example of lagrangian/eulerian dispersion model?",
+      "options": [
+        "CALINE4",
+        "HIWAY2",
+        "CALPUFF",
+        "GRAL"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 3,
+      "question": "According to the NMPB-2008-Routes traffic noise emission model, the heavy goods vehicles are categorized with gross vehicle weight (GVW)__________.",
+      "options": [
+        ">= 3.5 tonnes",
+        ">= 6.5 tonnes",
+        ">= 9.5 tonnes",
+        ">= 15 tonnes"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Number of non-attainment cities under National Clean Air Programme (NCAP) are:",
+      "options": [
+        "31",
+        "56",
+        "122",
+        "138"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is not true with respect to the Vehicular Air Pollution Inventory (VAPI) Model?",
+      "options": [
+        "Based on emission factors",
+        "Designed for developing countries",
+        "Has incorporated climatic correction factors",
+        "Has incorporated the speed related correction factor"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "Vehicular emissions are considered as line source of emissions?",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "The Paris agreement's central aim is to strengthen the global response to the threat of climate change by keeping the global temperature rise this century well below ________ degree Celsius above pre-industrial levels.",
+      "options": [
+        "1.0",
+        "2.0",
+        "3.0",
+        "4.0"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "- Statement 1: Green transition: Investments must accelerate the decarbonisation of all aspects of our economy.\n- Statement 2: Green economy: making societies and people more resilient through a transition that is fair to all and leaves no one behind. Which of the following options is/are true?",
+      "options": [
+        "Only Statement 1 is true",
+        "Only Statement 2 is true",
+        "Both statements 1 and 2 are true",
+        "Both statements 1 and 2 are false"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "The National Clean Air Programme (NCAP) targets to achieve 20%-30% reduction in the particulate matter concentrations in non-attainment cities by the year _________, considering _________ as the base year.",
+      "options": [
+        "2020 & 2015",
+        "2028 & 2015",
+        "2028 & 2017",
+        "2024 & 2017"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which one of the following institutions ordered for the deregistration of diesel vehicles older than 10 years in the National capital territory of Delhi?",
+      "options": [
+        "Supreme Court",
+        "National Green Tribunal",
+        "Central Pollution Control Board",
+        "Ministry of Environment, Forest and Climate Change"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react';
+import QuestionText from './QuestionText';
 import type { AnswerResult } from '../lib/types';
 import type { QuizProgress } from '../lib/progress';
 
@@ -64,7 +65,7 @@ export default function Results({
                 {question.sourceWeek !== undefined && (
                   <p className="review-week">Week {question.sourceWeek}</p>
                 )}
-                <p className="review-q">{question.question}</p>
+                <QuestionText text={question.question} className="review-q" />
                 <p className="review-a bad">
                   <span className="review-label">Your answer</span>
                   {selected.map((i) => question.options[i]).join(' · ')}

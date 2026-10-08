@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import QuestionText from './QuestionText';
 import type { AnswerResult, Question, QuizMode } from '../lib/types';
 
 export function sameSet(a: number[], b: number[]): boolean {
@@ -85,8 +86,8 @@ export default function QuizSession({ questions, mode, onFinish }: Props) {
       </p>
 
       {q.sourceWeek !== undefined && <p className="source-tag">Week {q.sourceWeek}</p>}
-      <fieldset className="question">
-        <legend>{q.question}</legend>
+      <QuestionText text={q.question} id={`q-${q.id}-label`} className="question-heading" />
+      <fieldset className="question" aria-labelledby={`q-${q.id}-label`}>
         <p className="hint">{q.multi ? 'Select all that apply' : 'Select one answer'}</p>
 
         <div className="options">

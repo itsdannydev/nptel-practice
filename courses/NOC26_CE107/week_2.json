@@ -1,0 +1,112 @@
+{
+  "title": "Week 2",
+  "description": "Land-use plans, zoning schemes and provisions",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is not a direct impact of transportation systems on the environment?",
+      "options": [
+        "Habitat fragmentation",
+        "Loss of Wildlife Habitat",
+        "Corridor restrictions",
+        "Forest Fires"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "\"Bhungroo\" is applied as a mitigation measure for __________",
+      "options": [
+        "Protecting biodiversity",
+        "Reducing road accidents",
+        "Soil stabilization",
+        "Ground water recharge"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is the most used fuel in transport sector worldwide in year 2020?",
+      "options": [
+        "Hydrogen",
+        "Gasoline",
+        "Biofuel",
+        "Kerosene"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "If a city has 1000 car commuters with baseline mortality rate of 10 per 10000 people and if relative risk of mortality due to PM2.5 exposure is 1.3, what will be the number of premature deaths in the city due to transport induced PM2.5 exposure?",
+      "options": [
+        "2109.55",
+        "2307.69",
+        "230.76",
+        "210.95"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Walking and cycling as daily activities directly do not _________________",
+      "options": [
+        "Benefit Health",
+        "Decrease Noise Pollution",
+        "Decrease Air Pollution",
+        "Increase Biodiversity"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "- Statement 1. Psychological and physical aspects of wellbeing are difficult to disentangle.\n- Statement 2. The physical damage during accidents can induce pain or distress and can lead to psychological disturbances",
+      "options": [
+        "Both statements 1 and 2 are true",
+        "Only statement 1 is true",
+        "Only statement 2 is true",
+        "Both statements 1 and 2 are false"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "Noise pollution can be considered as indirect impact of transportation on environment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "The Noise level at commercial areas in night time should not exceed ________ dB(A) as per Central Pollution Control Board (India) standards.",
+      "options": [
+        "40.0",
+        "45.0",
+        "50.0",
+        "55.0"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 9,
+      "question": "Application of 'ballast water' is related to the following mode of transportation",
+      "options": [
+        "Air",
+        "Railway",
+        "Road",
+        "Water"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "The CPCB Noise level standards in India have the potential for comparatively lesser Noise emissions when compared to the FHWA standards in the U.S.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

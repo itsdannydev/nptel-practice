@@ -1,0 +1,114 @@
+{
+  "title": "Week 8",
+  "description": "Assessment of potential project impacts including indirect, cumulative and synergistic impacts",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In Material flow analysis (MFA), the substances or mixtures of substances that have economic values assigned by markets is called __________.",
+      "options": [
+        "Material",
+        "Stock",
+        "Goods",
+        "Inputs"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "The Material Flow Analysis (MFA) concept equation is:",
+      "options": [
+        "Output = Input - Stock",
+        "2×Stock = Input + Output",
+        "Input = Output - Stock",
+        "Stock = 4×(Input + Output)"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "During Material Flow Analysis (MFA) study of a system, 100 litres of fuel is consumed. The fuel has 3 grams of lead per litre. If, after combustion, 180 grams of lead was found in the exhaust emission, the stock in the system (in grams) will be (considering vehicle as system boundary)",
+      "options": [
+        "120",
+        "300",
+        "180",
+        "100"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "In Material Flow Analysis (MFA), \"Mass per unit of time per unit of area\" is called __________.",
+      "options": [
+        "Flow",
+        "Flux",
+        "Import/export",
+        "Input/output"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "For circular economy, which of the following is not correct?",
+      "options": [
+        "'take-make-consume-recycle' pattern",
+        "'take-make-consume-throw away' pattern",
+        "'take-make-consume-reuse' pattern",
+        "'take-make-consume-refurbish' pattern"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Linear economic model is based on 'higher the resource consumption-bigger the economy & related activities'.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "Vehicle scrappage policy by Government of India was introduced in the year ___________.",
+      "options": [
+        "2019",
+        "2020",
+        "2021",
+        "2022"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "The discipline that studies nature's best ideas and then imitates these designs and processes to solve human problems is called ___________.",
+      "options": [
+        "Blue economy",
+        "Biomimicry",
+        "Industrial ecology",
+        "Performance economy"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "The Butterfly diagram for a circular economy represents the __________ cycles.",
+      "options": [
+        "biological and technical",
+        "biological and ecological",
+        "economic and technical",
+        "economic and environmental"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is not a transport emission estimation model?",
+      "options": [
+        "Emission factor (EMFAC) model",
+        "MOBILE model",
+        "AERMOD model",
+        "International Vehicle Emissions (IVE) model"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

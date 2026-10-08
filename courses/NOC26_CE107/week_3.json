@@ -1,0 +1,112 @@
+{
+  "title": "Week 3",
+  "description": "Urban and regional transport planning",
+  "questions": [
+    {
+      "id": 1,
+      "question": "World Bank adopted EIA process in the decade __________",
+      "options": [
+        "1960s",
+        "1970s",
+        "1980s",
+        "1990s"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Poor water quality of a river is an example of irreversible impact.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "The Rio Earth Summit was held in Brazil in the year _____.",
+      "options": [
+        "1991",
+        "1992",
+        "1998",
+        "1999"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Establishing the area of study, factors for assessment for baseline studies are the most important outcomes of _________ stage of the Environmental Impact Assessment.",
+      "options": [
+        "Screening",
+        "Scoping",
+        "Monitoring",
+        "Public Participation"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Arrange the following stages of an Environmental Impact Assessment in the correct sequential order. Choose the correct answer from the codes given below:\n- (i) Impact assessment\n- (ii) Baseline data collection\n- (iii) Mitigation\n- (iv) Impact statement\n- (v) Follow-up\n\n",
+      "options": [
+        "(i) (ii) (iii) (v) (iv)",
+        "(ii) (i) (iii) (iv) (v)",
+        "(i) (iii) (ii) (iv) (v)",
+        "(i) (v) (iii) (ii) (iv)"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Terms of Reference (TOR) is the outcome of which of the following stage in EIA?",
+      "options": [
+        "Screening",
+        "Scoping",
+        "Monitoring",
+        "Public Participation"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "- Statement 1: \"Area of direct influence\" of a project site is greater than the \"Net project area\".\n- Statement 2: The \"Total project area\" is greater than the \"Net project area\". Choose the correct options out of the following:",
+      "options": [
+        "Both statements are true",
+        "Only statement 1 is true",
+        "Statements 1 and 2 are false",
+        "Only statement 2 is true"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Impact Management Plans are often compulsory in the development of an EIA report.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Select the steps for the Mitigation process in the correct sequential order.",
+      "options": [
+        "Predict impacts -- Avoid -- Mitigate -- Restore -- Offset",
+        "Predict impacts -- Avoid -- Offset -- Mitigate -- Restore",
+        "Offset -- Predict impacts -- Avoid -- Mitigate -- Restore",
+        "Predict impacts -- Offset -- Avoid -- Mitigate -- Restore"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "A new national highway under EIA draft notification 2020 will be considered under category _________.",
+      "options": [
+        "A",
+        "B",
+        "B1",
+        "B2"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

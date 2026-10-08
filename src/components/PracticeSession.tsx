@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import type { ReactNode } from 'react';
+import QuestionText from './QuestionText';
 import type { Question } from '../lib/types';
 
 interface Props {
@@ -77,8 +78,8 @@ export default function PracticeSession({ questions, onRestart, backTo }: Props)
       </p>
 
       {q.sourceWeek !== undefined && <p className="source-tag">Week {q.sourceWeek}</p>}
-      <fieldset className="question">
-        <legend>{q.question}</legend>
+      <QuestionText text={q.question} className="question-heading" />
+      <div className="question">
         <p className="hint">Correct {q.multi ? 'answers' : 'answer'} highlighted</p>
 
         <div className="options">
@@ -95,7 +96,7 @@ export default function PracticeSession({ questions, onRestart, backTo }: Props)
             );
           })}
         </div>
-      </fieldset>
+      </div>
 
       <div className="actions">
         <button type="button" className="btn" onClick={prev} disabled={isFirst}>

@@ -1,0 +1,114 @@
+{
+  "title": "Week 5",
+  "description": "Establishment of baseline conditions w.r.t soil, water and air quality",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is not a part of the Sustainability approach for land use in Transport sector?",
+      "options": [
+        "Mixed land use",
+        "Transit oriented development",
+        "Low density development",
+        "Promoting Non-motorized transport"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "In Sustainable transport planning approach, the land use should be done in a way such that it promotes non-motorized and public transport rather than prioritizing car and personal vehicles.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Road pattern of Central Delhi in India follows _______________.",
+      "options": [
+        "Grid/Block pattern",
+        "Star and Block pattern",
+        "Star and circular pattern",
+        "Hexagon pattern"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "National TOD policy of India was released in the year __________.",
+      "options": [
+        "2011",
+        "2015",
+        "2017",
+        "2019"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "The rebuild of an area/locality into a more affluent and well-developed neighbourhood is termed as ____________.",
+      "options": [
+        "Gentrification",
+        "Von Thunen model",
+        "SITAR planning",
+        "Garden city"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "A city of 50 square km has a total 100 km long road network, what will be the Network density of the city?",
+      "options": [
+        "5000 per km",
+        "2 km per square km",
+        "0.5 per km",
+        "0.5 km per square km"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "If there are 200 sections of road in the city (mentioned in question6), what would be the Eta index of the city?",
+      "options": [
+        "20000 square km",
+        "2 per km",
+        "0.005 per square km",
+        "0.5 km"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "Naya Raipur BRTS system is an example of __________.",
+      "options": [
+        "Greenfield TOD",
+        "Brownfield TOD",
+        "Sub-Urban TOD",
+        "None of these"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "The walkshed area for a metro is ______ that of a Bus transit system.",
+      "options": [
+        "Equal To",
+        "Lower Than",
+        "Greater Than",
+        "Half"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is not a barrier in implementing Transit Oriented Development?",
+      "options": [
+        "Balanced mix of uses and activities",
+        "Neglected urban design at the neighbourhood and street level",
+        "Inadequate policies, regulations and supporting mechanism",
+        "Financial constraints"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

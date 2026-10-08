@@ -1,0 +1,114 @@
+{
+  "title": "Week 10",
+  "description": "Abatement measures",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is the most energy efficient vehicle in terms of conversion efficiency of electricity?",
+      "options": [
+        "Internal combustion engine vehicles",
+        "Fuel cell vehicles",
+        "Battery electric vehicles",
+        "All options are equally efficient"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is not a fossil fuel for transportation?",
+      "options": [
+        "Methanol from natural gas",
+        "Methanol from biomass",
+        "Electricity from renewable sources",
+        "Ethanol"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Which fuel can be produced from water through hydrolysis using electricity?",
+      "options": [
+        "Biodiesel",
+        "Ethanol",
+        "Methanol",
+        "Hydrogen"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is a non-fossil fuel alternative for transportation?",
+      "options": [
+        "Methanol from natural gas",
+        "Methanol from biomass",
+        "Compressed natural gas",
+        "Butanol"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Losses in electric vehicles occurs due to cooling device that controls the battery temperature and energy consumption by the battery management system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is not a requirement of an ideal electric vehicle battery?",
+      "options": [
+        "High energy capacity",
+        "Good charge retention",
+        "Made of expensive materials",
+        "High peak power output"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "The well to tank emissions for electric vehicles mainly depend on ____________.",
+      "options": [
+        "Battery efficiency",
+        "Electricity source",
+        "Vehicle maintenance",
+        "Vehicle traction system"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "TransMilenio, Bogota is an example of __________.",
+      "options": [
+        "Metro transit system",
+        "Light rail transit system",
+        "Bus rapid transit system",
+        "Rapid rail transit system"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a component of Hyperloop?",
+      "options": [
+        "Capsule",
+        "Tube",
+        "Propulsion",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Hyperloop is based on the principle of ___________.",
+      "options": [
+        "Fuel based propulsion",
+        "Electro-magnetic levitation",
+        "Photochemical reaction",
+        "Fuel combustion"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Week 4",
+  "description": "Impacts on humans, flora and fauna, soil, water, air, climate and landscape",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In European countries, member nations categorise project for EIA screening process in ___ no. of categories.",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "Screening process is not a part of EU's EIA process"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is India's first high speed rail corridor project?",
+      "options": [
+        "Mumbai-Bangalore High Speed Rail project",
+        "Mumbai-Ahmedabad High Speed Rail project",
+        "Mumbai-Pune High Speed Rail project",
+        "Mumbai-Delhi High Speed Rail project"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "\"SPV\" for a project stands for __________.",
+      "options": [
+        "Special Purpose Vehicle",
+        "Standard Purpose Vehicle",
+        "Standard Project Vehicle",
+        "Special Project Vehicle"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is not a stakeholder in \"the public consultation\" process of Environmental Impact Assessment?",
+      "options": [
+        "Local NGOs",
+        "Local Banks",
+        "Local people",
+        "Local Environmentalists"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is not a mitigation measure used for Slope stabilization in hilly roads?",
+      "options": [
+        "Hedge brush layer",
+        "Rock Anchoring",
+        "Hydro-seeding",
+        "Crash Barrier"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is not a mitigation measure used in roads for reducing accidents?",
+      "options": [
+        "Hazard markers",
+        "Raised Reflective Pavement Marker",
+        "Bamboo net plantation",
+        "Crash barriers"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "Level of service 'E' for airport represents the service level as__________",
+      "options": [
+        "Inadequate comfort",
+        "Excellent service",
+        "Good comfort",
+        "Unacceptable"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "As per EIA notification 2006, all airports comes under category ____ for EIA process.",
+      "options": [
+        "A",
+        "B",
+        "B1",
+        "B2"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "According to the Impact Assessment Rating Matrix, if the Impact severity is \"high\" and the likelihood of impact is \"medium\", then the overall Impact is considered to be ____________.",
+      "options": [
+        "Negligible",
+        "Minor",
+        "Moderate",
+        "Major"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "The __________ is an imaginary flight path extending outwards from either side of the runway and generally up to 15^0 of the runway.",
+      "options": [
+        "Conical area",
+        "Cylindrical area",
+        "Funnel area",
+        "Helical area"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Week 6",
+  "description": "Noise, air and water pollution modelling",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following best define the purpose of \"trip distribution\" in transport planning?",
+      "options": [
+        "Forecasts the travel demands for a specified area",
+        "Forecasts the number of trips between origin and destinations in each zones of study area",
+        "Assigns traffic to a predicted model",
+        "None of these"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "If the size of a plot is 500 square feet with land coverage of 70%, and the floor area ratio (FAR) is 10, then the maximum number of floors allowed for construction is:",
+      "options": [
+        "7",
+        "14",
+        "21",
+        "28"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is false with respect to \"transportation surveys\"?",
+      "options": [
+        "Voluminous and time consuming",
+        "Last stage in the formulation of a Transportation plan",
+        "Collects data on all factors influencing travel patterns",
+        "Cost involved is very high"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "If land use of an area can be changed easily in terms of regulatory procedures, it can be termed as ____________.",
+      "options": [
+        "Hard land",
+        "Moderate land",
+        "Soft land",
+        "None of these"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is not a sustainable transport planning solution?",
+      "options": [
+        "Park and Ride facility",
+        "Shared spaces",
+        "Uninterrupted bus lanes",
+        "Automobile-centered planning"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "A city with a population of 1000 generates 2700 trips per day. What would be the trip rate of that city?",
+      "options": [
+        "2.1",
+        "2.4",
+        "2.7",
+        "2.9"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is true in case of transit oriented development approach?",
+      "options": [
+        "Station area > Community zone > Transition zone",
+        "Community zone > Station area > Transition zone",
+        "Station area > Transition zone > Community zone",
+        "Transition zone > Community zone > Station area"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "The traditional 4-step transport planning process in the correct sequential order is:",
+      "options": [
+        "Trip distribution-Trip generation-Modal split-Trip assignment",
+        "Trip generation-Trip distribution-Modal split-Trip assignment",
+        "Trip distribution-Trip assignment -Modal split -Trip generation",
+        "Trip generation-Trip assignment -Modal split -Trip distribution"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "The line used to represent the physical or natural barriers of a study area for the purpose of transport planning surveys is termed as:",
+      "options": [
+        "Internal cordon",
+        "External cordon",
+        "Screen line",
+        "None of these"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Which of the following option is correct in case of transit oriented development (TOD) of Delhi city?",
+      "options": [
+        "Greenfield Urban TOD",
+        "Greenfield Sub-urban TOD",
+        "Brownfield Sub-urban TOD",
+        "Brownfield Urban TOD"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

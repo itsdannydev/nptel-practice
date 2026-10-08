@@ -544,12 +544,91 @@ h3 {
   min-width: 0;
 }
 
-.question legend {
-  padding: 0;
+/* Question text is rendered as Markdown (see QuestionText.tsx): CommonMark + GFM tables,
+   so lists, bold/italic/code, links and tables all come from the library, not bespoke
+   parsing. Used for the live question (.question-heading) and a missed question in the
+   results review (.review-q) — both get the same child styling. */
+.question-heading {
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.4;
   margin-bottom: 4px;
+}
+
+.question-heading p,
+.review-q p {
+  margin: 0 0 8px;
+}
+
+.question-heading p:last-child,
+.review-q p:last-child {
+  margin-bottom: 0;
+}
+
+.question-heading ul,
+.question-heading ol,
+.review-q ul,
+.review-q ol {
+  margin: 2px 0 8px;
+  padding-left: 1.3em;
+}
+
+.question-heading ul:last-child,
+.question-heading ol:last-child,
+.review-q ul:last-child,
+.review-q ol:last-child {
+  margin-bottom: 0;
+}
+
+.question-heading li,
+.review-q li {
+  margin: 0 0 6px;
+}
+
+.question-heading li:last-child,
+.review-q li:last-child {
+  margin-bottom: 0;
+}
+
+.question-heading strong,
+.review-q strong {
+  font-weight: 800;
+}
+
+.question-heading code,
+.review-q code {
+  font-weight: 400;
+}
+
+.question-table-wrap {
+  overflow-x: auto;
+  margin: 4px 0 8px;
+}
+
+.question-table-wrap:last-child {
+  margin-bottom: 0;
+}
+
+.question-heading table,
+.review-q table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92em;
+}
+
+.question-heading th,
+.question-heading td,
+.review-q th,
+.review-q td {
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  text-align: left;
+}
+
+.question-heading th,
+.review-q th {
+  background: var(--surface);
+  font-weight: 700;
 }
 
 .hint {

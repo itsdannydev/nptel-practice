@@ -1,0 +1,116 @@
+{
+  "title": "Week 11",
+  "description": "Sustainable transportation systems",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is not a direct impact of metros when compared to automobiles?",
+      "options": [
+        "Fuel savings",
+        "Reduction in air pollution",
+        "Increased congestion on streets",
+        "Reduced accidents on streets"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "The first metro rail system in the world to earn carbon credits for reducing GHG emissions is __________.",
+      "options": [
+        "Tokyo metro, Japan",
+        "Shanghai metro, China",
+        "Delhi metro, India",
+        "Seoul metro, South Korea"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Which of the following options is being used to make metro system more environmentally friendly and sustainable?",
+      "options": [
+        "Congestion pricing",
+        "Clean development mechanism",
+        "Sky Rail System",
+        "Prohibited right/left turning"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "____________ is not a sustainability rating system for airports.",
+      "options": [
+        "BRREAM",
+        "NAAC",
+        "LEED",
+        "ENVISION"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "____________ is the sustainability rating system for airports developed by the US Green Building Council.",
+      "options": [
+        "BREAM",
+        "NAAC",
+        "LEED",
+        "ENVISION"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "The vessels used for transporting wheeled cargo such as cars, motorcycles and other vehicles through the inland waterways are called ____________.",
+      "options": [
+        "Maersk Triple-E Class",
+        "Ro-Ro vessels",
+        "Dry-bulk cargo",
+        "None of these"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "________________ is also known as the West coast canal in India.",
+      "options": [
+        "National waterway-1",
+        "National waterway-2",
+        "National waterway-3",
+        "National waterway-4"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "The National Waterway-2 is located on __________ river.",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Periyar",
+        "Cauvery"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "According to the concept of sustainable transport systems, __________ how much priority should be given to public transport, walking and non-motorized vehicles?",
+      "options": [
+        "Lowest",
+        "Highest",
+        "Equal",
+        "Does not matter"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Which city is known as \"the city of cyclists\"?",
+      "options": [
+        "Brussels",
+        "London",
+        "Copenhagen",
+        "Frankfurt"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

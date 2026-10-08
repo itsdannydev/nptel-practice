@@ -1,0 +1,108 @@
+{
+  "title": "Week 7",
+  "description": "Modelling of impacts and scenario-based analysis",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Life cycle assessment is a form of environmental impact assessment",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "Vertical obstruction in the form of a rounded and raised area of pavement is known as __________.",
+      "options": [
+        "Speed table",
+        "Speed humps",
+        "Bulb out",
+        "Speed curb"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Which one of the following is not a strategy for transportation system management?",
+      "options": [
+        "Discouraging car pooling",
+        "Internal shuttle in city centre",
+        "Exclusive bus lanes",
+        "Cordon pricing"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "'Well to Wheel' is a type of system boundary for Life Cycle Assessment (LCA).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "The \"Guidance on conducting the life cycle impact assessment (LCIA) phase of LCA\" pertains to ________.",
+      "options": [
+        "ISO 14041",
+        "ISO 14042",
+        "ISO 14043",
+        "ISO 14044"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is also known as raised crosswalk if placed at a pedestrian crossing?",
+      "options": [
+        "Speed humps",
+        "Speed table",
+        "Speed bumps",
+        "Bulb-out"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is not an objective of Life cycle assessment?",
+      "options": [
+        "Product improvement",
+        "Product cost reduction",
+        "Decision making",
+        "Environment planning"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "\"Walking as a transport mode has minimum negative impact on the environment\".",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "\"Prohibiting the right/left turning movements of vehicles is a strategy used for transportation management\".",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Which one of the following options is not involved in LCA-based product marketing?",
+      "options": [
+        "Environmental claim",
+        "User-friendly",
+        "Eco-labelling",
+        "Product declaration"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

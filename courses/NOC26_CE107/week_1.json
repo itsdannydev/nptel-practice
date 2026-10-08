@@ -1,0 +1,115 @@
+{
+  "title": "Week 1",
+  "description": "Introduction to Environmental Impact Assessment (EIA) and Transportation systems",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is the first form of transportation for humans?",
+      "options": [
+        "Primitive log rafts",
+        "Animals",
+        "Walking",
+        "None of these"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Sustainable development requires an energy source that ________________.",
+      "options": [
+        "Cannot be exhausted completely and cannot meet the growing demand",
+        "Can be completely exhausted and can meet the growing demand",
+        "Cannot be exhausted completely and can meet the growing demand",
+        "Cannot destroy the environment and can be exhausted completely"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Match the List I with List II and select the correct answer using the codes given below the lists:\n\n| List I | List II |\n| --- | --- |\n| A) \"Penny-farthing\" bicycle | 1. Twin engine |\n| B) Tupolev Tu-144 | 2. Air cushion |\n| C) Bombardier Global express | 3. James Starley |\n| D) Maglev | 4. Breaking the sound barrier |",
+      "options": [
+        "A-3, B-4, C-2, D-1",
+        "A-4, B-3, C-2, D-1",
+        "A-3, B-4, C-1, D-2",
+        "A-4, B-3, C-1, D-2"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is not a component of the passenger transportation system?",
+      "options": [
+        "Airport",
+        "Oil Pipeline",
+        "Walking",
+        "Push Scooters"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Refer to the statements given below:\n\rStatement 1: Sustainable development meets the needs of the present without compromising the ability of future generations to meet their own needs.\nStatement 2: By adopting Sustainable measures, the natural resources can be conserved and alternate sources of power can be used without harming the environment.\nStatement 3: The sustainable development measures can make a human settlement or habitat self-sufficient\n\nChoose the correct options out of the following:",
+      "options": [
+        "All statements 1, 2 and 3 are true",
+        "Only statement 1 is true",
+        "Statements 2 and 3 are false",
+        "Only statement 3 is false"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Predicting the risk assessment scenarios is a requisite for development of any policy measures for Sustainable development.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "The Provision of Urban Amenities to Rural Area (PURA) was a strategy aiming Sustainable development in India and was given by _________________",
+      "options": [
+        "Shri. A.P.J. Abdul Kalam",
+        "Shri. Pranab Mukherjee",
+        "Shri. K. R. Narayanan",
+        "None of these"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "The total number of Sustainable Development Goals (SDGs) by the United Nations are:",
+      "options": [
+        "12",
+        "15",
+        "17",
+        "18"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Which one of the following means of transportation is most environment friendly?",
+      "options": [
+        "Walking",
+        "Public Transport",
+        "Electric Vehicle",
+        "CNG Vehicle"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "What can be inferred from the graph shown below? Select the correct answer from the options given.",
+      "options": [
+        "Two wheelers account for the major share of road transportation",
+        "The percentage share of two wheelers were approximately equal to the composition of cars, jeeps and taxis in the 1970’s.",
+        "Though the composition of private vehicles have declined in comparison to the other modes, the registered vehicles have increased in the 20th century.",
+        "All (a), (b) and (c) are true",
+        "(e) Only (a) and (b) are true"
+      ],
+      "correctOption": 3
+    }
+  ]
+}
