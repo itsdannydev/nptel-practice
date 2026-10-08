@@ -14,6 +14,10 @@ export default function WeekList() {
   const [failed, setFailed] = useState(false);
   const [selected, setSelected] = useState<number[]>([]);
   const [mode, setMode] = useState<QuizMode>('quiz');
+  // Question order shuffles by default (matches how a mixed quiz always behaved); option
+  // order stays put by default, since a shuffled "All of the above" stops making sense.
+  const [randomizeQuestions, setRandomizeQuestions] = useState(true);
+  const [randomizeOptions, setRandomizeOptions] = useState(false);
 
   useTitle(course?.name ?? '');
 
@@ -65,7 +69,12 @@ export default function WeekList() {
       sorted.length === 1
         ? `/c/${course.id}/w/${sorted[0]}`
         : `/c/${course.id}/mixed?weeks=${sorted.join(',')}`;
-    navigate(`${target}${target.includes('?') ? '&' : '?'}mode=${mode}`);
+    const params = new URLSearchParams({
+      mode,
+      randomizeQuestions: randomizeQuestions ? '1' : '0',
+      randomizeOptions: randomizeOptions ? '1' : '0',
+    });
+    navigate(`${target}${target.includes('?') ? '&' : '?'}${params}`);
   }
 
   // Measure the actual bar height (it can wrap onto extra lines on narrow screens) so the
@@ -148,10 +157,10 @@ export default function WeekList() {
         <div className="selection-bar" ref={barRef}>
           <div className="container">
             <div className="mode-select-row">
-              <fieldset className="mode-select">
+              <fieldset className="mode-segmented">
                 <legend className="sr-only">Quiz mode</legend>
                 {QUIZ_MODES.map((m) => (
-                  <label key={m} className="mode-option">
+                  <label key={m} className="mode-segment">
                     <input
                       type="radio"
                       name="quiz-mode"
@@ -164,6 +173,30 @@ export default function WeekList() {
                 ))}
               </fieldset>
               <ModeInfoButton />
+            </div>
+            <div className="switch-row">
+              <label className="switch">
+                <input
+                  type="checkbox"
+                  checked={randomizeQuestions}
+                  onChange={(e) => setRandomizeQuestions(e.target.checked)}
+                />
+                <span className="switch-track" aria-hidden="true">
+                  <span className="switch-thumb" />
+                </span>
+                Shuffle question order
+              </label>
+              <label className="switch">
+                <input
+                  type="checkbox"
+                  checked={randomizeOptions}
+                  onChange={(e) => setRandomizeOptions(e.target.checked)}
+                />
+                <span className="switch-track" aria-hidden="true">
+                  <span className="switch-thumb" />
+                </span>
+                Shuffle answer order
+              </label>
             </div>
             <div className="selection-bar-row">
               <span>

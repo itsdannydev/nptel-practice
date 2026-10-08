@@ -2,25 +2,22 @@ import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import QuizRunner from '../components/QuizRunner';
 import { courseLabel, getCourse, loadWeek } from '../lib/courses';
-import { parseQuizMode, QUIZ_MODE_LABELS, type Question } from '../lib/types';
+import { buildAttempt } from '../lib/shuffle';
+import { parseFlag, parseQuizMode, QUIZ_MODE_LABELS, type Question } from '../lib/types';
 import { useTitle } from '../lib/useTitle';
 import NotFound from './NotFound';
 
-function shuffled<T>(items: T[]): T[] {
-  const copy = items.slice();
-  for (let i = copy.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [copy[i], copy[j]] = [copy[j], copy[i]];
-  }
-  return copy;
-}
-
-/** A quiz built from several weeks at once: questions merged and shuffled (never the
- * options within a question). Reached from WeekList by selecting weeks and generating. */
+/** A quiz built from several weeks at once: questions merged, and by default shuffled
+ * (never the options within a question, unless "Shuffle answer order" was turned on).
+ * Reached from WeekList by selecting weeks and generating. */
 export default function MixedQuiz() {
   const { courseId } = useParams();
   const [searchParams] = useSearchParams();
   const mode = parseQuizMode(searchParams.get('mode'));
+  // Falls back to "on"/"off" matching how a mixed quiz always behaved before this was
+  // configurable: questions merged in shuffled order, options always left alone.
+  const randomizeQuestions = parseFlag(searchParams.get('randomizeQuestions'), true);
+  const randomizeOptions = parseFlag(searchParams.get('randomizeOptions'), false);
   const course = getCourse(courseId);
 
   const weekNumbers = useMemo(() => {
@@ -84,7 +81,7 @@ export default function MixedQuiz() {
       </h1>
       <p className="lede">
         Weeks {validWeeks.join(', ')}
-        {pool ? ` · ${pool.length} questions, shuffled` : ''}
+        {pool ? ` · ${pool.length} questions${randomizeQuestions ? ', shuffled' : ''}` : ''}
       </p>
 
       {pool === null && <p className="empty">Couldn't load these weeks. Try reloading.</p>}
@@ -94,13 +91,13 @@ export default function MixedQuiz() {
       )}
       {pool && pool.length > 0 && (
         <QuizRunner
-          key={`${poolKey}/${mode}`}
+          key={`${poolKey}/${mode}/${randomizeQuestions}/${randomizeOptions}`}
           courseId={course.id}
           progressKey={`mix:${validWeeks.join(',')}`}
           mode={mode}
-          initialQuestions={shuffled(pool)}
-          makeAttempt={() => shuffled(pool)}
-          restartLabel="New shuffle"
+          initialQuestions={buildAttempt(pool, { randomizeQuestions, randomizeOptions })}
+          makeAttempt={() => buildAttempt(pool, { randomizeQuestions, randomizeOptions })}
+          restartLabel={randomizeQuestions || randomizeOptions ? 'New shuffle' : 'Restart quiz'}
           backTo={
             <Link to={`/c/${course.id}`} className="btn">
               Choose different weeks

@@ -68,6 +68,14 @@ export function parseQuizMode(value: string | null): QuizMode {
   return (QUIZ_MODES as readonly string[]).includes(value ?? '') ? (value as QuizMode) : 'quiz';
 }
 
+/** Parses a "1"/"0" URL flag. Missing or malformed falls back to `fallback` (not to the
+ * UI's own default), so an old link with no flag at all keeps behaving as it always did. */
+export function parseFlag(value: string | null, fallback: boolean): boolean {
+  if (value === '1') return true;
+  if (value === '0') return false;
+  return fallback;
+}
+
 export interface Week {
   number: number;
   title: string;
