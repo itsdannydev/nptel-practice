@@ -7,8 +7,11 @@ export default function CourseList() {
 
   return (
     <div className="prose">
-      <h1>Courses</h1>
-      <p className="lede">Pick a course, choose a week, and practice its quiz.</p>
+      <h1>NPTEL Practice</h1>
+      <p className="lede">
+        Practice NPTEL course quizzes by week, in Practice, Quiz, or Mock Test mode.
+      </p>
+      <h2>Courses</h2>
 
       {courses.length === 0 ? (
         <p className="empty">
