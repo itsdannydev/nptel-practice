@@ -1,0 +1,116 @@
+{
+  "title": "Week 7",
+  "description": "Distribution and abundance of organisms, dispersal, species ranges, habitat adaptations, environmental gradients, and factors influencing species distribution.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In an estuary, species may use areas of",
+      "options": [
+        "high, intermediate, and low salinity",
+        "only high temperature and high fertility",
+        "only alpine wind and poor soil",
+        "only forest canopy and grassland patches"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "The movement of individuals away from their place of birth or hatching or seed production into a new habitat or area to survive and reproduce is called",
+      "options": [
+        "translocation",
+        "migration",
+        "dispersal",
+        "drifting"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Transplantation experiments are used to find",
+      "options": [
+        "potential range",
+        "effective range",
+        "actual range",
+        "economic range"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Pneumatophores are roots that",
+      "options": [
+        "move downward to store excess salts",
+        "spread into sand dunes to stop wind erosion",
+        "grow upward from the ground to obtain air",
+        "become thorns to reduce transpiration"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "At night, cooler and denser air from upper hill areas flows down towards the valley. This wind pattern is called",
+      "options": [
+        "valley breeze",
+        "hill wind",
+        "ocean breeze",
+        "estuary current"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Flamingos in the Rann of Kutch are associated with water bodies because they need",
+      "options": [
+        "high wind speeds and snow-covered slopes",
+        "food organisms in water and safe breeding conditions",
+        "dry deciduous leaves for summer feeding",
+        "tall coniferous trees for nesting"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Estuaries are specialized habitats because they contain",
+      "options": [
+        "only freshwater throughout the year",
+        "only saline water throughout the year",
+        "only dry land and thorny shrubs",
+        "a meeting zone of freshwater and saline water"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "The movement of lions across the Gir landscape is an example of",
+      "options": [
+        "diffusion",
+        "secular dispersal",
+        "jump dispersal",
+        "drifting"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Mangroves are adapted to areas that experience",
+      "options": [
+        "low salinity and permanent dryness",
+        "snow accumulation and alpine winds",
+        "deep desert sand with no water movement",
+        "high salinity and partial or complete inundation"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Scarcity of food is a",
+      "options": [
+        "chemical factor",
+        "demographic factor",
+        "push factor",
+        "pull factor"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

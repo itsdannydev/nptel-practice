@@ -1,0 +1,116 @@
+{
+  "title": "Week 2",
+  "description": "Ecological structure, biological hierarchy, biodiversity levels, species concepts, emergent properties, and the values of biodiversity.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Hierarchy emerges almost inevitably through a wide variety of evolutionary processes, for the simple reason that hierarchical structures are _____ (Fill in the blank)",
+      "options": [
+        "perfect",
+        "imperfect",
+        "stable",
+        "unstable"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which level is formed when similar cells and their extracellular matrix from the same origin together perform a specific function?",
+      "options": [
+        "Organ",
+        "Tissue",
+        "Organ system",
+        "Population"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "\"The diversity that exists within an ecosystem\" is",
+      "options": [
+        "alpha (α) biodiversity",
+        "beta (β) biodiversity",
+        "gamma (γ) biodiversity",
+        "delta (δ) biodiversity"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "\"Groups of actually or potentially interbreeding natural populations, which are reproductively isolated from other such groups\" is a definition of",
+      "options": [
+        "cells",
+        "species",
+        "ecosystems",
+        "biomes"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "The emergent principle can be stated as",
+      "options": [
+        "Whole = sum of parts",
+        "Whole < sum of parts",
+        "Whole > sum of parts",
+        "None of these"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "The smallest unit of life is the:",
+      "options": [
+        "Cell",
+        "Tissue",
+        "Organ",
+        "Organism"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "The diversity of genetic information present at the levels of phyla, families, species, populations and individuals is called:",
+      "options": [
+        "Ecosystem biodiversity",
+        "Species evenness",
+        "Genetic biodiversity",
+        "Species richness"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "The value of leaving use and non-use values for future generations is called:",
+      "options": [
+        "Altruistic value",
+        "Option value",
+        "Existence value",
+        "Bequest value"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 9,
+      "question": "Value arising even though a resource is not being used is called:",
+      "options": [
+        "Direct value",
+        "Indirect value",
+        "Non-use value",
+        "Productive value"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Species richness refers to:",
+      "options": [
+        "The distribution of individuals among different species",
+        "The genetic variation within one population",
+        "The number of ecosystems in a biome",
+        "The number of species present"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

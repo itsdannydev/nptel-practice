@@ -1,0 +1,116 @@
+{
+  "title": "Week 9",
+  "description": "Human ecology, the Anthropocene, population growth theories, demographic transition, sustainability, clean technology, cave formations, and biogeochemical cycles.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A proposed epoch marked by significant human impact on Earth’s geology and ecosystems is called?",
+      "options": [
+        "Holocene",
+        "Anthropocene",
+        "Pleistocene",
+        "Carboniferous"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "According to Malthusian model,",
+      "options": [
+        "Population grows in geometric progression, food supply increases in arithmetic progression",
+        "Population grows in geometric progression, food supply increases in geometric progression",
+        "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+        "Population grows in arithmetic progression, food supply increases in geometric progression"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Which of these is not a pillar of sustainability?",
+      "options": [
+        "environmental sustainability",
+        "economic sustainability",
+        "trans-boundary sustainability",
+        "social sustainability"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "The demographic transition sees a society move from",
+      "options": [
+        "high birth rate, low death rate to low birth rate, low death rate",
+        "low birth rate, high death rate to low birth rate, low death rate",
+        "high birth rate, high death rate to low birth rate, low death rate",
+        "high birth rate, high death rate to low birth rate, high death rate"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is listed as a theme of clean technology?",
+      "options": [
+        "Water purification",
+        "Predator-prey control",
+        "Migration of birds",
+        "Food chain length"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "When stalactites and stalagmites join together, they form a?",
+      "options": [
+        "Lagoon",
+        "Crevice",
+        "Terrace",
+        "Column"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "Which of these is a preventive check according to Malthus?",
+      "options": [
+        "foresight",
+        "vice",
+        "misery",
+        "flood"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Which of these is a pillar of sustainability",
+      "options": [
+        "social sustainability",
+        "industrial sustainability",
+        "agricultural sustainability",
+        "trans-boundary sustainability"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "In cave formations, the deposits growing downward from the roof are called?",
+      "options": [
+        "Stalagmites",
+        "Columns",
+        "Stalactites",
+        "Sediment bars"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Industrial processes such as the Haber process affect which biogeochemical cycle?",
+      "options": [
+        "Carbon cycle only",
+        "Water cycle only",
+        "Nitrogen cycle",
+        "Phosphorus cycle only"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

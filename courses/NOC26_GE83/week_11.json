@@ -1,0 +1,116 @@
+{
+  "title": "Week 11",
+  "description": "Applied ecology, fisheries yield and harvesting, ecological restoration, population growth, abundance measurement, phytoremediation, biological control, and ecotoxicology.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which term refers to the total weight of organisms removed by fishing?",
+      "options": [
+        "Natural mortality",
+        "Recruitment",
+        "Growth",
+        "Yield to fishery"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "Ludwig's ratchet predicts",
+      "options": [
+        "decreasing harvesting rate",
+        "constant harvesting rate",
+        "increasing harvesting rate",
+        "fluctuating harvesting rate"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with water and a lake was created. It is now visited by several migratory birds. This is an example of",
+      "options": [
+        "recovery",
+        "restoration",
+        "enhancement",
+        "replacement"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "Which of these is correct?",
+      "options": [
+        "The maximum sustainable yield is near the beginning of the sigmoidal curve",
+        "The maximum sustainable yield is near the mid-point of the sigmoidal curve",
+        "The maximum sustainable yield is near the end of the sigmoidal curve",
+        "None of these"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Which of these is correct?",
+      "options": [
+        "R + G = M + F",
+        "R + M = G + F",
+        "R + F = M + G",
+        "R + G + M + F = 0"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "In a logistic growth curve, growth is slow near carrying capacity mainly because the population is:",
+      "options": [
+        "very small",
+        "newly introduced",
+        "close to the environmental limit",
+        "free from competition"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "What does absolute abundance measure?",
+      "options": [
+        "Relative catch per unit effort",
+        "Actual number of individuals present",
+        "Percentage change in population",
+        "Estimated trend in sightings"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "A root zone treatment plant is an example of",
+      "options": [
+        "phytoremediation",
+        "biological control",
+        "biomagnification",
+        "bioaccumulation"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "What is a major risk of introducing predators for pest control?",
+      "options": [
+        "The pest always becomes extinct immediately",
+        "The predator cannot reproduce under any condition",
+        "The predator reduces rainfall",
+        "The introduced predator may itself become a pest"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Ecotoxicology studies toxic chemicals mainly at which broader levels?",
+      "options": [
+        "Individual atoms and molecules only",
+        "Population, community, ecosystem, and biosphere levels",
+        "Market demand and harvesting cost only",
+        "Crop yield and storage levels only"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

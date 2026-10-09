@@ -1,0 +1,116 @@
+{
+  "title": "Week 5",
+  "description": "Population ecology, population dynamics, sampling methods, population growth, fertility, and techniques for estimating population density.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In population dynamics, which pair represents additions to an existing population?",
+      "options": [
+        "Mortality and emigration",
+        "Natality and immigration",
+        "Mortality and natality",
+        "Immigration and emigration"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Cover board surveys are typically used for sampling",
+      "options": [
+        "herpetofauna",
+        "fishes",
+        "large mammals",
+        "carnivores"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Pan traps are used for sampling",
+      "options": [
+        "bees",
+        "butterflies",
+        "non-pollinator insects",
+        "pollinator insects"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "A sampling procedure such that each possible combination of sampling units out of the population has the same chance of being selected is referred to as",
+      "options": [
+        "Simple random sampling",
+        "Systematic sampling",
+        "Stratified sampling",
+        "Multistage sampling"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "The minimum replacement level fertility for a population to grow should be greater than",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "A list of sampling units is called a:",
+      "options": [
+        "Sample",
+        "Sampling intensity",
+        "Sampling frame",
+        "Stratum"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "In capture-recapture method, the first stage involves:",
+      "options": [
+        "Counting faecal pellets",
+        "Removing trapped animals permanently",
+        "Estimating bait consumption",
+        "Capturing, marking and releasing animals"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "The logistic growth equation, when plotted, appears",
+      "options": [
+        "I shaped",
+        "J shaped",
+        "S shaped",
+        "O shaped"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Employs a simple rule of selecting every kth unit starting with a number chosen at random from 1 to k as the random start",
+      "options": [
+        "Simple random sampling",
+        "Systematic sampling",
+        "Stratified sampling",
+        "Multistage sampling"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Which of these is not a measure of absolute population density?",
+      "options": [
+        "total count",
+        "pelt count",
+        "capture-recapture method",
+        "removal method"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

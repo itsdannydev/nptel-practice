@@ -1,0 +1,116 @@
+{
+  "title": "Week 6",
+  "description": "Community ecology, guilds, species abundance, ecological succession, climax communities, community stability, ecotones, and ecological niches.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A guild is a group of species that",
+      "options": [
+        "Occupy only one climax community",
+        "Have identical population size",
+        "Utilise resources in a similar way",
+        "Are confined to saline habitats"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "The climax near Tindni village is being controlled by disturbance by cattle. This is an example of",
+      "options": [
+        "climatic climax",
+        "edaphic climax",
+        "disclimax",
+        "catastrophic climax"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Species abundance may be expressed in terms of",
+      "options": [
+        "Climate, soil and slope",
+        "Number of individuals, biomass or cover",
+        "Hydrosere, xerosere and halosere",
+        "Resistance, resilience and stability"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Resistance refers to the ability of a community to",
+      "options": [
+        "Recover quickly after disturbance",
+        "Persist without change in the face of disturbance",
+        "Increase the number of pioneer species",
+        "Replace one seral stage with another"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Importance value can be written as",
+      "options": [
+        "Relative density + Relative frequency X Relative dominance",
+        "Relative density X Relative frequency + Relative dominance",
+        "Relative density + Relative frequency + Relative dominance",
+        "Relative density X Relative frequency X Relative dominance"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "Secondary succession refers to succession that occurs",
+      "options": [
+        "On newly exposed rock or sand surfaces",
+        "In a saline body such as a marsh",
+        "After severe disturbance or removal of a pre-existing community",
+        "Only when climate controls the final community"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "Lithosere is an example of",
+      "options": [
+        "hydrosere",
+        "xerosere",
+        "psammosere",
+        "halosere"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "A transition area where two communities meet and integrate is called",
+      "options": [
+        "Habitat",
+        "Niche",
+        "Ecotone",
+        "Sere"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of these is correct?",
+      "options": [
+        "Fundamental niche > Realised niche",
+        "Fundamental niche = Realised niche",
+        "Fundamental niche < Realised niche",
+        "a or b"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Species richness refers to",
+      "options": [
+        "Number of species",
+        "Number of individuals of one species",
+        "Biomass of the dominant species",
+        "Basal area of all trees"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

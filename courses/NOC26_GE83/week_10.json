@@ -1,0 +1,116 @@
+{
+  "title": "Week 10",
+  "description": "Ecology of change, ecological disturbances, bioaccumulation, marine plastic pollution, hydrocarbons, climate change adaptation, oil spills, and plastic debris classification.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "A community already affected by disease, weeds, pollutants, or livestock pressure is best described as which type of community?",
+      "options": [
+        "Pristine community",
+        "Climax community",
+        "Resistant community",
+        "Disturbed community"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "When an organism absorbs a toxic substance into its tissues faster than it loses it, the process is called:",
+      "options": [
+        "Biomagnification",
+        "Bioavailability",
+        "Bioaccumulation",
+        "Biodegradation"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "What percentage of marine plastic debris is stated to sink to the ocean bottom?",
+      "options": [
+        "15%",
+        "30%",
+        "50%",
+        "70%"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "Hydrocarbons derived directly from mineral oils are called:",
+      "options": [
+        "Pyrogenic hydrocarbons",
+        "Biogenic hydrocarbons",
+        "Aromatic hydrocarbons",
+        "Petrogenic hydrocarbons"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 5,
+      "question": "“Any changes in natural or human systems that inadvertently increase vulnerability to climatic stimuli; an adaptation that does not succeed in reducing vulnerability but increases it instead” is a definition for",
+      "options": [
+        "adaptation",
+        "mitigation",
+        "maladaptation",
+        "malmitigation"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "A normal ecological community faces one large and infrequent disturbance and then returns close to its earlier condition. Which outcome is best represented?",
+      "options": [
+        "Long-term alteration",
+        "Recovery",
+        "Bioaccumulation",
+        "Habitat displacement"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Macrodebris in the context of plastic debris has fragments of size",
+      "options": [
+        "> 20 mm",
+        "5 - 20 mm",
+        "< 5 mm",
+        "< 1 mm"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "The Deepwater Horizon incident is classified by origin as which kind of oil spill?",
+      "options": [
+        "Natural",
+        "Accidental",
+        "Intentional",
+        "Biogenic"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Harmful effects caused by a single or short-term exposure are called:",
+      "options": [
+        "Chronic toxicity",
+        "Acute toxicity",
+        "Sub-lethal exposure",
+        "Bioavailability"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Mesodebris in the context of plastic debris has fragments of size",
+      "options": [
+        "> 20 mm",
+        "5 - 20 mm",
+        "< 5 mm",
+        "< 1 mm"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Week 3",
+  "description": "Ecological interactions, social behaviour, parasitism, competition, mutual benefits between species, and animal behaviour.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "I observe a bird take a tick out of another bird's head and eat it. In the social context, this behaviour would be called",
+      "options": [
+        "tick hunting",
+        "auto grooming",
+        "allo grooming",
+        "foraging"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Leech is an example of",
+      "options": [
+        "endoparasite",
+        "herbivore predator",
+        "parasitoid",
+        "ectoparasite"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 3,
+      "question": "An ecological interaction in which both participating organisms are harmed is called",
+      "options": [
+        "mutualism",
+        "commensalism",
+        "competition",
+        "neutralism"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "Interspecific interaction occurs between",
+      "options": [
+        "members of different species",
+        "members of the same species",
+        "two organisms that are both benefited",
+        "two organisms that remain unaffected"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "The distance maintained by nesting penguins to avoid pecking from neighbours is related to",
+      "options": [
+        "herbivory",
+        "parasitoid pressure",
+        "prey switching",
+        "territorial spacing"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "A parasite that lives inside the body of its host is called",
+      "options": [
+        "ectoparasite",
+        "endoparasite",
+        "predator",
+        "commensal"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Birds on giraffe are an example of",
+      "options": [
+        "colony",
+        "commensalism",
+        "protocooperation",
+        "allelopathy"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "Competition in which organisms directly consume a limited resource so that less remains for others is called",
+      "options": [
+        "interference competition",
+        "exploitative competition",
+        "apparent competition",
+        "neutral competition"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Interference competition is also known as",
+      "options": [
+        "apparent competition",
+        "contest competition",
+        "niche competition",
+        "exploitative competition"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "The scientific study of animal behaviour is called",
+      "options": [
+        "behaviourism",
+        "ecology",
+        "ethology",
+        "prey-predator dynamics"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "Week 12",
+  "description": "Revision of ecology fundamentals, ecological interactions, succession, population dynamics, plastic debris classification, cave formations, and biological organization.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In cave formations, the deposits growing downward from the roof are called?",
+      "options": [
+        "Stalagmites",
+        "Columns",
+        "Stalactites",
+        "Sediment bars"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of these is a deterministic factor?",
+      "options": [
+        "environmental variation",
+        "forest fire",
+        "death rate",
+        "diseases"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "An ecological interaction in which both participating organisms are harmed is called",
+      "options": [
+        "mutualism",
+        "commensalism",
+        "competition",
+        "neutralism"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "Ecology is the scientific study of _______ that determine the distribution and abundance of organisms. (Fill in the blanks)",
+      "options": [
+        "statics",
+        "interactions",
+        "dynamics",
+        "habitat"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Mesodebris in the context of plastic debris has fragments of size",
+      "options": [
+        "> 20 mm",
+        "5 - 20 mm",
+        "< 5 mm",
+        "< 1 mm"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which level is formed when similar cells and their extracellular matrix from the same origin together perform a specific function?",
+      "options": [
+        "Organ",
+        "Tissue",
+        "Organ system",
+        "Population"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Secondary succession refers to succession that occurs",
+      "options": [
+        "On newly exposed rock or sand surfaces",
+        "In a saline body such as a marsh",
+        "After severe disturbance or removal of a pre-existing community",
+        "Only when climate controls the final community"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "A group of organs working together to perform one or more functions is called?",
+      "options": [
+        "Tissue",
+        "Organ",
+        "Organism",
+        "Organ system"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 9,
+      "question": "After a forest fire, an incompletely destroyed forest develops through herbaceous, shrub and woodland stages toward a stable stage. This is best described as?",
+      "options": [
+        "Secondary succession",
+        "Climatic climax",
+        "Bioaccumulation",
+        "Species-area effect"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "If organisms already present in an area change the soil conditions and thereby drive further community change, the succession is?",
+      "options": [
+        "Allogenic succession",
+        "Autogenic succession",
+        "Catastrophic succession",
+        "Seasonal succession"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

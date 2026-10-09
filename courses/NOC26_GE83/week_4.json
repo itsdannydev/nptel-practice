@@ -1,0 +1,116 @@
+{
+  "title": "Week 4",
+  "description": "Ecological energetics, food chains, trophic levels, ecological pyramids, primary production, energy transfer, and ecosystem nutrient cycling.",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. In this food chain",
+      "options": [
+        "hawk is producer",
+        "hawk is consumer and carnivore",
+        "hawk is consumer and herbivore",
+        "hawk is decomposer"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Trees → Birds → Parasites → Hyperparasites represents",
+      "options": [
+        "upright pyramid of numbers",
+        "inverted pyramid of numbers",
+        "spindle pyramid of numbers",
+        "dumb-bell pyramid of numbers"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Glacial lakes are typical examples of",
+      "options": [
+        "eutrophic lakes",
+        "hypereutrophic lakes",
+        "oligotrophic lakes",
+        "mesotrophic lakes"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "In a grazing food chain, the first trophic level after producers is generally occupied by:",
+      "options": [
+        "Carnivores",
+        "Decomposers",
+        "Detritivores",
+        "Herbivores"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 5,
+      "question": "Which statement correctly defines net primary production?",
+      "options": [
+        "Energy intercepted by producers from the Sun",
+        "Total energy lost during transfer between trophic levels",
+        "Gross primary production minus energy lost through respiration per unit time",
+        "Energy stored only in herbivore biomass"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "Which statement correctly defines gross primary production?",
+      "options": [
+        "Energy fixed through photosynthesis per unit time",
+        "Energy lost by organisms through respiration per unit time",
+        "Total number of producers in an ecosystem",
+        "Organic matter consumed by herbivores per unit time"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "Which chain best represents a detritus food chain?",
+      "options": [
+        "Fallen leaves → detritivores → small fish → large fish",
+        "Grass → chital → tiger",
+        "Rat → flea → parasitic protozoa",
+        "Phytoplankton → zooplankton → fish → sea lion"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Consider the food chain: Grass → Grasshopper → Frog → Snake → Hawk. As we move up the food chain",
+      "options": [
+        "available energy decreases",
+        "available energy increases",
+        "available energy remains same",
+        "available energy is zero everywhere"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Which statement correctly describes a decomposer?",
+      "options": [
+        "It only feeds on living plants",
+        "It consumes only primary consumers",
+        "It converts dead material into soil and recycles nutrients",
+        "It always occupies the quaternary trophic level"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Which description best defines a heterotroph?",
+      "options": [
+        "An organism that converts sunlight directly into inorganic nutrients",
+        "An organism that cannot produce its own food and depends on organic carbon from other sources",
+        "An organism that uses chemical reactions to manufacture minerals",
+        "An organism that occupies only the first trophic level"
+      ],
+      "correctOption": 1
+    }
+  ]
+}
