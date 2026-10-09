@@ -2,6 +2,7 @@
 export interface CourseMeta {
   name: string;
   code: string;
+  semester: string;
   session: number | string;
 }
 

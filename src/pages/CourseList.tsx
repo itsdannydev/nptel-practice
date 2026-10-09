@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { courses } from '../lib/courses';
+import { courses, termLabel } from '../lib/courses';
 import { useTitle } from '../lib/useTitle';
 
 export default function CourseList() {
@@ -25,8 +25,11 @@ export default function CourseList() {
               <Link to={`/c/${course.id}`} className="card">
                 <span className="card-title">{course.name}</span>
                 <span className="card-meta">
-                  {course.code} · {course.session} · {course.weekNumbers.length}{' '}
-                  {course.weekNumbers.length === 1 ? 'week' : 'weeks'}
+                  <span>
+                    {course.code} · {course.weekNumbers.length}{' '}
+                    {course.weekNumbers.length === 1 ? 'week' : 'weeks'}
+                  </span>
+                  <span className="card-term">{termLabel(course)}</span>
                 </span>
               </Link>
             </li>

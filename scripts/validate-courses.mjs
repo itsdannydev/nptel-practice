@@ -17,7 +17,7 @@ const isText = (v) => typeof v === 'string' && v.trim() !== '';
 
 const QUESTION_KEYS = new Set(['id', 'question', 'options', 'correctOption']);
 const WEEK_KEYS = new Set(['title', 'description', 'questions']);
-const COURSE_KEYS = new Set(['name', 'code', 'session']);
+const COURSE_KEYS = new Set(['name', 'code', 'semester', 'session']);
 
 function readJson(file, label) {
   try {
@@ -45,6 +45,7 @@ function validateCourseMeta(dir, id) {
   if (!meta) return null;
   if (!isText(meta.name)) errors.push(`${label}: "name" must be a non-empty string`);
   if (!isText(meta.code)) errors.push(`${label}: "code" must be a non-empty string`);
+  if (!isText(meta.semester)) errors.push(`${label}: "semester" must be a non-empty string`);
   if (!(isInt(meta.session) || isText(meta.session))) {
     errors.push(`${label}: "session" must be a year (number) or non-empty string`);
   }

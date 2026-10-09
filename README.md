@@ -68,10 +68,10 @@ If the same course runs in several sessions, use one folder per run (e.g. `entre
 ### course.json
 
 ```json
-{ "name": "Understanding Incubation and Entrepreneurship", "code": "CFOC657M", "session": 2026 }
+{ "name": "Understanding Incubation and Entrepreneurship", "code": "CFOC657M", "semester": "Winter", "session": 2026 }
 ```
 
-All three keys are required. `session` is the year for now.
+All four keys are required. `session` is the year for now.
 
 ### week_N.json
 

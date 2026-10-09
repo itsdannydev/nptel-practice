@@ -79,3 +79,7 @@ export function loadWeek(courseId: string, number: number): Promise<Week | null>
 export function courseLabel(course: Pick<Course, 'name' | 'session'>): string {
   return `${course.name} · ${course.session}`;
 }
+
+export function termLabel(course: Pick<Course, 'semester' | 'session'>): string {
+  return `${course.semester} Sem (${course.session})`;
+}
