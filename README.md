@@ -36,11 +36,14 @@ Live at **nptel.danny.co.in**. Steps that need your own accounts (can't be done 
    VITE_CLARITY_ID=<id from step 4>
    VITE_GA_MEASUREMENT_ID=<id from step 5>
    ```
-   Then **redeploy** — Vite bakes these in at build time, so just saving the env vars
+   Then **redeploy** — these get baked into `index.html` as static `<script>` tags at
+   build time (see the Vite plugin in `vite.config.ts`), so just saving the env vars
    doesn't retroactively affect the last build. Either one can be left unset to skip that
-   tracker; see `src/lib/analytics.ts`. Neither ever loads in `npm run dev` — only in a
-   production build, and only for whichever ID is actually set — so local testing never
-   pollutes real data. `.env.example` documents both vars for local testing if you want it.
+   tracker. Neither ever loads in `npm run dev` — only `vite build` — so local testing
+   never pollutes real data. `.env.example` documents both vars for local testing if you
+   want it. (They're injected as static tags rather than loaded at runtime via JS because
+   gtag.js silently drops its own tracking hit when it detects a dynamically-inserted
+   script tag instead of one present in the parsed HTML — confirmed by testing directly.)
 7. *(Optional, worth it)* **UptimeRobot** (free): add a monitor for
    `https://nptel.danny.co.in`. Neither of the above tracks uptime — this is the actual
    source if you want a real uptime number/status page to cite.
