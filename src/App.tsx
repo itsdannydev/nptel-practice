@@ -18,6 +18,14 @@ function Layout() {
       <main className="container">
         <Outlet />
       </main>
+      <footer className="site-footer">
+        <div className="container">
+          <p>
+            Don't see your course? Email{' '}
+            <a href="mailto:dev@danny.co.in">dev@danny.co.in</a> and I'll see what I can do.
+          </p>
+        </div>
+      </footer>
     </>
   );
 }
