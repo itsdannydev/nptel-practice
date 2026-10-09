@@ -292,14 +292,14 @@ h3 {
 }
 
 /* The whole card toggles selection for the mixed quiz (click, or Enter/Space when
-   focused). Height is fixed (not content-driven) so every card matches regardless
-   of description length or which grid row it falls in. */
+   focused). Height is content-driven on mobile (.week-grid is a single column there,
+   so there's no row to align against) and fixed from 480px up, where cards sit in a
+   2- or 4-column grid and need to match regardless of description length. */
 .week-card {
   position: relative;
   display: flex;
   flex-direction: column;
   gap: 6px;
-  height: 148px;
   padding: 16px;
   padding-right: 40px;
   background: var(--surface);
@@ -310,6 +310,12 @@ h3 {
   transition:
     border-color 0.12s,
     transform 0.12s;
+}
+
+@media (min-width: 480px) {
+  .week-card {
+    height: 148px;
+  }
 }
 
 .week-card:hover {
@@ -561,8 +567,7 @@ h3 {
   display: none;
   position: absolute;
   bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 0;
   margin-bottom: 8px;
   width: 260px;
   max-width: 80vw;
