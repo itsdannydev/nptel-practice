@@ -1,3 +1,5 @@
+![NPTEL Practice](public/banner.png)
+
 # NPTEL Practice
 
 Frontend-only app for practicing NPTEL quizzes. Pick a course, pick a week, get quizzed.
