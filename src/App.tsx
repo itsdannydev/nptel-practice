@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react';
 import { HashRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
 import CourseList from './pages/CourseList';
 import WeekList from './pages/WeekList';
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
+      <Analytics />
     </HashRouter>
   );
 }
