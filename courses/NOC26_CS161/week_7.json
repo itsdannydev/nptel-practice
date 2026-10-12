@@ -1,0 +1,169 @@
+{
+  "title": "Week 7",
+  "description": "Implementation of IoT with Raspberry Pi (contd), Introduction to SDN, SDN for IoT",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In the remote data logging system, which socket type is used to send sensor data from the client to the server?",
+      "options": [
+        "SOCK_STREAM",
+        "SOCK_DGRAM",
+        "SOCK_RAW",
+        "SOCK_SEQPACKET"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which Adafruit function is used in the client code to read humidity and temperature values from the DHT sensor?",
+      "options": [
+        "Adafruit_DHT.read_retry()",
+        "Adafruit_DHT.get_data()",
+        "Adafruit_DHT.sense()",
+        "Adafruit_DHT.capture()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Where does the server in the remote data logging example save the data received from the client as mentioned in the lecture?",
+      "options": [
+        "In a MySQL database",
+        "In a text file named Datalog.txt",
+        "On a cloud dashboard",
+        "In an Excel spreadsheet"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which Python string function is used to split the comma-separated sensor data into separate values on the server?",
+      "options": [
+        "split()",
+        "divide()",
+        "partition()",
+        "separate()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "State whether the following statement is True or False.\n\nStatement: Matplotlib Python library is used to plot the temperature and humidity data received at the server in the lecture.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which matplotlib function turns on interactive mode so that the plot updates in real time as new data arrives?",
+      "options": [
+        "ion()",
+        "grid()",
+        "subplot()",
+        "figure()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "In a traditional (non-SDN) network, where does the routing protocol logic (e.g., OSPF) mainly execute?",
+      "options": [
+        "In a centralized controller",
+        "At the individual switches",
+        "On the end-user device",
+        "In the cloud"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "In which year was the OpenFlow project — from which the idea of software-defined networking originated — presented at ACM SIGCOMM?",
+      "options": [
+        "2006",
+        "2008",
+        "2009",
+        "2011"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "What message does a switch send to the SDN controller when it receives a packet for which no matching flow-rule exists?",
+      "options": [
+        "PACKET-IN message",
+        "FLOW-REQUEST message",
+        "RULE-MISS alert",
+        "CONTROL-SYNC message"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Which SDN API is used for communication between the control layer and the infrastructure layer?",
+      "options": [
+        "Northbound API",
+        "Southbound API",
+        "East-Westbound API",
+        "North-Southbound API"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 11,
+      "question": "According to the lecture, approximately how many requests per second can a typical SDN controller handle through a single thread?",
+      "options": [
+        "50",
+        "100",
+        "200",
+        "500"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 12,
+      "question": "Which control mechanism is described where the entire network's control decisions are taken by a single controller?",
+      "options": [
+        "Distributed control",
+        "Centralized control",
+        "Hierarchical control",
+        "Federated control"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is listed as a benefit of integrating SDN with IoT?",
+      "options": [
+        "Increased hardware cost",
+        "Visibility of network resources",
+        "Reduced sensor accuracy",
+        "Elimination of all controllers"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "According to the lecture, what is a key resource-constraint challenge in wireless sensor networks that motivates software-defined WSN?",
+      "options": [
+        "Excess bandwidth",
+        "Limited memory for control programs",
+        "Too many controllers",
+        "Unlimited computation power"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "In the SDN-WISE protocol stack for sensor nodes, what does \"INPP\" stand for?",
+      "options": [
+        "Integrated Node Path Protocol",
+        "Internal Node Power Processing",
+        "In Network Packet Processing",
+        "IoT Network Priority Protocol"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

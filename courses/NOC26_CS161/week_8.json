@@ -1,0 +1,171 @@
+{
+  "title": "Week 8",
+  "description": "SDN for IoT (contd), Data Handling and Analytics, Cloud Computing",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is listed as a problem in traditional (non-SDN) mobile networks?",
+      "options": [
+        "Too flexible hardware architecture",
+        "Excess centralized control",
+        "Very low operational cost",
+        "Difficult to scale due to static, over-provisioned networks"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "In the ODIN architecture for software-defined wireless networks, what does the 'Odin agent' do?",
+      "options": [
+        "It is placed at the controller end to manage policies",
+        "It replaces the OpenFlow protocol entirely",
+        "It is placed with the physical devices to communicate with the controller",
+        "It performs billing for cloud resources"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "What is the primary goal of Mobi-Flow's proactive rule placement approach in Software-Defined IoT?",
+      "options": [
+        "To place flow-rules randomly across all access points",
+        "To predict users' future location and place flow-rules at APs accordingly",
+        "To eliminate the need for a controller",
+        "To increase the number of PACKET-IN messages"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which simulation tool is mentioned in the lecture for experimenting with wireless software-defined networks, supporting both wired and wireless (IEEE 802.11) protocols?",
+      "options": [
+        "CloudSim",
+        "NS2",
+        "GreenCloud",
+        "Mininet-WiFi"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 5,
+      "question": "According to the NIST definition quoted in the lecture, cloud computing enables on-demand network access to a shared pool of what?",
+      "options": [
+        "Fixed, dedicated hardware resources",
+        "Configurable computing resources",
+        "Only storage resources",
+        "Only networking resources"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is one of the essential characteristics of cloud computing as defined by NIST?",
+      "options": [
+        "Rapid elasticity",
+        "Manual resource allocation",
+        "Single-tenant only access",
+        "Fixed billing regardless of usage"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "Which cloud deployment model is set up for the exclusive use of a single organization, typically managed on-premises or by a third party off-premises?",
+      "options": [
+        "Public cloud",
+        "Private cloud",
+        "Community cloud",
+        "Multi-cloud"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is given as an example of a public cloud provider in the lecture?",
+      "options": [
+        "Amazon Web Services (AWS)",
+        "A company's internal private data center",
+        "A single organization's dedicated server room",
+        "A community-only cloud shared by hospitals"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Which cloud service model provides on-demand delivery of computing infrastructure such as servers, storage, network, and operating system?",
+      "options": [
+        "SaaS",
+        "PaaS",
+        "IaaS",
+        "DBaaS"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "In the IaaS working methodology, which component allows multiple virtual machines to share the same physical hardware?",
+      "options": [
+        "DNS server",
+        "Load balancer",
+        "Firewall",
+        "Hypervisor"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 11,
+      "question": "Which cloud service model is described as 'application middleware offered as a service to developers', removing the need to manage underlying hardware and operating systems?",
+      "options": [
+        "IaaS",
+        "SaaS",
+        "PaaS",
+        "Community Cloud"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 12,
+      "question": "What is the primary purpose of a Service Level Agreement (SLA) in cloud service management?",
+      "options": [
+        "To define the physical location of the data center",
+        "To define the non-functional requirements expected from the service provider",
+        "To specify the programming language used by the cloud provider",
+        "To list the hardware vendors used by the provider"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "In cloud service accounting and billing, what does 'service accounting' primarily aim to obtain?",
+      "options": [
+        "Resource usage information, typically in the form of records",
+        "The physical address of end-users",
+        "The source code of hosted applications",
+        "The marketing budget of the provider"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 14,
+      "question": "What is the main purpose of using cloud simulators such as CloudSim before actual deployment?",
+      "options": [
+        "To permanently replace the need for real cloud infrastructure",
+        "To physically manufacture cloud hardware",
+        "To increase the billing cost of cloud services",
+        "To provide a reliable, scalable, and repeatable environment for pre-deployment performance evaluation"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 15,
+      "question": "CloudSim, a widely used cloud simulation framework, was developed at which institution and is based on which programming language?",
+      "options": [
+        "Stanford University, based on Python",
+        "CLOUDS Lab, University of Melbourne, based on Java",
+        "MIT, based on C++",
+        "IIT Kharagpur, based on JavaScript"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

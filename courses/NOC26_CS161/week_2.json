@@ -1,0 +1,193 @@
+{
+  "title": "Week 2",
+  "description": "Basics of Networking: Part-II, Part III, Part IV, Communication Protocols: Part I, Part II",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In MQTT, which field of a published message is used by the broker as routing information?",
+      "options": [
+        "Topic",
+        "Client identifier",
+        "Payload length",
+        "Session timer"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "Which of the following statements about MQTT topic wildcards are correct?\n- The plus sign (+) matches an arbitrary value at exactly one hierarchy level.\n- The hash sign (#) can be used to subscribe to all underlying hierarchy levels.\n- The subscription house/# matches only the exact topic house.\n- The subscription house/+/temperature can match house/kitchen/temperature.",
+      "options": [
+        "The plus sign (+) matches an arbitrary value at exactly one hierarchy level.",
+        "The hash sign (#) can be used to subscribe to all underlying hierarchy levels.",
+        "The subscription house/# matches only the exact topic house.",
+        "The subscription house/+/temperature can match house/kitchen/temperature."
+      ],
+      "correctOption": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Which of the following are main stages of Secure MQTT (SMQTT)?",
+      "options": [
+        "Setup",
+        "Publish",
+        "Decryption",
+        "Route discovery"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "question": "At the transport layer, CoAP (Constrained Application Protocol) operates over which protocol?",
+      "options": [
+        "TCP",
+        "UDP",
+        "SCTP",
+        "FTP"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "State True or False.\n\nIn CoAP, a piggyback response is carried with the acknowledgment, whereas in the separate mode, the server response is sent in a message separate from the acknowledgment.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following CoAP request-method mappings are correct?",
+      "options": [
+        "GET - retrieve data",
+        "PUT - create data",
+        "PUSH - update data",
+        "DELETE - delete data"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Which AMQP frame type is used to control the message-flow rate?",
+      "options": [
+        "Transfer",
+        "Detach",
+        "Disposition",
+        "Flow"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "Which of the following statements about AMQP components are correct?",
+      "options": [
+        "An exchange receives messages and routes them to queues.",
+        "A queue stores messages for business processes or consumers.",
+        "A binding specifies message-distribution rules between an exchange and queues.",
+        "A consumer must route every producer message before it reaches an exchange."
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following IEEE 802.15.4 variant-application pairs are correct?",
+      "options": [
+        "IEEE 802.15.4c - China",
+        "IEEE 802.15.4e - Industrial applications",
+        "IEEE 802.15.4f - Active RFID",
+        "IEEE 802.15.4g - Smart utility networks"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 10,
+      "question": "In a non-beacon-enabled IEEE 802.15.4 network, data frames are transmitted using:",
+      "options": [
+        "Slotted CSMA/CA",
+        "Unslotted CSMA/CA",
+        "Token passing",
+        "Pure TDMA only"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 11,
+      "question": "Which statement correctly describes the relationship between IEEE 802.15.4 and ZigBee?",
+      "options": [
+        "IEEE 802.15.4 provides layers 1 and 2, while ZigBee extends the functionality to layer 3 and above.",
+        "ZigBee provides only the physical layer, while IEEE 802.15.4 provides all higher layers.",
+        "Both standards operate only at the application layer.",
+        "ZigBee and IEEE 802.15.4 are identical standards with no functional distinction."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 12,
+      "question": "Which of the following statements characterizes a ZigBee end device?",
+      "options": [
+        "It communicates with its parent node.",
+        "It cannot relay data for other devices.",
+        "It is a reduced-functionality device.",
+        "It forms the network root and acts as the trust center."
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 13,
+      "question": "Which option correctly describes addressing in 6LoWPAN?",
+      "options": [
+        "A 16-bit address is globally unique, while a 64-bit address is PAN-specific.",
+        "A 16-bit short address is PAN-specific and assigned by the PAN coordinator, while a 64-bit extended address is globally unique.",
+        "Both 16-bit and 64-bit addresses are globally unique and assigned by an Internet router.",
+        "Both address types are used only for multicast communication."
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "State True or False.\n\nIn LOADng routing, an intermediate router may respond to a Route Request (RREQ) whenever it already has an active route to the requested destination.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "How does a passive RFID tag obtain the power required to transmit information?",
+      "options": [
+        "It uses its own internal battery.",
+        "It is powered inductively by an RFID reader.",
+        "It receives power through a wired AIDC connection.",
+        "It does not require any source of power."
+      ],
+      "correctOption": 1
+    }
+  ]
+}

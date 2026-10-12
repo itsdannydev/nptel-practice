@@ -1,0 +1,167 @@
+{
+  "title": "Week 5",
+  "description": "Interoperability in IoT, Introduction to Arduino Programming: Part I, Part II, Integration of Sensors and Actuators with Arduino: Part I, Part II",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does interoperability allow IoT devices to do?",
+      "options": [
+        "Communicate and exchange data",
+        "Work only offline",
+        "Use only one protocol",
+        "Disable other devices"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "Syntactic interoperability deals with:",
+      "options": [
+        "Message format",
+        "Battery size",
+        "Device colour",
+        "Sensor weight"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "What does UMB stand for?",
+      "options": [
+        "Universal Middleware Bridge",
+        "Unified Mobile Board",
+        "Universal Memory Block",
+        "User Management Bridge"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "What is the operating voltage of the Arduino UNO?",
+      "options": [
+        "3.3 V",
+        "5 V",
+        "9 V",
+        "12 V"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "What is a program written in the Arduino IDE called?",
+      "options": [
+        "Packet",
+        "Sketch",
+        "Frame",
+        "Query"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which interface is mainly used to connect an Arduino UNO to a computer?",
+      "options": [
+        "HDMI",
+        "USB",
+        "VGA",
+        "Ethernet"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "What is the conventional starting index of an array in Arduino programming?",
+      "options": [
+        "-1",
+        "0",
+        "1",
+        "2"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Which Arduino function is used to generate a pseudo-random number within a specified range?",
+      "options": [
+        "random()",
+        "pinMode()",
+        "digitalWrite()",
+        "attachInterrupt()"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "In the traffic-control example, which LED is switched ON first to represent the GO signal?",
+      "options": [
+        "Red LED",
+        "Yellow LED",
+        "Green LED",
+        "All three LEDs simultaneously"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Which quantities are measured by a DHT sensor?",
+      "options": [
+        "Temperature and humidity",
+        "Distance and speed",
+        "Light and sound",
+        "Pressure and altitude"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "What does a sensor convert a physical quantity into?",
+      "options": [
+        "A software program",
+        "Mechanical motion",
+        "A network address",
+        "An electrical signal"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "In the DHT sensor sketch, delay(2000) causes successive readings to be printed after approximately how much time?",
+      "options": [
+        "0.2 seconds",
+        "1 second",
+        "2 seconds",
+        "20 seconds"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "State whether the following statement is True or False.\n\nStatement: A servo motor is a low-precision motor used only for linear motion.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "Which device provides controlled rotary motion?",
+      "options": [
+        "Ultrasonic sensor",
+        "DHT sensor",
+        "PIR sensor",
+        "Servo motor"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 15,
+      "question": "State whether the following statement is True or False.\n\nStatement: A stepper motor is a type of actuator.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

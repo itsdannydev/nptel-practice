@@ -1,0 +1,171 @@
+{
+  "title": "Week 9",
+  "description": "Cloud Computing (contd), Sensor-Cloud",
+  "questions": [
+    {
+      "id": 1,
+      "question": "OpenStack was launched in 2010 as a joint project between Rackspace Hosting and which other organization?",
+      "options": [
+        "Google",
+        "Microsoft",
+        "NASA",
+        "IBM"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which OpenStack component provides the dashboard (GUI) that gives an overview of the other components?",
+      "options": [
+        "Nova",
+        "Keystone",
+        "Horizon",
+        "Swift"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Which OpenStack component is the compute service where instances are launched?",
+      "options": [
+        "Nova",
+        "Glance",
+        "Cinder",
+        "Neutron"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Which script/tool is used in the lecture to install OpenStack, requiring the local.conf file to be configured with passwords and host IP before running?",
+      "options": [
+        "stack.sh via Devstack",
+        "docker-compose",
+        "kubeadm",
+        "ansible-playbook"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "According to the lecture, what does sensor-cloud fundamentally provide, beyond merely integrating sensors with cloud computing?",
+      "options": [
+        "A physical replacement for all sensor hardware",
+        "Virtualization of sensor nodes, offered on a pay-per-use basis",
+        "A way to eliminate the need for a sink node",
+        "Free unlimited sensor deployment"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "In a traditional Wireless Sensor Network (WSN), who is typically responsible for redeployment of the sensor nodes?",
+      "options": [
+        "The Sensor-Cloud Service Provider (SCSP)",
+        "The end-user of the sensor-cloud",
+        "The WSN-user",
+        "A third-party auditor"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "In the sensor-cloud model, which actor purchases physical sensor devices and lends them to the sensor-cloud, playing a role from a business perspective?",
+      "options": [
+        "End-user",
+        "Sensor-owner",
+        "Sensor-Cloud Service Provider (SCSP)",
+        "WSN-user"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is listed as a major limitation of traditional WSNs that motivates the sensor-cloud model?",
+      "options": [
+        "Unlimited scalability at zero cost",
+        "Difficulty adapting to a change of requirement (e.g., moving from agriculture to smart home use)",
+        "Excessive availability of skilled vendors",
+        "No need for maintenance"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "In the Optimal Composition of Virtual Sensors, what does CoV-I refer to?",
+      "options": [
+        "Composition of virtual sensors spanning multiple geographic regions",
+        "Composition of virtual sensors using only homogeneous nodes within the same geographic region",
+        "A pricing model for sensor-cloud",
+        "A caching mechanism for sensor data"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "In the sensor-cloud caching mechanism, which cache handles requests directly from the end-user and decides whether to serve data directly or re-cache from another source?",
+      "options": [
+        "External Cache (EC)",
+        "Sensor Cache (SC)",
+        "Distributed Cache (DC)",
+        "Internal Cache (IC)"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 11,
+      "question": "Why is dynamic and adaptive data caching useful in sensor-cloud, according to the lecture?",
+      "options": [
+        "Because environmental conditions always change extremely fast",
+        "Because it removes the need for a sensor-owner",
+        "Because caching eliminates the need for virtualization",
+        "Because unnecessary sensing during slow environmental change wastes energy"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "Which company is credited with coining the term 'fog computing'?",
+      "options": [
+        "Google",
+        "Amazon",
+        "CISCO",
+        "IBM"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is listed as a key issue with the traditional cloud model that motivates fog computing?",
+      "options": [
+        "Excess bandwidth availability",
+        "Volume, latency, and bandwidth limitations of the cloud",
+        "Too much local processing power at the device level",
+        "Absence of any IoT devices"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "Where is the fog layer positioned in the fog computing architecture?",
+      "options": [
+        "Above the cloud layer",
+        "Between the cloud and the IoT devices",
+        "Inside each IoT device only",
+        "There is no fixed position; it replaces the cloud entirely"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT listed as a required characteristic of a fog node?",
+      "options": [
+        "Storage (transient)",
+        "Computing facility for quick decisions",
+        "Network connectivity",
+        "Permanent, unlimited archival storage"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

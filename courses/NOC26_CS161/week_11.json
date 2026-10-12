@@ -1,0 +1,171 @@
+{
+  "title": "Week 11",
+  "description": "Connected Vehicles, Smart Grid, Industrial IoT",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to the lecture, which feature distinguishes a smart grid from a traditional electrical grid?",
+      "options": [
+        "Energy distribution is only one directional.",
+        "Monitoring and restoration are always performed manually.",
+        "It enables bidirectional flows of energy with two-way communication and control.",
+        "Energy generation must occur only at centralized power plants."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "What is the role of a smart meter in a smart home?",
+      "options": [
+        "It generates electricity from renewable energy sources.",
+        "It provides the Smart Grid interface between the consumer and the energy service provider.",
+        "It replaces the home energy management system.",
+        "It operates only as a one-way energy meter without information exchange."
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Under Time-of-Use pricing, when are consumers encouraged to operate smart appliances to reduce their energy cost?",
+      "options": [
+        "During off-peak hours.",
+        "Only during on-peak hours.",
+        "Only when the grid has a blackout.",
+        "At a fixed time independent of the grid load."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "In net metering, the consumer's final bill depends on which two energy flows?",
+      "options": [
+        "Reactive power and communication traffic.",
+        "Only the energy generated at centralized power plants.",
+        "Only the energy stored in the consumer's battery.",
+        "Energy inflow from the grid and energy outflow from the consumer to the grid."
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 5,
+      "question": "Which device is used in a smart grid operation center to sample voltage and current for monitoring the transmission system?",
+      "options": [
+        "Phasor Measurement Unit (PMU).",
+        "Data Aggregator Unit (DAU).",
+        "Smart appliance controller.",
+        "Universal Power Line Bus."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is a function of distribution intelligence in the smart grid?",
+      "options": [
+        "Preventing all use of smart meters.",
+        "Identifying the source of a power outage and supporting automatic power-flow restoration.",
+        "Restricting the grid to one-way communication.",
+        "Removing protection and control from feeder lines."
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "In smart grid communication, what does a gateway connect?",
+      "options": [
+        "Closely located smart meters to Data Aggregator Units (DAUs).",
+        "Only power plants directly to home appliances.",
+        "PMUs directly to plug-in electric vehicles.",
+        "Renewable generators directly to SCADA without intermediate communication."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Which type of attack compromises the availability of smart grid components or information by making them inaccessible when needed?",
+      "options": [
+        "Net metering attack.",
+        "Time synchronization attack.",
+        "Data visualization attack.",
+        "Denial of Service (DoS) attack."
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 9,
+      "question": "How is the Industrial Internet of Things (IIoT) described in the lecture?",
+      "options": [
+        "An application of IoT in industries that links automation systems with enterprise, planning, and product lifecycle.",
+        "A consumer-only network for home entertainment devices.",
+        "A replacement for all industrial automation without networking.",
+        "A system used only for storing data without machine communication."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Which approach does the lecture associate with IIoT for adapting existing industrial systems?",
+      "options": [
+        "Disconnect and isolate.",
+        "Rip and replace.",
+        "Wrap and re-use.",
+        "Remove and discard."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 11,
+      "question": "According to the lecture, which technology is identified as the key enabling technology for vehicle-to-vehicle and vehicle-to-road communications in Intelligent Transportation Systems?",
+      "options": [
+        "Universal Power Line Bus.",
+        "Hadoop Distributed File System (HDFS).",
+        "Supervisory Control and Data Acquisition (SCADA).",
+        "Dedicated Short-Range Communications (DSRC)."
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "In IIoT-based mining applications, which environmental parameters can be monitored using wireless sensor networks?",
+      "options": [
+        "Air quality, poisonous gases, and oxygen level inside mines.",
+        "Only the billing amount of mine workers.",
+        "Only the color of mining equipment.",
+        "Only the internet browsing history of operators."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 13,
+      "question": "Which Big Data characteristic refers to biases, noise, and abnormality in data?",
+      "options": [
+        "Value.",
+        "Variability.",
+        "Veracity.",
+        "Volume."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 14,
+      "question": "During data pre-processing, what is the purpose of redundancy mitigation?",
+      "options": [
+        "To prevent data from being collected.",
+        "To intentionally duplicate every data item.",
+        "To convert all structured data into images.",
+        "To eliminate repeated data through detection, filtering, and compression."
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 15,
+      "question": "In Hadoop Distributed File System (HDFS), which node stores the actual data blocks?",
+      "options": [
+        "Datanode.",
+        "Namenode.",
+        "Job Tracker.",
+        "YARN Resource Negotiator only."
+      ],
+      "correctOption": 0
+    }
+  ]
+}

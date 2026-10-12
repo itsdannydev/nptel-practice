@@ -1,0 +1,171 @@
+{
+  "title": "Week 10",
+  "description": "Fog Computing, Smart Cities and Smart Homes",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In the analogy comparing humans to smart cities presented in the lecture, what do 'Sensors and Tags' correspond to?",
+      "options": [
+        "Skeleton",
+        "Nerves",
+        "Sensory Organs",
+        "Brain"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is listed as one of the six 'Application Focus Areas' of a smart city?",
+      "options": [
+        "Smart Economy",
+        "Smart Bandwidth",
+        "Smart Voltage",
+        "Smart Currency"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Under 'Current Focus Areas' of smart cities, which application area specifically deals with the auto routing of vehicles to empty slots and detecting vacant slots?",
+      "options": [
+        "Smart Homes",
+        "Smart Energy",
+        "Smart Health",
+        "Smart Parking Lots"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "Which IoT challenge in smart cities relates to the risk of data leakage arising from multiple tenants sharing the same infrastructure?",
+      "options": [
+        "Reliability",
+        "Heterogeneity",
+        "Security and Privacy",
+        "Legal and Social aspects"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the primary purpose of data fusion in IoT-enabled smart city environments, as described in the lecture?",
+      "options": [
+        "To delete redundant sensors from the network",
+        "To make the large incoming data volume precise and accurate for better decision making",
+        "To replace the need for any sensors",
+        "To increase network latency intentionally"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which data fusion challenge refers to the situation where the same type of sensor reports different data for the same location?",
+      "options": [
+        "Imperfection",
+        "Ambiguity",
+        "Conflicts",
+        "Alignment"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 7,
+      "question": "In the stages of data fusion, at which level does the fusion of information happen at the sensor node or within the local network itself?",
+      "options": [
+        "Decision level",
+        "Feature level",
+        "Pixel level",
+        "Signal level"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is listed as one of the three functional layers of a smart parking system?",
+      "options": [
+        "Information Collection",
+        "Fuel Refilling",
+        "Vehicle Manufacturing",
+        "Traffic Signal Coloring"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "In the classification of energy harvesting solutions for smart cities, which type involves energy sources intentionally deployed near IoT devices?",
+      "options": [
+        "Ambient energy harvesting",
+        "Passive harvesting",
+        "Grid-tied harvesting",
+        "Dedicated energy harvesting"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which Home Area Network (HAN) standard is defined by IEEE 802.15.4 at the physical and MAC layers, and aims at low-cost, low-energy devices?",
+      "options": [
+        "UPnP",
+        "DLNA",
+        "Zigbee",
+        "X-10"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 11,
+      "question": "Which HAN standard enables remote control of compliant devices over existing power lines and electrical wiring in a house, and is mainly used for lighting and appliance control?",
+      "options": [
+        "Konnex (KNX)",
+        "UPnP",
+        "LonWorks",
+        "X-10"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "According to the lecture, why does traditional TCP/IP fail to work well for Vehicle-to-Everything (V2X) communication?",
+      "options": [
+        "TCP/IP was designed mainly for single-pair information exchange dependent on data location",
+        "TCP/IP cannot be used with any wireless devices",
+        "TCP/IP requires no IP addresses at all",
+        "TCP/IP works only in stationary networks with no scalability limits"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 13,
+      "question": "Which frequency spectrum did the US Department of Transport and FCC allocate for Intelligent Connected Vehicles (ICVs)?",
+      "options": [
+        "2.4 GHz ISM band",
+        "75 MHz (5850–5925 MHz)",
+        "900 MHz band",
+        "60 GHz mmWave band"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "In the phases of ICV development described in the lecture, which phase is based on 4G LTE or DSRC and focuses on intelligent transportation services?",
+      "options": [
+        "Phase-1",
+        "Phase-2",
+        "Phase-3",
+        "Phase-0"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "In the VANET domain classification, which domain consists of vehicles (mobile) and Road-Side Units (RSUs, static), communicating via V2V or V2I using the DSRC stack?",
+      "options": [
+        "In-Vehicle Domain",
+        "Cloud Domain",
+        "Infrastructure Domain",
+        "Ad-hoc Domain"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

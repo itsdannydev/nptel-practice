@@ -1,0 +1,194 @@
+{
+  "title": "Week 3",
+  "description": "Communication Protocols: Part III, Part IV, Part V, Sensor Networks: Part I, Part II",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which WirelessHART data-link mechanism provides reliable, collision-free, and deterministic communication?",
+      "options": [
+        "Superframes divided into 10-millisecond TDMA time slots",
+        "Pure ALOHA without time-slot allocation",
+        "CSMA/CD over a wired Ethernet bus",
+        "Token-ring circulation among field devices"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "In WirelessHART, which entity supervises network nodes and guides them regarding when and where packets should be transmitted?",
+      "options": [
+        "Network manager",
+        "NFC reader",
+        "Z-Wave end device",
+        "Bluetooth inquiry agent"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Which of the following are operating modes of NFC?",
+      "options": [
+        "Peer-to-peer mode",
+        "Read/write mode",
+        "Card-emulation mode",
+        "Frequency-hopping mode"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Which of the following are phases of Bluetooth connection establishment?",
+      "options": [
+        "Inquiry or discovery phase",
+        "Paging phase",
+        "Connection phase",
+        "Channel-blacklisting phase"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 5,
+      "question": "In which Bluetooth operating mode does a slave remain inactive until the master instructs it to wake up?",
+      "options": [
+        "Active mode",
+        "Sniff mode",
+        "Hold mode",
+        "Park mode"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "Which of the following functions are provided by the Bluetooth L2CAP layer?",
+      "options": [
+        "Connection-oriented and connectionless data services",
+        "Protocol multiplexing",
+        "Segmentation and reassembly",
+        "Generation of the magnetic field used by NFC tags"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "question": "A single Z-Wave network can contain up to approximately how many nodes?",
+      "options": [
+        "32",
+        "64",
+        "128",
+        "232"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "Which of the following statements about Z-Wave addressing are correct?",
+      "options": [
+        "Each logical Z-Wave network has one Home ID.",
+        "A Z-Wave Node ID has a length of one byte.",
+        "A Z-Wave Home ID has a length of four bytes.",
+        "Nodes having different Home IDs can communicate directly with one another."
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 9,
+      "question": "Which of the following statements about ISA100.11a are correct?",
+      "options": [
+        "Its network and transport layers are based on TCP, UDP, or IPv6.",
+        "Its data-link layer supports mesh networking with frequency hopping.",
+        "Its radio is based on IEEE 802.15.4.",
+        "It supports only a ring topology."
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Why is multi-hop communication commonly used in a wireless sensor network?",
+      "options": [
+        "Sensor nodes have short transmission ranges, so intermediate nodes relay data toward the sink.",
+        "Every sensor node must communicate directly with the Internet.",
+        "Multi-hop communication eliminates the need for a sink node.",
+        "Only mobile sensor nodes are permitted to transmit data."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is described as an optional unit of a sensor node?",
+      "options": [
+        "Sensing unit",
+        "Processing unit",
+        "Power unit",
+        "Location-finding system such as GPS"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "If n denotes the number of nodes in a sensor network, the lecture states that the throughput decreases approximately at what rate as the network scales?",
+      "options": [
+        "1/n",
+        "n",
+        "sqrt(n)",
+        "1/sqrt(n)"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 13,
+      "question": "Which types of sensor-node misbehavior are classified as intentional?",
+      "options": [
+        "Malicious behavior",
+        "Selfish behavior",
+        "Failed-node behavior",
+        "Badly failed-node behavior"
+      ],
+      "correctOption": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What distinguishes a badly failed sensor node from an ordinarily failed sensor node?",
+      "options": [
+        "It additionally sends false routing messages.",
+        "It always increases the network throughput.",
+        "It changes from a mobile node into a stationary node.",
+        "It communicates normally but consumes no power."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 15,
+      "question": "Which consequence may arise when a selfish sensor node refuses to cooperate because forwarding involves a personal cost?",
+      "options": [
+        "It forwards every received packet twice.",
+        "It drops a received packet instead of forwarding it.",
+        "It automatically becomes the sink node.",
+        "It increases the communication range of neighboring nodes."
+      ],
+      "correctOption": 1
+    }
+  ]
+}

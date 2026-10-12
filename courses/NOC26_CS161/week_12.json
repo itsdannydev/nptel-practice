@@ -1,0 +1,171 @@
+{
+  "title": "Week 12",
+  "description": "Industrial IoT (contd), Case Study: Agriculture, Healthcare, Activity Monitoring",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of data analysis is used for data that is categorical in nature?",
+      "options": [
+        "Qualitative analysis",
+        "Quantitative analysis",
+        "Regression analysis",
+        "Analysis of variance"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "According to the lecture, when is a statistical model classified as a complete model?",
+      "options": [
+        "When the number of variables equals the number of equations",
+        "When the model contains no variables",
+        "When the number of variables is always greater than the number of equations",
+        "When only categorical data are used"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Analysis of Variance (ANOVA) is best applied when which of the following are to be compared?",
+      "options": [
+        "Only a single observation",
+        "More than two populations or samples",
+        "Only non-numerical labels without any response variable",
+        "Only identical copies of the same observation"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "What does Pearson's correlation coefficient (r) measure?",
+      "options": [
+        "The number of equations in a statistical model",
+        "The maximum value in a dataset",
+        "The strength of association between two variables",
+        "The sample size of an experiment"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "What is a primary objective of the AgriSens smart water management system?",
+      "options": [
+        "Restricting irrigation control to manual operation only",
+        "Increasing irrigation water use regardless of soil condition",
+        "Removing all sensors from agricultural fields",
+        "Achieving more crop yield with less water"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "Which set correctly represents the three layers of the proposed AgriSens architecture?",
+      "options": [
+        "Physical layer; transport layer; presentation layer",
+        "Sensing and actuating layer; processing, storage and service layer; application layer",
+        "User layer; billing layer; routing layer",
+        "Sensor layer; firewall layer; operating-system layer"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Which component is included in the integrated design of an AgriSens sensor node?",
+      "options": [
+        "Meter data management system for smart grids",
+        "Power management unit",
+        "Phasor measurement unit",
+        "Hadoop Namenode"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "What is the function of the multi-user server in the AgriSens remote-server design?",
+      "options": [
+        "It supplies electrical power to the sensor nodes",
+        "It measures soil moisture directly in the field",
+        "It sends field information to the farmer's mobile phone using SMS and executes farmer queries and control messages",
+        "It replaces all gateways with wired links"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "In the IoT healthcare architecture discussed in the lecture, which layer contains smartphones and tablets used as data aggregators?",
+      "options": [
+        "Physical power layer",
+        "Sensing layer",
+        "Cloud platform",
+        "Aggregated layer"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is an example of preventive care enabled by IoT healthcare?",
+      "options": [
+        "Fall detection for senior citizens",
+        "Disabling emergency alerts",
+        "Removing physiological sensors from patients",
+        "Storing only paper-based medical records"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "What is an advantage of continuous activity monitoring?",
+      "options": [
+        "It requires all sensor data to be discarded immediately",
+        "It prevents any long-term observation",
+        "It enables daily observation of human behavior and repetitive activity patterns",
+        "It can operate only with cameras"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 12,
+      "question": "Which type of data can be analyzed using the deep-learning-based approach described in the lecture?",
+      "options": [
+        "Sensor data, images, and videos",
+        "Images only",
+        "Text labels only",
+        "Sensor data only and never images or videos"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 13,
+      "question": "Processing activity-monitoring sensor data directly on the device is referred to as which approach?",
+      "options": [
+        "Data-aggregator selection approach",
+        "Network-only approach",
+        "Cloud replication approach",
+        "In-place approach"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 14,
+      "question": "What are the three basic elements used in the smartphone-based activity-monitoring demonstration?",
+      "options": [
+        "A soil-moisture sensor, a pump, and a paddy field",
+        "A smart meter, a PMU, and a power plant",
+        "A smartphone, a network, and a remote server",
+        "A Hadoop Namenode, Datanode, and Job Tracker"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 15,
+      "question": "Which sensor values are specifically logged in the activity-monitoring demonstration described in the lecture?",
+      "options": [
+        "Accelerometer values",
+        "Soil-moisture values",
+        "Smart-grid voltage phasors",
+        "Water-level values"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

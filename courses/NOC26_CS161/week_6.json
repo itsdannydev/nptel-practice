@@ -1,0 +1,169 @@
+{
+  "title": "Week 6",
+  "description": "Introduction to Python programming, Introduction to Raspberry Pi, Implementation of IoT with Raspberry Pi",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What are the five basic data types available in Python, as introduced in the lecture?",
+      "options": [
+        "Numbers, Strings, List, Tuple, Dictionary",
+        "Integer, Float, Boolean, Char, Byte",
+        "Array, Struct, Class, Object, Set",
+        "Numbers, Strings, Queue, Stack, Graph"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "Which keyword is used to define a function in Python?",
+      "options": [
+        "func",
+        "def",
+        "define",
+        "function"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "In Python's exception handling, which keyword is used to handle an exception raised inside the try block?",
+      "options": [
+        "catch",
+        "except",
+        "handle",
+        "rescue"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which mode of Python's open() function is used to add data to the end of an existing file without erasing its existing content?",
+      "options": [
+        "r (read mode)",
+        "w (write mode)",
+        "a (append mode)",
+        "r+ (read and write mode)"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which Python library, installable via pip, is used for image read/write operations as covered in the lecture?",
+      "options": [
+        "NumPy",
+        "PIL / Pillow",
+        "OpenCV",
+        "Matplotlib"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which socket_type value is used while creating a TCP/IP socket in Python's socket module?",
+      "options": [
+        "SOCK_DGRAM",
+        "SOCK_STREAM",
+        "SOCK_RAW",
+        "SOCK_SEQPACKET"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "How many GPIO pins does the Raspberry Pi 3 Model B have, as shown in the specifications table?",
+      "options": [
+        "26",
+        "32",
+        "40",
+        "44"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is an officially supported operating system for Raspberry Pi mentioned in the lecture?",
+      "options": [
+        "Raspbian",
+        "Windows XP",
+        "macOS",
+        "Solaris"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Raspberry Pi is best described as a:",
+      "options": [
+        "Printer",
+        "Smartphone",
+        "Wi-Fi router",
+        "Single-board computer"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which command is used to install the GPIO library on Raspberry Pi before programming the blinking LED example?",
+      "options": [
+        "sudo apt-get install python-rpi.gpio",
+        "pip install gpio",
+        "sudo apt-get install led-lib",
+        "npm install rpi-gpio"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "Where is the CSI camera connector slot located on the Raspberry Pi board?",
+      "options": [
+        "Between the USB ports",
+        "Between the Ethernet port and the HDMI port",
+        "Next to the power supply pin",
+        "On the underside of the board"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 12,
+      "question": "Which terminal command captures a still image using the Raspberry Pi camera?",
+      "options": [
+        "raspistill -o image.jpg",
+        "raspicam capture",
+        "pi-camera snap",
+        "capture.py --img"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 13,
+      "question": "What does DHT stand for in the DHT sensor used with Raspberry Pi in the auto-cooling system?",
+      "options": [
+        "Digital Heat Transfer",
+        "Digital Humidity and Temperature",
+        "Direct Hardware Trigger",
+        "Dual Humidity Thermostat"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "How many output terminals does the relay used in the temperature-dependent auto-cooling system have, as shown in the lecture?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "State whether the following statement is True or False.\n\nStatement: In the temperature-dependent auto-cooling system, the fan operates when the surrounding temperature rises above the threshold value specified in the code.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

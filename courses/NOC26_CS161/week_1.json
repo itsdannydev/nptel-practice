@@ -1,0 +1,180 @@
+{
+  "title": "Week 1",
+  "description": "Introduction to IoT: Part I, Part II, Sensing, Actuation, Basics of Networking: Part-I",
+  "questions": [
+    {
+      "id": 1,
+      "question": "According to the ITU Internet Report 2005 discussed in the lecture, the future Internet is expected to become wider and more complex mainly because:",
+      "options": [
+        "Humans will completely stop using the Internet",
+        "Most Internet traffic may flow between devices and different kinds of things",
+        "Only desktop computers will remain connected",
+        "Internet communication will be restricted to email services"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which of the following are characteristics of IoT systems?",
+      "options": [
+        "Efficient and scalable architecture",
+        "Unambiguous naming and addressing",
+        "Presence of sleeping nodes, mobile nodes, and non-IP devices",
+        "Guaranteed continuous connectivity for every device at all times"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 3,
+      "question": "In the lecture, “Smart Dust” refers to:",
+      "options": [
+        "A cloud storage model for IoT data",
+        "A large-scale wireless router used in smart cities",
+        "Very tiny computing devices that can be sprayed or injected for sensing purposes",
+        "A type of IPv6 address used in IoT networks"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "Which statement best explains the relation between IoT and M2M communication?",
+      "options": [
+        "IoT and M2M are exactly the same",
+        "M2M is broader than IoT because it includes people and applications",
+        "M2M is a part of IoT, while IoT has a broader scope of interactions",
+        "IoT does not include machine-to-machine interaction"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "State whether the following statement is True or False.\n\nStatement: In the Web of Things, IoT sensors are replaced completely by cloud databases.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "In an IoT network configuration, local addresses may be valid only within a gateway’s domain. The same local address may even appear under another gateway. The main advantage of this strategy is:",
+      "options": [
+        "It increases unnecessary address consumption",
+        "It helps conserve address space",
+        "It removes the requirement of a gateway",
+        "It prevents any device from communicating with the Internet"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of the following functions are associated with IoT gateways in the addressing strategy discussed in the lecture?",
+      "options": [
+        "Providing Internet connectivity",
+        "Supporting IoT LAN intra-connectivity",
+        "Obtaining upstream address prefixes using mechanisms such as DHCPv6",
+        "Delegating addresses to nodes using SLAAC"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is true about IPv6 compared to IPv4?",
+      "options": [
+        "IPv6 uses dotted decimal notation",
+        "IPv6 has a smaller address space than IPv4",
+        "IPv6 uses hexadecimal notation and supports a much larger address space",
+        "IPv6 requires broadcast addresses in the same way as IPv4"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Which statement correctly represents the design expectation from a good sensor?",
+      "options": [
+        "It should influence the measured property significantly",
+        "It should respond strongly to unrelated physical properties",
+        "It should be sensitive to the measured property and should not disturb it",
+        "It should always produce random output"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Which of the following statements about sensor resolution are correct?",
+      "options": [
+        "Sensor resolution is the smallest change that the sensor can detect",
+        "For a digital sensor, resolution is related to the smallest digital output change it can process",
+        "Sensor resolution and sensor accuracy always refer to exactly the same property",
+        "Sensor accuracy does not depend only on resolution"
+      ],
+      "correctOption": [
+        0,
+        1,
+        3
+      ]
+    },
+    {
+      "id": 11,
+      "question": "State True or False.\n\nAn accelerometer that measures acceleration along the x, y, and z coordinate axes is classified as a vector sensor.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 12,
+      "question": "A sensor gives different output for the same input value depending on whether that input was reached by increasing or decreasing the measured quantity. This error is called:",
+      "options": [
+        "Quantization error",
+        "Hysteresis error",
+        "IPv6 translation error",
+        "Gateway prefix error"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "State True or False\n\nA hydraulic actuator can produce considerable force because liquids are nearly incompressible.",
+      "options": [
+        "False",
+        "True"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "Which of the following statements are correct about Shape Memory Polymer actuators?",
+      "options": [
+        "They may respond to stimuli such as light, heat, electrical, magnetic, pH, or moisture changes",
+        "They can show high strain recovery",
+        "They may have properties such as low density and biocompatibility",
+        "They are used only as passive temperature sensors"
+      ],
+      "correctOption": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": 15,
+      "question": "State whether the following statement is True or False.\n\n**Statement:** According to the IoT implementation example discussed in the lecture, data gathered by a sensor travels through a gateway and a proxy server before arriving at the cloud server.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

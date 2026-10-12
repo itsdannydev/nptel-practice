@@ -1,0 +1,170 @@
+{
+  "title": "Week 4",
+  "description": "Sensor Networks: Part III, Part IV, Part V, Part VI, Machine-to-Machine Communications",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does the ultrasonic sensor measure generally in the AID system?",
+      "options": [
+        "Humidity",
+        "Distance of the object",
+        "Soil pH",
+        "Light intensity"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which component processes the data received from the sensors in the AID system?",
+      "options": [
+        "Camera",
+        "NFC tag",
+        "Microcontroller",
+        "Ultrasonic sensor"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "How can standard nanodevices communicate?",
+      "options": [
+        "Electromagnetic communication",
+        "Molecular communication",
+        "Wired Ethernet",
+        "ZigBee communication"
+      ],
+      "correctOption": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "question": "When does sensing coverage guarantee network connectivity?",
+      "options": [
+        "When the transmission range is at least twice the sensing range",
+        "When the sensing range is at least twice the transmission range",
+        "When the transmission and sensing ranges are equal",
+        "When the transmission range is smaller than the sensing range"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is a coverage problem in a static WSN?",
+      "options": [
+        "Area coverage",
+        "Data compression",
+        "Route encryption",
+        "Clock synchronization"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which reporting method is used for forest-fire monitoring in a WSN?",
+      "options": [
+        "Event-driven reporting",
+        "On-demand reporting",
+        "Manual reporting",
+        "Location-based reporting"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "What does a data mule do?",
+      "options": [
+        "Replaces all sensor nodes",
+        "Measures only temperature",
+        "Collects data and carries it to the sink",
+        "Repairs damaged hardware"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "What may happen if a critical stationary sensor node fails?",
+      "options": [
+        "The network may be partitioned",
+        "All nodes become mobile",
+        "The sensing range doubles",
+        "The network repairs itself by movement"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "A person who provides sensing information acts as a:",
+      "options": [
+        "Router",
+        "Radio channel",
+        "Actuator",
+        "Data source"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which is an advantage of a stationary wireless sensor network?",
+      "options": [
+        "Easy topology maintenance",
+        "Automatic movement after node failure",
+        "Continuously changing topology",
+        "Unpredictable sensor locations"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "State whether the following statement is True or False.\n\nStatement: In a UAV network, the network topology may change frequently because the UAVs are mobile.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 12,
+      "question": "Which is a common issue in UAV networks?",
+      "options": [
+        "Frequent topology changes",
+        "Fixed relative positions",
+        "Permanent communication links",
+        "No possibility of UAV failure"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 13,
+      "question": "Compared with traditional SCADA, M2M supports:",
+      "options": [
+        "Only isolated systems",
+        "No device communication",
+        "Continuous human control",
+        "Cross-platform integration"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 14,
+      "question": "State whether the following statement is True or False.\n\nStatement: In a stationary wireless sensor network, sensor nodes can automatically move to restore connectivity after a node failure.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "Which statement best describes M2M communication?",
+      "options": [
+        "Devices can exchange data without direct human control",
+        "Every data exchange must be performed manually",
+        "Only one device can communicate at a time",
+        "Devices cannot communicate through a network"
+      ],
+      "correctOption": 0
+    }
+  ]
+}
