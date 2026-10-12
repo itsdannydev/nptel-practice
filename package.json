@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "validate": "node scripts/validate-courses.mjs",
+    "sitemap": "node scripts/generate-sitemap.mjs",
     "predev": "npm run validate",
     "dev": "vite",
-    "prebuild": "npm run validate",
+    "prebuild": "npm run validate && npm run sitemap",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview"
   },

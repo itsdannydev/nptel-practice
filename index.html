@@ -13,7 +13,9 @@
       name="description"
       content="Practice NPTEL course quizzes by week, in Practice, Quiz, or Mock Test mode. Track your progress locally — no sign-up required."
     />
-    <link rel="canonical" href="https://nptel.danny.co.in/" />
+    <!-- No static canonical here on purpose — each route sets its own via useCanonical(),
+         since this is one shared index.html for every URL now that routing uses real
+         paths (BrowserRouter). See src/lib/useCanonical.ts. -->
 
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://nptel.danny.co.in/" />

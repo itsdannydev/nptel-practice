@@ -1,12 +1,15 @@
 import { Analytics } from '@vercel/analytics/react';
-import { HashRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Link, Outlet, Route, Routes } from 'react-router-dom';
 import CourseList from './pages/CourseList';
 import WeekList from './pages/WeekList';
 import Quiz from './pages/Quiz';
 import MixedQuiz from './pages/MixedQuiz';
 import NotFound from './pages/NotFound';
+import { useCanonical } from './lib/useCanonical';
 
 function Layout() {
+  useCanonical();
+
   return (
     <>
       <header className="site-header">
@@ -33,7 +36,7 @@ function Layout() {
 
 export default function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<CourseList />} />
@@ -44,6 +47,6 @@ export default function App() {
         </Route>
       </Routes>
       <Analytics />
-    </HashRouter>
+    </BrowserRouter>
   );
 }

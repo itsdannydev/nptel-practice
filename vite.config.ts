@@ -43,11 +43,13 @@ function analyticsPlugin(env: Record<string, string>): Plugin {
   };
 }
 
-// base './' + HashRouter lets the built site work from any static host or sub-path.
+// base '/' because routing uses real paths now (BrowserRouter) — a relative base
+// would resolve asset URLs against the current route's path (e.g. /c/<id>/w/1/assets/...)
+// instead of the site root, breaking any page that isn't the homepage.
 export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), 'VITE_');
   return {
-    base: './',
+    base: '/',
     plugins: [react(), analyticsPlugin(env)],
   };
 });

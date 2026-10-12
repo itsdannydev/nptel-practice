@@ -8,12 +8,15 @@ All data is static JSON under `courses/`; progress is stored in the browser's `l
 ```bash
 npm install
 npm run dev        # validates courses/, then starts Vite
-npm run build      # validates, type-checks, builds to dist/
+npm run build      # validates, regenerates sitemap.xml, type-checks, builds to dist/
 npm run validate   # only check the course JSON
+npm run sitemap    # only regenerate public/sitemap.xml
 ```
 
-The build uses `HashRouter` and a relative base, so `dist/` works on any static host
-(GitHub Pages, Netlify, Cloudflare Pages, …) with no server config.
+The build uses `BrowserRouter` with real paths (`/c/<course>`, `/c/<course>/w/<n>`), so each
+course/week has its own crawlable URL. That needs the host to rewrite unknown paths back to
+`index.html` (see `vercel.json`) — on a different static host, add the equivalent rewrite rule
+there, or it's plain 404s on refresh/direct links.
 
 ## Deploying (Vercel) + search/analytics setup
 
@@ -27,10 +30,10 @@ Live at **nptel.danny.co.in**. Steps that need your own accounts (can't be done 
    the record it asks for can vary by plan/region).
 3. **Google Search Console**: add a property for `https://nptel.danny.co.in`, verify
    ownership (HTML-tag or file method is simplest once the site is live), then submit
-   `https://nptel.danny.co.in/sitemap.xml` under Sitemaps. Note: the app uses `HashRouter`
-   (`#/c/...` URLs), which browsers never send to the server — so only the root `/` is a
-   crawlable, indexable page. That's expected; it's also why `sitemap.xml` only lists one
-   URL. Individual course/week pages won't show up as separate search results.
+   `https://nptel.danny.co.in/sitemap.xml` under Sitemaps. `public/sitemap.xml` is
+   regenerated on every build (see `scripts/generate-sitemap.mjs`) from whatever's under
+   `courses/` — one URL per course, plus the root — so a new course becomes indexable as
+   soon as it's deployed; nothing to update by hand.
 4. **Microsoft Clarity**: create a project for the site, copy its Project ID.
 5. **Google Analytics (GA4)**: create a property, copy its Measurement ID (`G-XXXXXXX`).
 6. In Vercel → Settings → Environment Variables, add:
@@ -271,5 +274,5 @@ src/
   components/            QuizSession (one question at a time), Results
 ```
 
-Routes: `#/` → courses, `#/c/<course>` → weeks, `#/c/<course>/w/<n>` → quiz.
+Routes: `/` → courses, `/c/<course>` → weeks, `/c/<course>/w/<n>` → quiz.
 Keyboard in a quiz: `1`–`9` select an option, `Enter` checks the answer / moves on.
