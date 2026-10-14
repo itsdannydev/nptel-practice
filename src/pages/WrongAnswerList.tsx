@@ -1,0 +1,117 @@
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import QuestionText from '../components/QuestionText';
+import { courseLabel, getCourse, loadWeek } from '../lib/courses';
+import { useTitle } from '../lib/useTitle';
+import { getWrongQuestions, type WrongEntry } from '../lib/wrongAnswers';
+import NotFound from './NotFound';
+
+interface ListItem extends WrongEntry {
+  /** Question text as authored in week_N.json; null if that week/id can no longer be found
+   * (course content changed since the mistake was recorded). */
+  questionText: string | null;
+}
+
+/** Read-only view of every wrong answer for this course, most-missed first — the list the
+ * "View wrong answers" link on the course page opens. Practicing happens on the separate
+ * /wrong page; this one is just for browsing what's been missed and how often. */
+export default function WrongAnswerList() {
+  const { courseId } = useParams();
+  const course = getCourse(courseId);
+
+  const [items, setItems] = useState<ListItem[] | null>(null);
+
+  useTitle(course ? `Wrong answers · ${course.name}` : '');
+
+  useEffect(() => {
+    if (!course) return;
+    let cancelled = false;
+    setItems(null);
+
+    const entries = getWrongQuestions(course.id);
+    if (entries.length === 0) {
+      setItems([]);
+      return;
+    }
+
+    const weekNumbers = [...new Set(entries.map((e) => e.weekNumber))];
+    Promise.all(weekNumbers.map((n) => loadWeek(course.id, n)))
+      .then((weeks) => {
+        if (cancelled) return;
+        const textByKey = new Map<string, string>();
+        for (const week of weeks) {
+          if (!week) continue;
+          for (const q of week.questions) {
+            textByKey.set(`${week.number}:${q.id}`, q.question);
+          }
+        }
+        setItems(
+          entries.map((e) => ({
+            ...e,
+            questionText: textByKey.get(`${e.weekNumber}:${e.questionId}`) ?? null,
+          })),
+        );
+      })
+      .catch(() => {
+        if (!cancelled) setItems(entries.map((e) => ({ ...e, questionText: null })));
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [course]);
+
+  if (!course) return <NotFound what="course" />;
+
+  return (
+    <div className="prose">
+      <nav className="crumbs" aria-label="Breadcrumb">
+        <Link to="/">Courses</Link>
+        <span aria-hidden="true"> / </span>
+        <Link to={`/c/${course.id}`}>{courseLabel(course)}</Link>
+      </nav>
+      <h1>Wrong answers</h1>
+      <p className="lede">
+        Every question you've gotten wrong in Quiz or Mock Test mode for this course, most-missed
+        first.
+      </p>
+
+      {items === null && <p className="muted">Loading…</p>}
+      {items && items.length === 0 && (
+        <p className="empty">
+          No wrong answers yet — they'll show up here after a Quiz or Mock Test attempt.
+        </p>
+      )}
+
+      {items && items.length > 0 && (
+        <ol className="review">
+          {items.map((item) => (
+            <li key={`${item.weekNumber}:${item.questionId}`}>
+              <p className="review-week">
+                Week {item.weekNumber} · Q{item.questionId}
+              </p>
+              {item.questionText !== null ? (
+                <QuestionText text={item.questionText} className="review-q" />
+              ) : (
+                <p className="review-q muted">
+                  Question no longer available — course content may have changed.
+                </p>
+              )}
+              <span className="badge bad">
+                got wrong {item.count} {item.count === 1 ? 'time' : 'times'}
+              </span>
+            </li>
+          ))}
+        </ol>
+      )}
+
+      <div className="actions">
+        <Link to={`/c/${course.id}/wrong`} className="btn primary">
+          Practice these
+        </Link>
+        <Link to={`/c/${course.id}`} className="btn">
+          Back to {course.name}
+        </Link>
+      </div>
+    </div>
+  );
+}

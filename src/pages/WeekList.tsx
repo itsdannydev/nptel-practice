@@ -110,11 +110,14 @@ export default function WeekList() {
       <h1>{courseLabel(course)}</h1>
 
       {wrongCount > 0 && (
-        <p className="wrong-answer-entry">
+        <div className="wrong-answer-entry">
           <Link to={`/c/${course.id}/wrong`} className="btn">
             Practice wrong answers <span className="badge bad">{wrongCount}</span>
           </Link>
-        </p>
+          <Link to={`/c/${course.id}/wrong/list`} className="btn">
+            View wrong answers
+          </Link>
+        </div>
       )}
 
       <div className="week-toolbar">

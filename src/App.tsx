@@ -5,6 +5,7 @@ import WeekList from './pages/WeekList';
 import Quiz from './pages/Quiz';
 import MixedQuiz from './pages/MixedQuiz';
 import WrongAnswerPractice from './pages/WrongAnswerPractice';
+import WrongAnswerList from './pages/WrongAnswerList';
 import NotFound from './pages/NotFound';
 import { useCanonical } from './lib/useCanonical';
 
@@ -44,6 +45,7 @@ export default function App() {
           <Route path="c/:courseId" element={<WeekList />} />
           <Route path="c/:courseId/mixed" element={<MixedQuiz />} />
           <Route path="c/:courseId/wrong" element={<WrongAnswerPractice />} />
+          <Route path="c/:courseId/wrong/list" element={<WrongAnswerList />} />
           <Route path="c/:courseId/w/:week" element={<Quiz />} />
           <Route path="*" element={<NotFound />} />
         </Route>
