@@ -49,8 +49,14 @@ Live at **nptel.danny.co.in**. Steps that need your own accounts (can't be done 
    want it. (They're injected as static tags rather than loaded at runtime via JS because
    gtag.js silently drops its own tracking hit when it detects a dynamically-inserted
    script tag instead of one present in the parsed HTML — confirmed by testing directly.)
-7. *(Optional, worth it)* **UptimeRobot** (free): add a monitor for
-   `https://nptel.danny.co.in`. Neither of the above tracks uptime — this is the actual
+7. **Vercel Web Analytics**: the `@vercel/analytics` package and `<Analytics />` component
+   are already wired into `src/App.tsx` — no env var needed. It just needs enabling once in
+   the Vercel dashboard: Project → Analytics tab → Enable. Tracks page views via
+   `pushState`/route changes, same as GA4, so it only sees real per-route navigation now
+   that routing uses `BrowserRouter` (see above) — it wouldn't have worked under the old
+   `HashRouter`.
+8. *(Optional, worth it)* **UptimeRobot** (free): add a monitor for
+   `https://nptel.danny.co.in`. None of the above track uptime — this is the actual
    source if you want a real uptime number/status page to cite.
 
 ## Adding content
@@ -265,13 +271,21 @@ from this conversation and the attached screenshots.
 ## Layout
 
 ```
-courses/                 quiz content (JSON)
-scripts/validate-courses.mjs
+courses/                     quiz content (JSON)
+vercel.json                  SPA rewrite (unknown paths → index.html) for BrowserRouter
+scripts/
+  validate-courses.mjs       checks everything under courses/
+  generate-sitemap.mjs       regenerates public/sitemap.xml from courses/ (runs pre-build)
 src/
-  lib/courses.ts         discovers courses/weeks via import.meta.glob, normalizes questions
-  lib/progress.ts        localStorage progress (best score, attempts, missed ids)
-  pages/                 CourseList, WeekList, Quiz
-  components/            QuizSession (one question at a time), Results
+  lib/
+    courses.ts               discovers courses/weeks via import.meta.glob, normalizes questions
+    progress.ts              localStorage progress (best score, attempts, missed ids)
+    shuffle.ts                question/option randomization
+    useTitle.ts, useCanonical.ts   per-route <title> and <link rel="canonical">
+  pages/                     CourseList, WeekList, Quiz, MixedQuiz, NotFound
+  components/
+    QuizRunner               picks Practice vs Quiz session by mode, then Results
+    PracticeSession, QuizSession, QuestionText, Results, ModeInfoButton
 ```
 
 Routes: `/` → courses, `/c/<course>` → weeks, `/c/<course>/w/<n>` → quiz.
