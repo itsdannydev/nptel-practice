@@ -49,7 +49,12 @@ export default function MixedQuiz() {
           // Question ids are only unique within a week, so make them unique across the
           // merged set (also used as React keys and in the review/missed-ids list).
           for (const q of week.questions) {
-            merged.push({ ...q, id: week.number * 1000 + q.id, sourceWeek: week.number });
+            merged.push({
+              ...q,
+              id: week.number * 1000 + q.id,
+              originalId: q.id,
+              sourceWeek: week.number,
+            });
           }
         }
         setPool(merged);

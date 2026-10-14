@@ -4,6 +4,7 @@ import ModeInfoButton from '../components/ModeInfoButton';
 import { courseLabel, getCourse, loadWeek } from '../lib/courses';
 import { QUIZ_MODE_LABELS, QUIZ_MODES, type QuizMode, type Week } from '../lib/types';
 import { useTitle } from '../lib/useTitle';
+import { countWrongQuestions } from '../lib/wrongAnswers';
 import NotFound from './NotFound';
 
 export default function WeekList() {
@@ -18,8 +19,13 @@ export default function WeekList() {
   // order stays put by default, since a shuffled "All of the above" stops making sense.
   const [randomizeQuestions, setRandomizeQuestions] = useState(true);
   const [randomizeOptions, setRandomizeOptions] = useState(false);
+  const [wrongCount, setWrongCount] = useState(0);
 
   useTitle(course?.name ?? '');
+
+  useEffect(() => {
+    if (course) setWrongCount(countWrongQuestions(course.id));
+  }, [course]);
 
   useEffect(() => {
     if (!course) return;
@@ -102,6 +108,14 @@ export default function WeekList() {
         <Link to="/">Courses</Link>
       </nav>
       <h1>{courseLabel(course)}</h1>
+
+      {wrongCount > 0 && (
+        <p className="wrong-answer-entry">
+          <Link to={`/c/${course.id}/wrong`} className="btn">
+            Practice wrong answers <span className="badge bad">{wrongCount}</span>
+          </Link>
+        </p>
+      )}
 
       <div className="week-toolbar">
         <p className="lede">{course.code} · select one or more weeks, then generate a quiz.</p>

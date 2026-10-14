@@ -280,9 +280,10 @@ src/
   lib/
     courses.ts               discovers courses/weeks via import.meta.glob, normalizes questions
     progress.ts              localStorage progress (best score, attempts, missed ids)
+    wrongAnswers.ts          localStorage per-question wrong-answer counts (Quiz/Mock only)
     shuffle.ts                question/option randomization
     useTitle.ts, useCanonical.ts   per-route <title> and <link rel="canonical">
-  pages/                     CourseList, WeekList, Quiz, MixedQuiz, NotFound
+  pages/                     CourseList, WeekList, Quiz, MixedQuiz, WrongAnswerPractice, NotFound
   components/
     QuizRunner               picks Practice vs Quiz session by mode, then Results
     PracticeSession, QuizSession, QuestionText, Results, ModeInfoButton

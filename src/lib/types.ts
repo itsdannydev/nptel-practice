@@ -37,6 +37,9 @@ export interface Question {
   multi: boolean;
   /** Which week this question came from; set only in a mixed (multi-week) quiz */
   sourceWeek?: number;
+  /** The id as authored in week_N.json, when `id` has been remapped to stay unique across
+   *  a merged multi-week pool (mixed quiz, wrong-answer practice). */
+  originalId?: number;
 }
 
 export interface AnswerResult {

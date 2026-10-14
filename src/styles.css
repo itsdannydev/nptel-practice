@@ -190,6 +190,10 @@ h3 {
   margin: 0;
 }
 
+.wrong-answer-entry {
+  margin: 0 0 20px;
+}
+
 .muted {
   color: var(--muted);
 }
@@ -266,6 +270,13 @@ h3 {
   padding: 0 8px;
   font-size: 0.8rem;
   font-weight: 600;
+}
+
+/* Still answer-correctness, just the inverse count — a tally of wrong answers, not a
+ * generic "bad" status, so this stays within the ok/bad-are-correctness-only rule. */
+.badge.bad {
+  background: var(--bad-bg);
+  color: var(--bad);
 }
 
 /* Week grid: responsive boxes (3 per row at the container's full width,
