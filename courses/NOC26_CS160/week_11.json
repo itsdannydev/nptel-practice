@@ -1,0 +1,171 @@
+{
+  "title": "Week 11",
+  "description": "IIoT applications in healthcare, power plants, inventory management, plant safety and security, and facility management",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is one of the primary benefits of IIoT in healthcare?",
+      "options": [
+        "Increasing the number of hospital visits",
+        "Remote monitoring of patient health conditions",
+        "Limiting the use of wearable healthcare devices",
+        "Reducing the need for medical data storage"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Which IoT-enabled device is used for continuous glucose level monitoring?",
+      "options": [
+        "QardioCore",
+        "Dexcom Glucose Sensor",
+        "iHealth BP5",
+        "Kinsa Smart Thermometer"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Which IIoT device monitors body temperature using wearable sensors?",
+      "options": [
+        "Kinsa Smart Thermometer",
+        "Dexcom Glucose Sensor",
+        "iHealth BP5",
+        "ADAMM Intelligent Asthma Monitor"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Which of the following ensures that medical data is not accessible by unauthorized users?",
+      "options": [
+        "Integrity",
+        "Authentication",
+        "Confidentiality",
+        "Availability"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "What is a major benefit of smart metering in IIoT?",
+      "options": [
+        "Reduces operational costs by enabling remote management",
+        "Increases the chance of energy loss",
+        "Eliminates the need for grid optimization",
+        "Limits data collection from power systems"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "What is a key advantage of Advanced Metering Infrastructure (AMI)?",
+      "options": [
+        "Prevents broadband and radio frequency communications",
+        "Enables smart meters to collect and transmit energy consumption data",
+        "Eliminates the need for automated power distribution",
+        "Reduces the effectiveness of metering data management"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "How does IIoT benefit the wind energy sector?",
+      "options": [
+        "Predicts turbine issues before large-scale damage occurs",
+        "Prevents automation in remote power plants",
+        "Increases the difficulty of maintaining remote turbines",
+        "Disables predictive maintenance in wind farms"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT a key function of Inventory Management?",
+      "options": [
+        "Decouple components of the production-distribution system",
+        "Hedge against price increases or take advantage of quantity discounts",
+        "Eliminating stock monitoring",
+        "Smoothen the flow of operations"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "What type of RFID tag has an onboard battery but no active transmitter?",
+      "options": [
+        "Active RFID Tag",
+        "Passive RFID Tag",
+        "Semi-Passive RFID Tag",
+        "Dynamic RFID Tag"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is NOT true about RFID tags?",
+      "options": [
+        "RFID tags can store additional information like temperature and damage status.",
+        "RFID tags require a line-of-sight for data reading.",
+        "RFID tags are used for product identification and visibility.",
+        "RFID tags have better security compared to barcodes."
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 11,
+      "question": "Which network security measure is used to detect and prevent malware?",
+      "options": [
+        "Access control",
+        "Antivirus and antimalware software",
+        "Virtual Private Network",
+        "Data encryption"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is not a key feature of AR?",
+      "options": [
+        "AR creates the perception of a mixed reality spectrum.",
+        "AR produces an enhanced view of the real world using multiple sensory modalities – auditory, haptic, somatosensory, olfactory, and visual.",
+        "AR completely replaces the real-world environment with a fully virtual space.",
+        "AR utilizes the existing physical environment and overlays additional useful information on top of it."
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "How does IoT enhance security in facility management?",
+      "options": [
+        "By monitoring alarms, smoke detectors, and life safety systems remotely",
+        "By disconnecting emergency response systems",
+        "By preventing real-time access to security alerts",
+        "By limiting surveillance capabilities in buildings"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is NOT a type of network security?",
+      "options": [
+        "Intrusion prevention systems",
+        "Firewalls",
+        "Mobile device security",
+        "Manual error tracking"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT a component of an RFID system?",
+      "options": [
+        "RFID reader",
+        "Antenna",
+        "Integrated Circuit Card (ICC)",
+        "RFID tag or smart label"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

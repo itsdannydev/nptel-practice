@@ -1,0 +1,171 @@
+{
+  "title": "Week 3",
+  "description": "Industry 4.0: cyber-physical systems, next-gen sensors, PLM, AR/VR, AI, and big data analytics",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the main difference between Embedded Systems and Cyber-Physical Systems (CPS)?",
+      "options": [
+        "Embedded systems are standalone devices, whereas CPS are networked systems.",
+        "CPS have limited resources, while embedded systems are not resource constrained.",
+        "Main issues of Embedded Systems are timing and concurrency while the main issues of CPS are real-time response and reliability",
+        "CPS lack physical components, while embedded systems include them."
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "What does \"reactive computation\" in CPS signify?",
+      "options": [
+        "Systems with zero response time",
+        "Interaction with the environment in an ongoing manner",
+        "Predefined computation processes",
+        "Complete isolation from physical feedback"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Fill in the blanks. In healthcare applications, CPS is used for _____.",
+      "options": [
+        "Image-guided surgery and therapy",
+        "Manual monitoring of vitals",
+        "Static hospital management systems",
+        "Front desk management"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "Which programming language developed in 1958 aided the evolution of Artificial Intelligence?",
+      "options": [
+        "Python",
+        "Lisp",
+        "Java",
+        "Prolog"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "Which level in the \"5C Architecture\" ensures the gathering of precise status information of machines?",
+      "options": [
+        "Conversion",
+        "Cognition",
+        "Cyber",
+        "Configuration"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "Fill in the blanks. Intelligent sensors are capable of _____.",
+      "options": [
+        "Only sensing data",
+        "Processing sensed data and managing external sensors/devices",
+        "Limited communication",
+        "Basic analog-to-digital conversion"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "What are the five phases of product lifecycle as per PLM in Industry 4.0?",
+      "options": [
+        "Visualize, Explain, Perceive, Support, Retire",
+        "Research, Design, Marketing, Distribution, Recycling",
+        "Ideation, Manufacturing, Expansion, Customer Feedback, Upgradation",
+        "Requirement Analysis, Development, Testing, Deployment, Maintenance"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "How many steps are there in the PLM solution approach in Industry 4.0?",
+      "options": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is not a key component of an AR Device?",
+      "options": [
+        "Sensors",
+        "Cameras",
+        "Projection Screen",
+        "Remote Control"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which of the following statements is incorrect?",
+      "options": [
+        "Deep Learning is a subset of Machine Learning",
+        "Deep Learning is a subset of Artificial Intelligence",
+        "Machine Learning is a superset of Artificial Intelligence",
+        "Artificial Intelligence is a superset of Machine Learning"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a challenge of AI in IIoT?",
+      "options": [
+        "Connecting devices",
+        "Understanding data",
+        "Training AI models",
+        "Lack of available data"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "What is the primary purpose of data preprocessing in Big Data analytics?",
+      "options": [
+        "To store data without modification",
+        "To remove noises and redundancies before analysis",
+        "To generate fake data for testing purposes",
+        "To visualize trends before collection"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "What type of analytics is used to predict future trends based on historical data patterns?",
+      "options": [
+        "Descriptive Analytics",
+        "Diagnostic Analytics",
+        "Predictive Analytics",
+        "Prescriptive Analytics"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is not one of the primary constraints of mobile CPS?",
+      "options": [
+        "Stability of the network",
+        "Power requirement",
+        "Security",
+        "Design aesthetics"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 15,
+      "question": "What are the components of the 5C architecture for CPS?",
+      "options": [
+        "Connection, Conversion, Cyber, Cognition, Configuration",
+        "Creation, Controlling, Continuation, Convergence, Compatibility",
+        "Calculation, Catalysis, Convergence, Convenience, Cognizance",
+        "None of these"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

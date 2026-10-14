@@ -1,0 +1,169 @@
+{
+  "title": "Week 8",
+  "description": "IIoT big data analytics, machine learning and data science, and IoT cloud platforms",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a key characteristic of Big Data Analytics in IIoT?",
+      "options": [
+        "Volume",
+        "Velocity",
+        "Veracity",
+        "Validation"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "Which software is commonly used for batch-oriented analytics?",
+      "options": [
+        "C++ and Java",
+        "Apache Hadoop and Apache Spark",
+        "Pandas and Numpy",
+        "MongoDB and MySQL"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT a fundamental type of IIoT Analytics?",
+      "options": [
+        "Descriptive Analytics",
+        "Predictive Analytics",
+        "Prescriptive Analytics",
+        "Structural Analytics"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "Which machine learning algorithm enables machines to improve their performance by automatically learning the ideal behaviors for a specific environment?",
+      "options": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning",
+        "Regression"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following represents a key feature of Fuzzy c-Means clustering?",
+      "options": [
+        "A data point can belong to more than one cluster",
+        "A data point belongs strictly to only one cluster",
+        "Extremely slower than K-Means",
+        "None of these"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is TRUE about the ThingWorx platform?",
+      "options": [
+        "Perform complex analytical process",
+        "Deliver real-time perception",
+        "Has the ability to monitor the condition",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "State True or False. Deep learning is an “end-to-end learning”, which extracts features on its own. On the contrary, in machine learning, features are to be explicitly mentioned.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Which of the following statements is TRUE about machine learning (ML)?",
+      "options": [
+        "ML is the subset of AI that can learn automatically from the object features",
+        "ML is the subset of DL which can learn automatically by finding the features of the object on its own",
+        "ML always performs better than Deep Learning models",
+        "ML can only be used for image recognition tasks"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Which of the following statements about MindSphere is incorrect?",
+      "options": [
+        "Cloud-based operating system platform for IoT",
+        "Open safety-as-a-service",
+        "Bring together IoT data from products, factories, machines, and systems to exploit its prosperity",
+        "Enterprise oriented solutions"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is/are key characteristic(s) of a Consumer IoT cloud platform?",
+      "options": [
+        "Provide very specific applications for end users",
+        "Provide modest security",
+        "Generally cost-sensitive",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a fundamental cloud computing service?",
+      "options": [
+        "Software-as-a-Service",
+        "Platform-as-a-Service",
+        "ERP-as-a-Service",
+        "Infrastructure-as-a-Service"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 12,
+      "question": "Which of the following services is NOT provided by C3 IoT?",
+      "options": [
+        "Predictive Maintenance",
+        "Inventory Optimization",
+        "IoT Hardware Analysis",
+        "Fraud Detection"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following cloud platform providers does not offer IIoT device management services?",
+      "options": [
+        "Bosch IoT Remote Manager",
+        "Facebook Cloud Services",
+        "AWS’s IoT Device Management",
+        "ICP DAS’s IoTstar"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "What does \"Variety\" refer to in the context of data generation?",
+      "options": [
+        "The speed at which data is generated",
+        "The amount of data generated",
+        "The format of data generated, such as structured, semi-structured, or unstructured",
+        "The accuracy and reliability of data generated"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 15,
+      "question": "What does the 'K' in K-means clustering represent?",
+      "options": [
+        "Number of features in the dataset",
+        "Number of clusters to be identified",
+        "Maximum iterations allowed in the process",
+        "Number of data points in each cluster"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

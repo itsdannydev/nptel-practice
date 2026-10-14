@@ -1,0 +1,167 @@
+{
+  "title": "Week 5",
+  "description": "IIoT introduction, IIoT business models, and the Industrial Internet Reference Architecture",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a key sector of Industry 4.0?",
+      "options": [
+        "Smart robotics",
+        "Smart Warehousing",
+        "Intelligent manufacturing",
+        "Paper-Based Inventory Management"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "What is a key advantage of the Outcome-Based Model in IoT business?",
+      "options": [
+        "Decreased profit margin",
+        "Increased negotiation cycle",
+        "Higher customer satisfaction",
+        "Increased risks"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Which layer in the Industrial Internet Reference Architecture (IIRA) implements domain-specific applications and decision support systems and provides interfaces to end-users?",
+      "options": [
+        "Edge Layer",
+        "Enterprise Layer",
+        "Platform Layer",
+        "Gateway Layer"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is NOT a component of IIoT business models?",
+      "options": [
+        "Value Proposition",
+        "Value Capturing Mechanism",
+        "Value Extraction Model",
+        "Value Communication"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "What is the primary purpose of a Cloud-Based Business Model in IIoT?",
+      "options": [
+        "Selling software licenses",
+        "Leasing cloud computing resources temporarily",
+        "Manufacturing industrial equipment",
+        "Increasing industrial workforce requirements"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Fill in the blanks. Based on the leading and lagging Occupational Safety and Health (OSH) indicators, Key Performance Indicators (KPIs) are also categorized into _____ and __________.",
+      "options": [
+        "Leading KPI and Lagging KPI",
+        "Low KPI and High KPI",
+        "Level KPI and ground KPI",
+        "None of these"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT one of the four viewpoints in the Industrial Internet Reference Architecture (IIRA)?",
+      "options": [
+        "Business viewpoint",
+        "Usage viewpoint",
+        "Functional viewpoint",
+        "Financial viewpoint"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "State true or false. In the Usage Viewpoint of IIRA, “Task” is a basic unit of work carried out by a party assuming a role.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is a challenge uniquely associated with asset-sharing IoT business models?",
+      "options": [
+        "Profit margin",
+        "Asset configuration",
+        "Scalability",
+        "Resource utilization"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "What are the key revenue models in a Cloud-Based Business Model?",
+      "options": [
+        "Direct product sales, Leasing, Licensing",
+        "Pay-per-use, Subscription fees, Advertisement",
+        "One-time installation charges, Maintenance fees, Donations",
+        "Mass production, Bulk discounts, Customer referrals"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is an advantage of the subscription-based IoT business model?",
+      "options": [
+        "Reduced operational complexity",
+        "Predictable, recurring revenue streams",
+        "Lack of customer interaction",
+        "Fixed pricing for all customers"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is/are types of business models for IoT?",
+      "options": [
+        "Subscription Model",
+        "Outcome-Based Model",
+        "Asset-Sharing Model",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 13,
+      "question": "What is a major benefit of the layered databus pattern in IIRA?",
+      "options": [
+        "Increased data redundancy",
+        "Rapid device-to-device integration with minimal response time",
+        "Elimination of automation in industrial systems",
+        "Decentralized data storage without communication"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 14,
+      "question": "State true or false. Lack of interoperability, data privacy, security issues, and authentication of data at the organizational level are some of the major challenges of IIoT-based business models.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT a standard IIoT reference architecture?",
+      "options": [
+        "Three-tier IIoT architecture",
+        "Gateway-based IIoT architecture",
+        "Layered Databus IIoT architecture",
+        "Sixty four-tier IIoT architecture"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

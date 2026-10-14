@@ -1,0 +1,171 @@
+{
+  "title": "Week 12",
+  "description": "IIoT in oil, chemical and pharmaceutical industries, UAV applications, and real-world case studies",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a benefit of IoT in the oil and gas industry?",
+      "options": [
+        "Improving work safety",
+        "Enhancing production efficiency",
+        "Eliminating equipment maintenance",
+        "Saving cost and time"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "What is a key application of IoT sensors in the pharmaceutical industry?",
+      "options": [
+        "Detecting adverse drug reactions (ADR)",
+        "Eliminate utilization of equipment",
+        "Increasing production costs intentionally",
+        "Avoiding remote control of equipment"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "Which of the following cannot be achieved by performing condition-based monitoring using IoT?",
+      "options": [
+        "Predicting quality through continuous monitoring",
+        "Analytics-based weather prediction and its impact on farming",
+        "Adjust the amount of required material",
+        "Eliminating pricing models entirel"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 4,
+      "question": "How does IoT improve logistics for industries?",
+      "options": [
+        "Preventing product location tracking with sensors or RFID tags",
+        "Ensuring contamination detection and alert notifications",
+        "Avoiding warehouse monitoring altogether",
+        "Ignoring asset tracking to prevent loss"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "How does IoT contribute to reducing energy expenses in industries?",
+      "options": [
+        "By analyzing real-time data to identify inefficiencies",
+        "By increasing regulatory control burdens",
+        "By avoiding usage pattern analysis",
+        "By ignoring energy usage optimization"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following can be achieved by using IoT in the chemical industry?",
+      "options": [
+        "Reduction in Energy Expenses",
+        "Predictive Maintenance",
+        "Improve Logistics",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "Which generation of UAVs introduced transformable designs, 1080 HD video, and three-axis gimbals?",
+      "options": [
+        "Second Generation",
+        "Fourth Generation",
+        "Fifth Generation",
+        "Sixth Generation"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "How do UAVs help in the mining industry?",
+      "options": [
+        "Digging entire tunnels",
+        "Managing stockpiles and grading control",
+        "Operating drilling machinery",
+        "Refining extracted minerals"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "How do UAVs help in agriculture?",
+      "options": [
+        "Monitor crop stress factors like over-fertilization or drought",
+        "Reduce human labor completely",
+        "Eliminate the need for fertilizers",
+        "Increase soil erosion"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "What is a major advantage(s) of UAVs in telecommunication?",
+      "options": [
+        "Monitor towers from any angle and height",
+        "Covers wide areas with less cost",
+        "Broadcasting live events",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is most suitable for scanning a huge number of items in a warehouse, checking the missing items, and monitoring full inventory?",
+      "options": [
+        "Unmanned Aerial Vehicle (UAV)",
+        "Automated Guided Vehicle (AGV)",
+        "Autonomous Underwater Vehicle (AUV)",
+        "Segway"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 12,
+      "question": "Which generation of UAVs introduced transformable designs with 360° gimbals and high-quality video instrumentation?",
+      "options": [
+        "Third Generation",
+        "Fourth Generation",
+        "Fifth Generation",
+        "Sixth Generation"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT an application of UAVs in forestry?",
+      "options": [
+        "Conducting forestry surveys to show information about forest species, including the humans around the forest",
+        "Precision forestry and canopy mapping for measuring canopy height, density, and volume estimation",
+        "Tracking wildland fires",
+        "Eradicating endangered species"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 14,
+      "question": "What is one of the primary applications of UAVs in construction sites?",
+      "options": [
+        "Painting buildings",
+        "Monitoring job sites",
+        "Replacing construction workers",
+        "Manufacturing construction materials"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is/are FALSE about the necessity of case studies?",
+      "options": [
+        "The case study investigates real-life phenomena through a detailed analysis of related events.",
+        "The case study generally selects a vast geographical area or a large number of individuals as the subject matter.",
+        "Both (a) and (b)",
+        "None of these"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

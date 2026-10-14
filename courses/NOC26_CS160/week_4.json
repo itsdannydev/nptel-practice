@@ -1,0 +1,170 @@
+{
+  "title": "Week 4",
+  "description": "Cybersecurity in Industry 4.0, industrial processes, industrial sensing and actuation, and industrial internet systems",
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the primary purpose of SCADA in industrial applications?",
+      "options": [
+        "Control and monitoring of physical processes",
+        "Designing sensors for manufacturing",
+        "Manual intervention in industrial processes",
+        "Eliminating all automation"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "What is the function of WSANs in industrial processes?",
+      "options": [
+        "Manual sensor installation",
+        "Integration of sensors and actuators with wireless networks",
+        "Replacing traditional data systems",
+        "Eliminating automated controls"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "What does cybersecurity primarily aim to protect?",
+      "options": [
+        "Physical security",
+        "Internet-connected systems, including hardware, software, and data",
+        "Standalone software applications",
+        "Manual data handling systems"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which industrial sector benefits from advanced analytics using the Industrial Internet?",
+      "options": [
+        "Healthcare",
+        "Oil and Gas",
+        "Rail Transportation",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 5,
+      "question": "Cyber Physical systems comprises which of the following layers?",
+      "options": [
+        "Control Layer, Cognitive Layer, Cyber Layer, Conversion Layer and Connection Layer",
+        "Sensing Layer, Edge Computing Layer, Cloud Layer, Decision-Making Layer, and Execution Layer",
+        "Detection Layer, Data Processing Layer, Connectivity Layer, Automation Layer, and User Interaction Layer",
+        "Edge Computing Layer, Automation Layer, Detection Layer, Decision-Making Layer, and Device Layer"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is not a differentiator between IIoT and Automation?",
+      "options": [
+        "Ubiquitous sensing",
+        "Advanced analytics",
+        "IT tools and methodologies",
+        "None of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "In the context of Cybersecurity for Industry 4.0, what does SDCMA stand for?",
+      "options": [
+        "Secure Data and Cloud Management Architecture",
+        "Software-Defined Cloud Manufacturing Architecture",
+        "Smart Digital Cloud Monitoring Algorithm"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Fill in the blank. According to GE, _____ can be defined as “the association of the global industrial system with low-cost sensing, interconnectivity through internet, high-level computing and analytics",
+      "options": [
+        "Industrial Internet",
+        "Internet of Things",
+        "M2M Communication",
+        "SCADA"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "What are the three key elements of the Industrial Internet?",
+      "options": [
+        "Connected Devices, Ubiquitous Sensing, and Cloud Computing",
+        "Intelligent Machines, Advanced Analytics, and People at work",
+        "5G Networks, Quantum Computing, and Virtual Reality",
+        "Autonomous Robots, Blockchain, and Cloud Gaming"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "What is Multisensing?",
+      "options": [
+        "Ability to sense multiple parameters at a single sensor node",
+        "Using multiple sensors to measure a single parameter",
+        "A network of distributed sensors communicating wirelessly",
+        "Ability to process sensor data using artificial intelligence"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is not an advantage of WSANs?",
+      "options": [
+        "Preinstalled infrastructure",
+        "Network self-organization",
+        "Easy sensor & Actuator deployment",
+        "Does not require any power source to operate"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is a major challenge for industrial processes in Industry 4.0?",
+      "options": [
+        "Decreasing demand for automation",
+        "Unlimited availability of skilled workers",
+        "Constrained workforce and resource utilization",
+        "Reduced need for supply chain management"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "What is a key benefit of an autonomous pull economy in Industrial Process 4.0?",
+      "options": [
+        "High waste generation",
+        "Complete manual supervision",
+        "End-to-end automation facility",
+        "Lack of updated demand information"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 14,
+      "question": "Which of the following represents the basic components of a SCADA system?",
+      "options": [
+        "Programmable Logic Controllers (PLC) and Remote Terminal Units (RTU)",
+        "Supervisory System",
+        "Communication Infrastructure",
+        "All of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 15,
+      "question": "According to IEEE 1451 standards, how is a smart sensor defined?",
+      "options": [
+        "Sensor with limited memory and no communication capabilities",
+        "Sensor with small memory and standardized physical connection to enable communication with the processor and data network",
+        "A basic sensor without processing or networking capabilities",
+        "Sensor that only works in standalone mode without network integration"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

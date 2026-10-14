@@ -1,0 +1,169 @@
+{
+  "title": "Week 10",
+  "description": "Software-defined IIoT, security in IIoT, and applications in factories, assembly lines, and the food industry",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a component of the SDIIoT architecture?",
+      "options": [
+        "SDIIoT – WSN",
+        "SDIIoT – Industrial Bus & Network",
+        "SDIIoT – ERP Framework",
+        "SDIIoT – Industrial Cloud"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is NOT a component of SD-Edge IIoT Architecture?",
+      "options": [
+        "Cluster Head",
+        "Industrial Cloud",
+        "Edge Network",
+        "Standalone Firewall"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT a key attribute of trustworthy IIoT?",
+      "options": [
+        "Reliability",
+        "Security",
+        "Unlimited network access",
+        "Privacy"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "Which of the following is an example of an IIoT attack at the physical layer?",
+      "options": [
+        "SQL injection",
+        "Device tampering",
+        "Traffic flooding",
+        "Man-in-the-middle attack"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "What does the STRIDE threat model in IIoT security stand for?",
+      "options": [
+        "Spoofing, Tampering, Repudiation, Information Disclosure, Denial of Service, Elevation of Privilege",
+        "Secure Transmission, Reliable Data, Industrial Deployment, Encryption",
+        "Software, Tracking, Response, Integration, Data, Encryption",
+        "Security Threats, Risk Identification, Detection, Evaluation"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Which of the following is an attack vector in the network layer of IIoT?",
+      "options": [
+        "SQL injection",
+        "Traffic flooding",
+        "Jamming attack",
+        "Data spoofing"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT a building block of IIoT security?",
+      "options": [
+        "Cloud security",
+        "Data protection",
+        "Physical network topologies",
+        "Communication Protection"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "Which of the following standards is related to Industrial automation and control systems security?",
+      "options": [
+        "ISO/IEC 154083",
+        "IEC 62443",
+        "ISO 27017",
+        "NIST SP 800-144"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a key principle of data protection in IIoT?",
+      "options": [
+        "Confidentiality",
+        "Integrity",
+        "Availability",
+        "Unrestricted access"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "State true or false. Caterpillar’s AR app generates an end-to-end view of the factory floor, enabling machine operators to detect tool replacement needs and send instructions for replacement.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a key feature of a Smart Factory?",
+      "options": [
+        "Continuous real-time data",
+        "Prediction of future outcomes for taking preventive actions",
+        "High manual operation",
+        "Flexibility and adaptability"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 12,
+      "question": "Which of the following statements is INCORRECT about Fanuc – Zero Downtime System?",
+      "options": [
+        "Is a robot maker",
+        "Uses predictive maintenance to reduce downtime",
+        "Does not predict component failure",
+        "Performs cloud-based analytics with the help of in-built sensors"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "What is the purpose of SmartLabel in the food industry?",
+      "options": [
+        "To provide consumers with product-related information via QR codes",
+        "To remove ingredient details from food packaging",
+        "To eliminate allergen warnings for consumers",
+        "To prevent transparency in the food supply chain"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 14,
+      "question": "Which of the following devices is primarily used to detect the presence of microbial disease in food?",
+      "options": [
+        "Diagenetix-BioRanger",
+        "Eskesso–The Cooking Sorcery",
+        "Intellicup–Smart Cups",
+        "Intellicup–The Cooking Sorcery"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 15,
+      "question": "What is the unique feature of Spinn Inc.’s smart coffee machines?",
+      "options": [
+        "They connect with Amazon Echo and have an auto-order feature",
+        "They remove automation from coffee brewing",
+        "They require manual input for all brewing processes",
+        "They prevent connectivity with IoT platforms"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

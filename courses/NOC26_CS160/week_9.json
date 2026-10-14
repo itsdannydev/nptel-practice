@@ -1,0 +1,169 @@
+{
+  "title": "Week 9",
+  "description": "SDN in IIoT, data center networks, cloud computing in IIoT, plus fog computing and R/Julia programming",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following can be rendered by the fog-enabled IIoT?",
+      "options": [
+        "Real-time monitoring and visualization",
+        "End-to-end security",
+        "Scalability and flexibility",
+        "All of these"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a Fog Computing platform provider?",
+      "options": [
+        "Netflix",
+        "FogHorn",
+        "Google Search",
+        "Twitter Analytics"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "What is the primary use of the R programming language?",
+      "options": [
+        "ERP data handling",
+        "Statistical analysis and data visualization",
+        "SDN security provisioning",
+        "Mobile application development"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which operator in R is used to obtain the remainder of a division?",
+      "options": [
+        "/",
+        "%/%",
+        "%%",
+        "^"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is NOT a data type in R?",
+      "options": [
+        "Logical",
+        "Integer",
+        "Binary",
+        "Complex"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "What is the function of the ‘caret’ package in R?",
+      "options": [
+        "Provides functions for network security",
+        "Provides functions for creating predictive models",
+        "Manages file system operations",
+        "Helps in game development"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "In Julia programming language, which of the following is used for string interpolation?",
+      "options": [
+        "&",
+        "%",
+        "$",
+        "@"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT a basic service model of cloud computing?",
+      "options": [
+        "Infrastructure-as-a-Service (IaaS)",
+        "Platform-as-a-Service (PaaS)",
+        "Software-as-a-Service (SaaS)",
+        "Analytics-as-a-Service (AaaS)"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 9,
+      "question": "What is the primary purpose of data pre-processing in IIoT?",
+      "options": [
+        "To always append 50% randomly generated data with the existing dataset",
+        "To clean, integrate, and filter data before analysis",
+        "To always delete 50% of the existing data randomly",
+        "To transfer data directly to users without modification"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "State true or false. Hadoop Distributed File System (HDFS) and Kosmosfs are notable file systems derived from the open source codes of Google File System (GFS).",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 11,
+      "question": "Which of the following is NOT a key requirement for a Data Center Network?",
+      "options": [
+        "VM migration without changing IP addresses",
+        "Fast detection of failure",
+        "In-house power plant",
+        "Efficient repair of failure"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 12,
+      "question": "Edge, Aggregation, and Core are the components of which Data Center Network topology?",
+      "options": [
+        "DCell",
+        "Fat-Tree DCN",
+        "BCube",
+        "Hybrid Cloud Network"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 13,
+      "question": "Which of the following statements about the Data Center Network topology-BCube is incorrect?",
+      "options": [
+        "Server-centric approach, rather than the switch-oriented practice",
+        "Places intelligence on modular data center (MDC) servers",
+        "Provides single serial short paths between any pair of servers",
+        "Runs a source routing protocol called BSR (Bcube Source Routing)"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 14,
+      "question": "What is the role of the SDN controller in a network?",
+      "options": [
+        "It modifies data packets before forwarding to end users",
+        "It defines and manages flow rules for forwarding devices",
+        "It directly replaces physical network switches",
+        "It completely eliminates the need for network security"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 15,
+      "question": "Which of the following statements is FALSE about fog computing?",
+      "options": [
+        "The fog layer analyzes a huge volume of real-time data generated from industrial devices and machines.",
+        "The fog layer simultaneously collects data from various interconnected industrial machines, smart sensors, devices, and robots.",
+        "The fog layer generates the decisions from the sensed data and delivers them to the actuators with minimum latency.",
+        "The fog layer increases unnecessary data transmission to the cloud and server by bypassing data filtering and restructuring."
+      ],
+      "correctOption": 3
+    }
+  ]
+}

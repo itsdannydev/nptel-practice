@@ -1,0 +1,167 @@
+{
+  "title": "Week 7",
+  "description": "IIoT layers: industrial communication (LoRa, Zigbee, SIGFOX) and IIoT networking, analytics, and control systems",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following topologies is NOT supported by Zigbee?",
+      "options": [
+        "Tree",
+        "Bus",
+        "Mesh",
+        "All of these"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "What is a key benefit of Distributed Control Systems (DCS)?",
+      "options": [
+        "Increased complexity in control mechanism",
+        "Improved reliability through distributed control",
+        "Increased manual interventions",
+        "Reduced communication between devices"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "In which frequency bands do LoRa operate?",
+      "options": [
+        "2.4 GHz",
+        "868 MHz (Europe), 915 MHz (North America)",
+        "5 GHz",
+        "1.8 MHz"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Which library is required to work with the LoRa?",
+      "options": [
+        "Radiohead",
+        "Xbee",
+        "Zigbee",
+        "XCTU"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "State true or false. Machine-to-Machine Interface (M2MI) is one of the major components of Supervisory control and Data Acquisition that is used for enabling control and operations of the remote processes by human operators.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Fill in the blanks. Zigbee uses the _____ standard for defining its physical and medium access control (layers 1 and 2 of the OSI stack).",
+      "options": [
+        "IEEE 802.16.6",
+        "IEEE 802.15.4",
+        "IEEE 502.15.4",
+        "IEEE 502.16.6"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "State True or False. The SIGFOX network can transmit up to 140 messages per day with a payload of 12 bytes per message.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is/are false about the rule-based engine?",
+      "options": [
+        "Extract causal and temporal patterns using predefined rules",
+        "Handles multiple data streams and correlates them to provide meaningful output",
+        "Cannot process data in near real-time",
+        "All of the above"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Which of the following is NOT a Zigbee device type?",
+      "options": [
+        "Coordinator",
+        "Router",
+        "End device",
+        "Hub"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "What is the role of message brokers like MQTT and Apache Kafka in real-time IoT processing systems?",
+      "options": [
+        "They store IoT data permanently",
+        "They transfer data to analytical pipelines",
+        "They eliminate the need for data analysis",
+        "They reduce data complexity by deleting unnecessary events"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 11,
+      "question": "Which type of analytics in IIoT focuses on forecasting future conditions?",
+      "options": [
+        "Descriptive Analytics",
+        "Predictive Analytics",
+        "Prescriptive Analytics",
+        "Business Processing Analytics"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 12,
+      "question": "Which of the following is NOT a key component of the Smart Water Management Platform (SWAMP)?",
+      "options": [
+        "Sensors",
+        "Virtual entity",
+        "ERP",
+        "Data management"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is NOT a phase of Industrial Manufacturing workflow?",
+      "options": [
+        "Collection of service offerings and infrastructure",
+        "Virtualization, allocation, and management of services",
+        "On-demand service provisioning",
+        "Reallocation of deployed infrastructure"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 14,
+      "question": "Which of the following is NOT a key component of SCADA?",
+      "options": [
+        "Sensors and Control Relays",
+        "Remote Telemetry Units (RTUs)",
+        "Inventory Databases",
+        "Human-Machine Interface (HMI)"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is NOT a major component of an Industrial Control System?",
+      "options": [
+        "Process Variables",
+        "Set Points",
+        "Industrial Internet",
+        "Manipulating Variables"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

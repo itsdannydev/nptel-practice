@@ -1,0 +1,171 @@
+{
+  "title": "Week 6",
+  "description": "IIoT layers: industrial sensing, processing, and industrial communication",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which industrial communication technology is suitable for hazardous environments?",
+      "options": [
+        "ModBus-TCP",
+        "EtherCat",
+        "Profibus PA",
+        "TSN"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "Which type of modem allows simultaneous bi-directional communica- tion?",
+      "options": [
+        "Simplex",
+        "Half-duplex",
+        "Duplex",
+        "Synchronous"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Which of the following industrial communication protocols follow a client- server architecture?",
+      "options": [
+        "MECHATROLINK",
+        "ModBus-TCP",
+        "Hostlink",
+        "DeviceNet"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "What type of tasks is enabled by Smallcell Deployment in cellular net- works?",
+      "options": [
+        "Increasing dead zones",
+        "Alleviating backhaul burden and reducing latency",
+        "Limiting energy efficiency",
+        "Eliminating spectrum flexibility"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "The DS1621 temperature sensor generates how many bits of temperature data?",
+      "options": [
+        "8 bits",
+        "9 bits",
+        "10 bits",
+        "12 bits"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which of the following sensors is used to measure acceleration and provides 3-axis (X, Y, Z) values?",
+      "options": [
+        "TCS3200",
+        "LM35",
+        "MQ-2",
+        "ADXL335"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "Which sensor is used for detecting human presence based on infrared radiation?",
+      "options": [
+        "Image sensor",
+        "Ultrasonic sensor",
+        "PIR sensor",
+        "Magnetostrictive sensor"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "In an MOS gas sensor, what happens to the resistance in an n-type sensor when exposed to a reducing gas?",
+      "options": [
+        "Resistance remains the same",
+        "Resistance decreases",
+        "Resistance increases",
+        "Resistance fluctuates randomly"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Which of the following characteristics describes a gas sensor’s ability to detect a specific gas in the presence of other gases?",
+      "options": [
+        "Sensitivity",
+        "Stability",
+        "Selectivity",
+        "Reversibility"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "What is the maximum data transmission range for EtherCat using optical waveguides?",
+      "options": [
+        "100 meters",
+        "500 meters",
+        "10 kilometers",
+        "20 kilometers"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 11,
+      "question": "Which communication protocol uses Common Industrial Protocol (CIP) over Ethernet?",
+      "options": [
+        "EtherNet/IP",
+        "Profinet",
+        "EtherCat",
+        "Modbus-TCP"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 12,
+      "question": "What is the total bus length supported by Interbus?",
+      "options": [
+        "7 kilometers",
+        "10 kilometers",
+        "13 kilometers",
+        "2⁴ⁿ⁻² meters, where n is the number of slaves"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 13,
+      "question": "Which of the following is a key requirement for Industrial communication?",
+      "options": [
+        "High latency communication",
+        "Manual device control",
+        "Single-band connectivity",
+        "Very low latency"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 14,
+      "question": "How are sensors categorized based on their power requirements?",
+      "options": [
+        "Active and Passive",
+        "Analog and Digital",
+        "Load Resistive and Load Reactive",
+        "Battery-Powered and Line-Powered"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 15,
+      "question": "Modbus is an industrial communication protocol for Fieldbuses that fol- lows a master-slave architecture. What is the maximum number of slave devices supported by the master node in this protocol?",
+      "options": [
+        "128",
+        "247",
+        "256",
+        "494"
+      ],
+      "correctOption": 1
+    }
+  ]
+}
