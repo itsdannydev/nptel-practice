@@ -77,6 +77,16 @@ export default function WrongAnswerPractice() {
     };
   }, [course]);
 
+  // The question set still actually wrong right now. `pool` stays fixed for the page's
+  // lifetime (reloaded questions aren't worth re-fetching mid-session), but `entries` tracks
+  // every clear from this session — so a restart ("New shuffle") draws only from what's
+  // still unresolved, instead of resurrecting questions already answered correctly here.
+  function remainingPool(): Question[] {
+    if (!pool) return [];
+    const wanted = new Set((entries ?? []).map((e) => `${e.weekNumber}:${e.questionId}`));
+    return pool.filter((q) => wanted.has(`${q.sourceWeek}:${q.originalId}`));
+  }
+
   function handleCorrect(weekNumber: number, questionId: number) {
     if (!course) return;
     clearWrongAnswer(course.id, weekNumber, questionId);
@@ -184,7 +194,7 @@ export default function WrongAnswerPractice() {
           courseId={course.id}
           mode={mode}
           initialQuestions={buildAttempt(pool, { randomizeQuestions, randomizeOptions })}
-          makeAttempt={() => buildAttempt(pool, { randomizeQuestions, randomizeOptions })}
+          makeAttempt={() => buildAttempt(remainingPool(), { randomizeQuestions, randomizeOptions })}
           onCorrectAnswer={handleCorrect}
           restartLabel="New shuffle"
           backTo={

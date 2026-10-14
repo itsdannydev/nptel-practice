@@ -45,6 +45,10 @@ export default function QuizRunner({
   const [progress, setProgress] = useState<QuizProgress | undefined>();
 
   function start(questions: Question[], full: boolean) {
+    // Guards a restart/retry that resolves to nothing to ask (e.g. wrong-answer practice
+    // where every remaining mistake just got cleared) — QuizSession assumes at least one
+    // question, so starting an empty run would crash rather than just no-op harmlessly.
+    if (questions.length === 0) return;
     setRun((prev) => ({ id: prev.id + 1, questions, full }));
     setResults(null);
     setProgress(undefined);
