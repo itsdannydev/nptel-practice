@@ -95,6 +95,9 @@ export default function WrongAnswerPractice() {
 
   function clearAll() {
     if (!course) return;
+    if (!window.confirm('Clear every wrong answer recorded for this course? This cannot be undone.')) {
+      return;
+    }
     clearAllWrongAnswers(course.id);
     setEntries([]);
     setPool([]);

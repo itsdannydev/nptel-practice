@@ -663,6 +663,15 @@ h3 {
   color: var(--on-accent);
 }
 
+/* Compact variant for an inline per-row action (e.g. "Remove" next to one list item),
+   where the default 44px touch target would be oversized and repeated down a long list. */
+.btn.sm {
+  min-height: 32px;
+  padding: 0 12px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
 .btn:disabled {
   opacity: 0.5;
   cursor: not-allowed;
@@ -1006,6 +1015,13 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--muted);
+}
+
+.wrong-item-footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -3,7 +3,12 @@ import { Link, useParams } from 'react-router-dom';
 import QuestionText from '../components/QuestionText';
 import { courseLabel, getCourse, loadWeek } from '../lib/courses';
 import { useTitle } from '../lib/useTitle';
-import { getWrongQuestions, type WrongEntry } from '../lib/wrongAnswers';
+import {
+  clearAllWrongAnswers,
+  clearWrongAnswer,
+  getWrongQuestions,
+  type WrongEntry,
+} from '../lib/wrongAnswers';
 import NotFound from './NotFound';
 
 interface ListItem extends WrongEntry {
@@ -60,6 +65,26 @@ export default function WrongAnswerList() {
     };
   }, [course]);
 
+  function handleRemove(item: ListItem) {
+    if (!course) return;
+    clearWrongAnswer(course.id, item.weekNumber, item.questionId);
+    setItems(
+      (prev) =>
+        prev?.filter(
+          (i) => !(i.weekNumber === item.weekNumber && i.questionId === item.questionId),
+        ) ?? prev,
+    );
+  }
+
+  function handleClearAll() {
+    if (!course) return;
+    if (!window.confirm('Clear every wrong answer recorded for this course? This cannot be undone.')) {
+      return;
+    }
+    clearAllWrongAnswers(course.id);
+    setItems([]);
+  }
+
   if (!course) return <NotFound what="course" />;
 
   return (
@@ -96,18 +121,35 @@ export default function WrongAnswerList() {
                   Question no longer available — course content may have changed.
                 </p>
               )}
-              <span className="badge bad">
-                got wrong {item.count} {item.count === 1 ? 'time' : 'times'}
-              </span>
+              <div className="wrong-item-footer">
+                <span className="badge bad">
+                  got wrong {item.count} {item.count === 1 ? 'time' : 'times'}
+                </span>
+                <button
+                  type="button"
+                  className="btn sm"
+                  onClick={() => handleRemove(item)}
+                  aria-label={`Remove Week ${item.weekNumber} Q${item.questionId} from wrong answers`}
+                >
+                  Remove
+                </button>
+              </div>
             </li>
           ))}
         </ol>
       )}
 
       <div className="actions">
-        <Link to={`/c/${course.id}/wrong`} className="btn primary">
-          Practice these
-        </Link>
+        {items && items.length > 0 && (
+          <>
+            <Link to={`/c/${course.id}/wrong`} className="btn primary">
+              Practice these
+            </Link>
+            <button type="button" className="btn" onClick={handleClearAll}>
+              Clear all wrong answers
+            </button>
+          </>
+        )}
         <Link to={`/c/${course.id}`} className="btn">
           Back to {course.name}
         </Link>
