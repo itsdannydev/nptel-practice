@@ -213,6 +213,25 @@ h3 {
   padding: 32px 0;
 }
 
+.search-input {
+  -webkit-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  margin-bottom: 20px;
+  padding: 0 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.search-input::placeholder {
+  color: var(--muted);
+}
+
 /* Cards */
 .card-list {
   list-style: none;
