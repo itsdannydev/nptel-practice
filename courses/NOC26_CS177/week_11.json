@@ -1,0 +1,108 @@
+{
+  "title": "Week 11",
+  "description": "Empirical usability evaluation",
+  "questions": [
+    {
+      "id": 1,
+      "question": "When we perform a controlled experiment to collect and analyze data on user behavior, the entire process is known as _________.",
+      "options": [
+        "programmable research",
+        "hypothetical research",
+        "empirical research",
+        "theoretical research"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "There are broadly _________ stages of empirical research?",
+      "options": [
+        "Two",
+        "three",
+        "four",
+        "five"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "Suppose we formed two research questions: RQ1: Is the new technique good? RQ2: Is our text input interface better than the text input interface provided by, say, MS Word? RQ3: Does the new interface let me enter text “faster” than MS Word? We call RQ3 ___________ and RQ1 as _____________.",
+      "options": [
+        "testable, non-testable",
+        "alternative hypothesis, null hypothesis"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 4,
+      "question": "When we form a hypothesis, essentially stating that the test condition is not going to affect the outcome (judgment). This hypothesis is called __________.",
+      "options": [
+        "null hypothesis",
+        "alternative hypothesis"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "In __________, we assign some (arbitrary) codes to attributes of observational data.",
+      "options": [
+        "nominal",
+        "ordinal",
+        "interval",
+        "ratio"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "Recording data from a thermometer is an example of interval scaled data.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "__________ are variables that influence both the independent and dependent variables in a study, potentially leading to incorrect conclusions about the relationship between the two.",
+      "options": [
+        "Dependent variables",
+        "Independent variables",
+        "Confounding variables",
+        "Control variables"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "For any pilot study (or small-scale studies), 5 is probably a good number.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "To draw reliable conclusions from empirical data, we should use between __________ and ___________ participants.",
+      "options": [
+        "1, 5",
+        "2, 5",
+        "12, 25",
+        "10, 12"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 10,
+      "question": "When we distribute the tasks to participants in the way explained above, we call the study as __________.",
+      "options": [
+        "between-subject",
+        "within-subject",
+        "uni-subject",
+        "center-subject"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

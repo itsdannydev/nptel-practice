@@ -1,0 +1,112 @@
+{
+  "title": "Week 6",
+  "description": "Converting design to system I",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following is NOT a characteristic of Good design",
+      "options": [
+        "Coverage",
+        "Correctness",
+        "Understandability",
+        "Colorful"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "If all functions perform similar operations it falls under _______ cohesion.",
+      "options": [
+        "Logical",
+        "Temporal",
+        "Procedural",
+        "Sequential"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "If two modules share code, it falls under _________ coupling.",
+      "options": [
+        "Data",
+        "Control",
+        "Content"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "There are two basic design approaches: function oriented and ______ oriented.",
+      "options": [
+        "Logic",
+        "Folder",
+        "Object",
+        "Class"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Basic components of ER diagram are: Entity, _____ and Relationship",
+      "options": [
+        "Object",
+        "User",
+        "Attribute",
+        "Class"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "Null attributes are used when:",
+      "options": [
+        "An entity does not have a value for an attribute",
+        "A value needs to be derived from other attributes or entities"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "There are four types of relationships in ER diagram: one-to-one, one-to-many, many-to-one and ______.",
+      "options": [
+        "Many-to-binary",
+        "Many-to-many",
+        "Binary-to-many",
+        "Binary-to-one"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is/are the type of cohesion?",
+      "options": [
+        "Temporal",
+        "Functional",
+        "Content",
+        "All of the above"
+      ],
+      "correctOption": [0, 1]
+    },
+    {
+      "id": 9,
+      "question": "Which one from the following are related with between modules?",
+      "options": [
+        "Cohesion",
+        "Coupling",
+        "Both"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "What is the full form of the DFD",
+      "options": [
+        "Data flow design",
+        "Data flow decision",
+        "Data flow development",
+        "Data flow diagram"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

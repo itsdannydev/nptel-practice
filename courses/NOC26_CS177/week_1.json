@@ -1,0 +1,116 @@
+{
+  "title": "Week 1",
+  "description": "Introduction",
+  "questions": [
+    {
+      "id": 1,
+      "question": "While we talk about the evaluation phases of the computer, ______ is called the modern age of computers.",
+      "options": [
+        "1985 onwards",
+        "1998 onwards",
+        "2007 onwards",
+        "2011 onwards"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "Which among the following is NOT a generic category of users?",
+      "options": [
+        "Novice",
+        "Super knowledgeable",
+        "Intermittent",
+        "Expert"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "In the Spiral Model, why is the second quadrant crucial for interactive software development?",
+      "options": [
+        "It defines the UI layout",
+        "It finalizes the system architecture",
+        "It identifies and mitigates usability risks via prototyping",
+        "It handles testing and deployment"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "What does the term 'utility' refer to in the context of usability?",
+      "options": [
+        "Speed of task completion",
+        "Visual appeal of the design",
+        "Functional support for user needs",
+        "Frequency of feature updates"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 5,
+      "question": "Which one of the following is NOT a computer?",
+      "options": [
+        "Desktop",
+        "Digital Pedometer",
+        "Smartphone",
+        "None of the above"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 6,
+      "question": "Interactive software development is ______ in nature.",
+      "options": [
+        "sporadic",
+        "iterative",
+        "variable",
+        "discrete"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Which of the following is NOT one of the five quality components of usability proposed by Jacob Nielsen?",
+      "options": [
+        "Learnability",
+        "Efficiency",
+        "Satisfaction",
+        "Memorization"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 8,
+      "question": "Which of the following is NOT a characteristic of the Waterfall model?",
+      "options": [
+        "Feasibility study",
+        "Learnability study",
+        "System integration and testing",
+        "Maintenance"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "‘Identify objectives’ and ‘customer evaluation and planning’ is in the ______ and ______ quadrant of the spiral model respectively.",
+      "options": [
+        "First, Fourth",
+        "Second, Third",
+        "Third, Fourth",
+        "Fourth, Second"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Which design approach focuses on what a programmer finds interesting to build?",
+      "options": [
+        "System-Centered Design",
+        "User-Centered Design",
+        "Utility-Based Design",
+        "Participatory Design"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

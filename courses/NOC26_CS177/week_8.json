@@ -1,0 +1,109 @@
+{
+  "title": "Week 8",
+  "description": "System implementation I",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Following standard coding guidelines helps to improve ______.",
+      "options": [
+        "Readability only",
+        "Understandability only",
+        "Teamwork only",
+        "Readability, understandability, and teamwork"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 2,
+      "question": "A function should have no longer than _____ lines of code.",
+      "options": [
+        "5",
+        "16",
+        "10",
+        "8"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 3,
+      "question": "What are some things to avoid when writing code? (Choose all that apply)",
+      "options": [
+        "Using lengthy functions",
+        "Using the same identifier for multiple purposes",
+        "Using ‘goto’ (branching) statements indiscriminately",
+        "Using proper indentation"
+      ],
+      "correctOption": [0, 1, 2]
+    },
+    {
+      "id": 4,
+      "question": "Two broad categories of code testing methods are review-based method and _________ method.",
+      "options": [
+        "Manual testing",
+        "Execution-based"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "What are the two common methods for review-based testing? (Choose all that apply)",
+      "options": [
+        "Code inspection",
+        "Code walkthrough",
+        "Unit testing"
+      ],
+      "correctOption": [0, 1]
+    },
+    {
+      "id": 6,
+      "question": "White-box testing refers to designing test cases using knowledge of internal structure of the software.",
+      "options": [
+        "True",
+        "false"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "How many members should be present in a code walkthrough team?",
+      "options": [
+        "2–3 members",
+        "3-5 members",
+        "5–7 members",
+        "7–10 members"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Which of the following code testing method requires simulation of code execution by hand?",
+      "options": [
+        "Code walkthrough",
+        "Code inspection",
+        "Black box testing",
+        "White box testing"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Uninitialized variable is one of the common errors in programming that can be identified through code inspection.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Which of the following is not required to perform black box testing?",
+      "options": [
+        "Equivalence class partitioning",
+        "Boundary value analysis",
+        "Test suite creation",
+        "Knowledge of the internal structure of the code"
+      ],
+      "correctOption": 3
+    }
+  ]
+}

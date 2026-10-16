@@ -1,0 +1,105 @@
+{
+  "title": "Week 4",
+  "description": "Usable interface design",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Norman’s Model of Interaction represents behavior of a user of interactive systems in terms of a series of ________.",
+      "options": [
+        "actions",
+        "selection",
+        "manipulation"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "There are broadly two stages of interaction execution stage and _______ stage.",
+      "options": [
+        "design",
+        "evaluation",
+        "interaction"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 3,
+      "question": "Perceive system state comes under the ______ stage of interaction.",
+      "options": [
+        "execution",
+        "design",
+        "evaluation",
+        "interaction"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "Actions we specify to translate intentions may not be supported by the interface leading to gap (gulf) between the first three and the last actions in the execution stage- It is called ______.",
+      "options": [
+        "The gulf of execution",
+        "The gulf of evaluation",
+        "The gulf of Interaction"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "Particularly in the context of errors during interaction is explained in terms of slips and ______.",
+      "options": [
+        "error",
+        "mistakes",
+        "human error"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "In a vertical prototype, the entire interface is depicted at the surface level without any functionality.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Paper mock-ups are the example of _________ prototype.",
+      "options": [
+        "Low fidelity",
+        "High fidelity",
+        "Medium fidelity"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "There is a requirement of 3-5 member team for the cognitive walkthrough.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "In a cognitive walkthrough evaluation, evaluators re expected to answer the questions only in “yes” or “no”",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "In this technique, a human subject believes to interact with an autonomous computer. But, In reality, however, the computer is operated by an “unseen” human being. This technique is called________ approach.",
+      "options": [
+        "Medium fidelity",
+        "Vertical",
+        "Wizard of Oz",
+        "Incremental"
+      ],
+      "correctOption": 2
+    }
+  ]
+}

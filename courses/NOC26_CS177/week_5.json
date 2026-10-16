@@ -1,0 +1,107 @@
+{
+  "title": "Week 5",
+  "description": "Rapid usability evaluation",
+  "questions": [
+    {
+      "id": 1,
+      "question": "How do we evaluate an interface?",
+      "options": [
+        "by evaluating satisfaction",
+        "by evaluating memorability",
+        "by evaluating usability"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 2,
+      "question": "We need to frame a set of questions (usability issues) for the evaluators before performing a cognitive walkthrough",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "In a heuristic evaluation, the items in the checklist are called _________.",
+      "options": [
+        "checkbox",
+        "heuristics",
+        "usability issues",
+        "problems"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "There are many ways of collecting user feedback in evaluation with self report methods: ____________ , can ask them to choose from a list of system attributes ask direct and open-ended questions.",
+      "options": [
+        "Utter the option",
+        "Rating on a scale"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 5,
+      "question": "ASQ is a ________________.",
+      "options": [
+        "Post-task questionnaire",
+        "Post-session questionnaire"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "It is generally assumed that an SUS score around ______ percent or higher is desirable",
+      "options": [
+        "10",
+        "20",
+        "50",
+        "70"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 7,
+      "question": "In expert evaluation, the evaluation team should have at least ________ members.",
+      "options": [
+        "3-5",
+        "4-7",
+        "5-7",
+        "7-9"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 8,
+      "question": "In heuristic evaluation, a system is evaluated with a checklist are called ____ .",
+      "options": [
+        "Heuristics",
+        "Actions",
+        "Statement"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "What is the full form of SUS",
+      "options": [
+        "Software usability score",
+        "Software usability scale",
+        "System usability score",
+        "System usability scale"
+      ],
+      "correctOption": 3
+    },
+    {
+      "id": 10,
+      "question": "Which are from the following are the valid prototype evaluation methods",
+      "options": [
+        "Cognitive walkthrough",
+        "Affinity diagram",
+        "Heuristic evaluation"
+      ],
+      "correctOption": [0, 2]
+    }
+  ]
+}

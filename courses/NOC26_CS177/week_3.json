@@ -1,0 +1,106 @@
+{
+  "title": "Week 3",
+  "description": "Identification of usability requirements II",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In SRS document the functions should describe HOW to get the output from the given input.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "We can also add new functional requirements based on the observations made in contextual inquiry.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "In user-centered design, we have two concerns: Interface design and",
+      "options": [
+        "Machine design",
+        "Hardware design",
+        "Code design",
+        "System design"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 4,
+      "question": "The design-prototype-evaluate cycle primarily caters to _______ design.",
+      "options": [
+        "Interface",
+        "Code",
+        "System"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "Code design can be expressed in natural languages, semi-formal languages and __________.",
+      "options": [
+        "Informal languages",
+        "Formal languages",
+        "Context sensitive languages"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "DFD is a _________ code design language.",
+      "options": [
+        "Natural",
+        "Semi-formal",
+        "Informal",
+        "Context sensitive"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "Shneiderman proposed _________ rules that covers broad aspects of interactive systems.",
+      "options": [
+        "Five",
+        "Seven",
+        "Eight",
+        "Nine"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "“The interface should not force users to remember too many things” – this statement falls under “__________”, one of the golden rules proposed by Shneiderman.",
+      "options": [
+        "Strive for consistency",
+        "Permit easy reversal of actions",
+        "Reduce short-term memory load",
+        "Keep users in control"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 9,
+      "question": "Human interface guidelines for the apple systems are the ________ design guidelines.",
+      "options": [
+        "Generic",
+        "Specific"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Identification of data structures and algorithms for different modules is done on the __________ phase of code design.",
+      "options": [
+        "Preliminary (high-level design)",
+        "Detailed design"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

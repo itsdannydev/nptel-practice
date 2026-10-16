@@ -1,0 +1,103 @@
+{
+  "title": "Week 12",
+  "description": "Conclusion",
+  "questions": [
+    {
+      "id": 1,
+      "question": "With the significance test, we try to ____________ the null hypothesis.",
+      "options": [
+        "Accept",
+        "Refute"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Type I error is also known as ____________.",
+      "options": [
+        "False positive",
+        "False negative",
+        "True positive",
+        "True negative"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "t-statistic is the ONLY way to test for statistical significance.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "There are broadly two categories of the techniques for significance test: ____________ and __________ .",
+      "options": [
+        "Parametric and Non-parametric",
+        "t-test and non t-test"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "Project planning involves estimation of Project size, Cost, Duration and Effort.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "COCOMO stands for ______________.",
+      "options": [
+        "Conducive Cost Estimation Model",
+        "Constructive Cost Estimation Model",
+        "Constructive Category Estimation Model",
+        "Conducive Category Estimation Model"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "According to Boehm, software cost estimation should be done through _____________ stages.",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 8,
+      "question": "Agile development ensure quick turn-around of projects",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 9,
+      "question": "Scrum is a ___________ method.",
+      "options": [
+        "Traditional SDLC",
+        "Agile"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "In a Gantt chart the length is proportional to __________ for activity",
+      "options": [
+        "Duration planned",
+        "Effort",
+        "Cost"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

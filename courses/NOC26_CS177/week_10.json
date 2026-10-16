@@ -1,0 +1,107 @@
+{
+  "title": "Week 10",
+  "description": "System implementation III",
+  "questions": [
+    {
+      "id": 1,
+      "question": "To do a white-box testing, knowledge of internal structure is required.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 2,
+      "question": "To understand white-box testing strategies, program (flow) visualization helps. To visualize the program we can take help of _______.",
+      "options": [
+        "CFG",
+        "DFD",
+        "ERD",
+        "Class diagram"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "To construct a CFG we assign numbers to all statements of the program, create a node in the CFG for each numbered statement and___________.",
+      "options": [
+        "Complement the CFG",
+        "Add edges",
+        "Sort the nodes"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Branch coverage guarantees statement coverage.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "In path coverage, test cases should ensure all _________ in the code executed at least once.",
+      "options": [
+        "Linearly independent paths",
+        "Linearly dependent paths"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 6,
+      "question": "To compute cyclomatic complexity, we can use __________, where E=number of edges, N=number of nodes.",
+      "options": [
+        "E-N+2",
+        "E-N+1",
+        "E+N-2",
+        "E+N-1"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 7,
+      "question": "Three main stages of system testing is alpha testing, beta testing and ________.",
+      "options": [
+        "Gama testing",
+        "Sigma testing",
+        "Acceptance testing",
+        "Omega testing"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "Volume testing tests system performance for ______ input.",
+      "options": [
+        "Small",
+        "Large"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "There are _____ stages of empirical research.",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Six"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "Data we get from observation is _______ data.",
+      "options": [
+        "Reflective",
+        "Empirical",
+        "Authoritative",
+        "Experiential"
+      ],
+      "correctOption": 1
+    }
+  ]
+}

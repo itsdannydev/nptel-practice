@@ -1,0 +1,106 @@
+{
+  "title": "Week 9",
+  "description": "System implementation II",
+  "questions": [
+    {
+      "id": 1,
+      "question": "Set of all test cases with which a given software is to be tested is known as _______.",
+      "options": [
+        "Testcase",
+        "Test suite"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "Randomly selected test cases do not necessarily contribute to significance of test suite.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "In black box testing the two main approaches to design test cases are: Equivalence class partitioning and _____________.",
+      "options": [
+        "Structural analysis",
+        "Boundary value analysis",
+        "Equivalence class analysis",
+        "System analysis"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Testing code with any ____ value(s) of an equivalence class is as good as testing with ALL input values belonging to that class.",
+      "options": [
+        "One",
+        "Two",
+        "Five",
+        "Four"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "In black box testing, domain of input values partitioned into sets, each sets are called ________.",
+      "options": [
+        "Partition class",
+        "Equivalence class",
+        "Program class"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 6,
+      "question": "Which is/are from the following are valid review based testing",
+      "options": [
+        "Code walkthrough",
+        "Code inspection",
+        "Code analysis",
+        "Code assessment"
+      ],
+      "correctOption": [0, 1]
+    },
+    {
+      "id": 7,
+      "question": "Set of all test cases with which a given software is to be tested is called test _____",
+      "options": [
+        "Question",
+        "Questionnaire",
+        "Suite"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "In Black-box testing, the test cases are based on",
+      "options": [
+        "input",
+        "knowledge of design",
+        "output",
+        "knowledge of code"
+      ],
+      "correctOption": [0, 2]
+    },
+    {
+      "id": 9,
+      "question": "Domain of input values partitioned into set is called equivalence class",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 10,
+      "question": "Functional testing is related to",
+      "options": [
+        "Black-box testing",
+        "White-box testing"
+      ],
+      "correctOption": 0
+    }
+  ]
+}

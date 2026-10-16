@@ -1,0 +1,106 @@
+{
+  "title": "Week 7",
+  "description": "Converting design to system II",
+  "questions": [
+    {
+      "id": 1,
+      "question": "In functional design approach we think of the system as provider of a set of “services” represented as _______.",
+      "options": [
+        "Data",
+        "Functions",
+        "Objects"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 2,
+      "question": "In “Object Oriented Design approach”, we do not consider “services” offered by system.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 3,
+      "question": "A class contains attributes and __________.",
+      "options": [
+        "Data",
+        "Operations",
+        "Objects"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 4,
+      "question": "Attribute indicates nature of data that an object can contain.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 0
+    },
+    {
+      "id": 5,
+      "question": "Full form of OOA is:",
+      "options": [
+        "object oriented assignment",
+        "object oriented assistance",
+        "object oriented analysis",
+        "object oriented attributes"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 6,
+      "question": "_______ effectively denotes the behavior of class.",
+      "options": [
+        "Data",
+        "Operations",
+        "Objects",
+        "Attributes"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 7,
+      "question": "UML is a language to represent",
+      "options": [
+        "OOP",
+        "OOA",
+        "OOD"
+      ],
+      "correctOption": 2
+    },
+    {
+      "id": 8,
+      "question": "UML is a design methodology",
+      "options": [
+        "True",
+        "False"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 9,
+      "question": "Implementation view can be captured using _______.",
+      "options": [
+        "Deployment diagram",
+        "Component diagram",
+        "Class diagram",
+        "Use case diagram"
+      ],
+      "correctOption": 1
+    },
+    {
+      "id": 10,
+      "question": "_______ objects normally hold information (e.g. book, book registers etc).",
+      "options": [
+        "Boundary",
+        "Controller",
+        "Entity"
+      ],
+      "correctOption": 2
+    }
+  ]
+}
