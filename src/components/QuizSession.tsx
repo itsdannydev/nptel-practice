@@ -6,6 +6,10 @@ export function sameSet(a: number[], b: number[]): boolean {
   return a.length === b.length && a.every((x) => b.includes(x));
 }
 
+// How long the right/wrong reveal stays up before Rapid Fire mode auto-advances — long
+// enough to register the answer, short enough to still feel fast. Pressing Enter skips it.
+const AUTO_ADVANCE_MS = 900;
+
 interface Props {
   questions: Question[];
   /** 'quiz' reveals right/wrong after each question; 'mock' just records and moves on. */
@@ -25,9 +29,18 @@ export default function QuizSession({ questions, mode, onFinish }: Props) {
   const isCorrect = sameSet(selected, q.correct);
   const isLast = index === questions.length - 1;
   const showAnswer = reveals && checked;
+  // Rapid Fire on a single-answer question: one click both answers and reveals it, so
+  // there's no separate "submit" step. A multi-select question still needs every option
+  // picked before checking means anything, so that keeps the explicit Check/Next flow.
+  const instantAnswer = reveals && !q.multi;
 
   function toggle(i: number) {
     if (showAnswer) return;
+    if (instantAnswer) {
+      setSelected([i]);
+      setChecked(true);
+      return;
+    }
     setSelected((prev) =>
       q.multi ? (prev.includes(i) ? prev.filter((x) => x !== i) : [...prev, i]) : [i],
     );
@@ -47,14 +60,31 @@ export default function QuizSession({ questions, mode, onFinish }: Props) {
 
   function submit() {
     if (selected.length === 0) return;
-    // Quiz mode: first submit reveals the answer; a second submit moves on.
-    // Mock mode: there's no reveal step, so one submit records the answer and moves on.
+    // Multi-select questions in quiz mode: first submit reveals the answer, a second submit
+    // moves on (single-answer questions never reach here while unchecked — toggle() already
+    // handles them instantly). Mock mode has no reveal step, so one submit records and moves
+    // on. Also doubles as the "skip the wait" path once instantAnswer has already revealed.
     if (reveals && !checked) {
       setChecked(true);
       return;
     }
     next();
   }
+
+  // Rapid Fire auto-advance: once a single-answer question is revealed, move on by itself
+  // after a beat instead of waiting for another click.
+  useEffect(() => {
+    if (!(instantAnswer && checked)) return;
+    const timer = setTimeout(next, AUTO_ADVANCE_MS);
+    return () => clearTimeout(timer);
+    // Deliberately keyed on `checked` alone: it only ever flips false→true via toggle()
+    // setting `selected` in that same tick, so the `next` closure captured right here is
+    // already consistent with this question's `index`/`selected`. Pressing Enter calls
+    // `next()` directly (via submit(), below) before the timer fires, which flips `checked`
+    // back to false and re-runs this effect — the cleanup above cancels the stale timer, so
+    // there's no risk of it firing twice.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [checked]);
 
   // Keyboard: 1-9 pick an option, Enter submits / moves on.
   useEffect(() => {
@@ -138,17 +168,19 @@ export default function QuizSession({ questions, mode, onFinish }: Props) {
         </div>
       )}
 
-      <div className="actions">
-        <button
-          type="button"
-          className="btn primary"
-          onClick={submit}
-          disabled={!checked && selected.length === 0}
-        >
-          {showAnswer || !reveals ? (isLast ? 'Finish' : 'Next question') : 'Check answer'}
-        </button>
-        <span className="muted shortcut-hint">Press Enter</span>
-      </div>
+      {!instantAnswer && (
+        <div className="actions">
+          <button
+            type="button"
+            className="btn primary"
+            onClick={submit}
+            disabled={!checked && selected.length === 0}
+          >
+            {showAnswer || !reveals ? (isLast ? 'Finish' : 'Next question') : 'Check answer'}
+          </button>
+          <span className="muted shortcut-hint">Press Enter</span>
+        </div>
+      )}
     </section>
   );
 }

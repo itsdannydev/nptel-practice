@@ -17,7 +17,7 @@ interface Props {
   makeAttempt: () => Question[];
   restartLabel?: string;
   backTo: ReactNode;
-  /** Called once per correctly-answered question (Quiz/Mock only). Only wrong-answer
+  /** Called once per correctly-answered question (Rapid Fire/Mock only). Only wrong-answer
    *  practice wires this up, to clear a mistake once it's answered right again. */
   onCorrectAnswer?: (weekNumber: number, questionId: number) => void;
 }
@@ -79,7 +79,7 @@ export default function QuizRunner({
       );
     }
 
-    // Wrong-answer tracking (Quiz/Mock only — Practice never reaches finish() at all, see
+    // Wrong-answer tracking (Rapid Fire/Mock only — Practice never reaches finish() at all, see
     // the early return above). Applies to every run, not just full attempts, so a "Retry
     // missed" pass still counts repeat mistakes and can clear resolved ones.
     const weekOf = (q: Question) =>

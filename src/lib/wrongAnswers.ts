@@ -1,4 +1,4 @@
-// Tracks questions answered incorrectly in Quiz or Mock Test mode (never Practice, which
+// Tracks questions answered incorrectly in Rapid Fire or Mock Test mode (never Practice, which
 // shows the answer up front and never "checks" anything). Scoped per course, keyed by
 // week+question id since an id is only unique within its own week. Same localStorage
 // approach as progress.ts, wrapped in try/catch for the same reasons (private windows,
@@ -9,7 +9,7 @@ const STORAGE_KEY = 'nptel-wrong:v1';
 export interface WrongEntry {
   weekNumber: number;
   questionId: number;
-  /** Times answered wrong across every Quiz/Mock attempt, anywhere in the app */
+  /** Times answered wrong across every Rapid Fire/Mock attempt, anywhere in the app */
   count: number;
   /** Epoch ms it was most recently gotten wrong */
   lastWrongAt: number;

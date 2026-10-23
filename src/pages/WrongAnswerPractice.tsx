@@ -14,8 +14,8 @@ import {
 } from '../lib/wrongAnswers';
 import NotFound from './NotFound';
 
-/** Drills every question in this course that's ever been answered wrong in Quiz or Mock
- * Test mode, pulled from across all weeks. Answering one right here clears it from the
+/** Drills every question in this course that's ever been answered wrong in Rapid Fire or
+ * Mock Test mode, pulled from across all weeks. Answering one right here clears it from the
  * list; getting it right elsewhere doesn't (see wrongAnswers.ts). */
 export default function WrongAnswerPractice() {
   const { courseId } = useParams();
@@ -115,8 +115,8 @@ export default function WrongAnswerPractice() {
       </nav>
       <h1>Wrong answer practice</h1>
       <p className="lede">
-        Every question you've gotten wrong in Quiz or Mock Test mode for this course, pulled
-        from across all weeks. Answer one correctly here and it's cleared from this list.
+        Every question you've gotten wrong in Rapid Fire or Mock Test mode for this course,
+        pulled from across all weeks. Answer one correctly here and it's cleared from this list.
       </p>
       <p className="muted">
         Stored only in this browser's local storage — it won't show up on another device, and
@@ -129,7 +129,7 @@ export default function WrongAnswerPractice() {
         <p className="empty">
           {entries && entries.length > 0
             ? "Couldn't find these questions anymore — course content may have changed."
-            : "No wrong answers yet — they'll show up here after a Quiz or Mock Test attempt."}
+            : "No wrong answers yet — they'll show up here after a Rapid Fire or Mock Test attempt."}
         </p>
       )}
 

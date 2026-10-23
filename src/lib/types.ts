@@ -49,22 +49,25 @@ export interface AnswerResult {
 }
 
 /**
- * practice — questions with the correct answer already shown, just browse through.
- * quiz     — current default: select an answer, check it, see right/wrong immediately.
- * mock     — select an answer for every question first; scored together at the end.
+ * practice   — questions with the correct answer already shown, just browse through.
+ * quiz       — displayed as "Rapid Fire": click an option and it's answered right away,
+ *              revealing correct/incorrect and auto-advancing — no separate submit click.
+ *              A multi-select question still needs every option picked before that means
+ *              anything, so those keep an explicit Check/Next step instead.
+ * mock       — select an answer for every question first; scored together at the end.
  */
 export const QUIZ_MODES = ['practice', 'quiz', 'mock'] as const;
 export type QuizMode = (typeof QUIZ_MODES)[number];
 
 export const QUIZ_MODE_LABELS: Record<QuizMode, string> = {
   practice: 'Practice',
-  quiz: 'Quiz',
+  quiz: 'Rapid Fire',
   mock: 'Mock Test',
 };
 
 export const QUIZ_MODE_HINTS: Record<QuizMode, string> = {
   practice: 'Browse questions with the correct answer already shown',
-  quiz: 'Answer each question and get checked right away',
+  quiz: 'Click an answer to see right/wrong instantly, then move on automatically',
   mock: 'Answer every question, then see your score at the end',
 };
 

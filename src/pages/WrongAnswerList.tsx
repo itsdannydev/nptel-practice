@@ -96,14 +96,14 @@ export default function WrongAnswerList() {
       </nav>
       <h1>Wrong answers</h1>
       <p className="lede">
-        Every question you've gotten wrong in Quiz or Mock Test mode for this course, most-missed
-        first.
+        Every question you've gotten wrong in Rapid Fire or Mock Test mode for this course,
+        most-missed first.
       </p>
 
       {items === null && <p className="muted">Loading…</p>}
       {items && items.length === 0 && (
         <p className="empty">
-          No wrong answers yet — they'll show up here after a Quiz or Mock Test attempt.
+          No wrong answers yet — they'll show up here after a Rapid Fire or Mock Test attempt.
         </p>
       )}
 
