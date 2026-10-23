@@ -30,6 +30,14 @@ function Layout() {
             Don't see your course? Email{' '}
             <a href="mailto:dev@danny.co.in">dev@danny.co.in</a> and I'll see what I can do.
           </p>
+          <p className="site-disclaimer">
+            Course and quiz content is from{' '}
+            <a href="https://nptel.ac.in" target="_blank" rel="noopener noreferrer">
+              NPTEL
+            </a>{' '}
+            (CC BY-NC-SA), used non-commercially and without official affiliation or
+            endorsement.
+          </p>
         </div>
       </footer>
     </>
