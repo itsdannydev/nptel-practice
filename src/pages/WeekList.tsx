@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import ModeInfoButton from '../components/ModeInfoButton';
+import { getCompletedMode } from '../lib/completion';
 import { courseLabel, getCourse, loadWeek } from '../lib/courses';
 import { QUIZ_MODE_LABELS, QUIZ_MODES, type QuizMode, type Week } from '../lib/types';
 import { useTitle } from '../lib/useTitle';
@@ -138,14 +139,15 @@ export default function WeekList() {
           <ul className="week-grid">
             {weeks.map((week) => {
               const isSelected = selected.includes(week.number);
+              const completedMode = getCompletedMode(course.id, week.number);
               return (
                 <li key={week.number}>
                   <div
-                    className={`week-card${isSelected ? ' selected' : ''}`}
+                    className={`week-card${isSelected ? ' selected' : ''}${completedMode ? ` completed-${completedMode}` : ''}`}
                     role="button"
                     tabIndex={0}
                     aria-pressed={isSelected}
-                    aria-label={`${week.title}: ${isSelected ? 'selected' : 'not selected'}`}
+                    aria-label={`${week.title}: ${isSelected ? 'selected' : 'not selected'}${completedMode ? `, ${QUIZ_MODE_LABELS[completedMode]} completed` : ''}`}
                     onClick={() => toggleWeek(week.number)}
                     onKeyDown={(e) => {
                       if (e.key === 'Enter' || e.key === ' ') {
@@ -177,7 +179,7 @@ export default function WeekList() {
               <fieldset className="mode-segmented">
                 <legend className="sr-only">Quiz mode</legend>
                 {QUIZ_MODES.map((m) => (
-                  <label key={m} className="mode-segment">
+                  <label key={m} className={`mode-segment mode-segment-${m}`}>
                     <input
                       type="radio"
                       name="quiz-mode"

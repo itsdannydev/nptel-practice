@@ -11,6 +11,8 @@
   --ok-bg: #e6f5ec;
   --bad: #b42318;
   --bad-bg: #fdeceb;
+  --warn: #9a6700;
+  --warn-bg: #fdf3da;
   --focus: #2b57d6;
   --radius: 10px;
   color-scheme: light dark;
@@ -30,6 +32,8 @@
     --ok-bg: #12291b;
     --bad: #ff8b80;
     --bad-bg: #301715;
+    --warn: #e3b341;
+    --warn-bg: #2e2206;
     --focus: #9bb3ff;
   }
 }
@@ -357,6 +361,26 @@ h3 {
   transform: translateY(-2px);
 }
 
+/* Highest-ranked mode ever finished for this week (see completion.ts) — same thicker-border
+   technique as .selected below, which deliberately wins when a card is both (an active
+   selection outranks a passive status marker). Rank, low to high: practice < quiz < mock —
+   each rule below only ever applies one at a time, since getCompletedMode returns a single
+   mode, so there's no risk of these three fighting each other. */
+.week-card.completed-practice {
+  border-color: var(--warn);
+  box-shadow: 0 0 0 1px var(--warn) inset;
+}
+
+.week-card.completed-quiz {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent) inset;
+}
+
+.week-card.completed-mock {
+  border-color: var(--ok);
+  box-shadow: 0 0 0 1px var(--ok) inset;
+}
+
 .week-card.selected {
   border-color: var(--accent);
   box-shadow: 0 0 0 1px var(--accent) inset;
@@ -481,6 +505,29 @@ h3 {
   box-shadow:
     0 1px 2px rgba(0, 0, 0, 0.08),
     0 0 0 1px var(--border);
+}
+
+/* Same colors as the week-card completion border below, so picking a mode here and seeing
+   it marked done later on reads as the same color language throughout. */
+.mode-segment-practice:has(input:checked) {
+  color: var(--warn);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 0 0 1px var(--warn);
+}
+
+.mode-segment-quiz:has(input:checked) {
+  color: var(--accent);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 0 0 1px var(--accent);
+}
+
+.mode-segment-mock:has(input:checked) {
+  color: var(--ok);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.08),
+    0 0 0 1px var(--ok);
 }
 
 .mode-segment:has(input:focus-visible) {

@@ -7,11 +7,13 @@ interface Props {
   questions: Question[];
   /** Produces a fresh (optionally reshuffled) question list when reviewing again. */
   onRestart: () => void;
+  /** Called once, the moment every question has been reviewed (reaching the "done" screen). */
+  onComplete?: () => void;
   backTo: ReactNode;
 }
 
 /** Pure review: question, options, correct one(s) already highlighted. No scoring. */
-export default function PracticeSession({ questions, onRestart, backTo }: Props) {
+export default function PracticeSession({ questions, onRestart, onComplete, backTo }: Props) {
   const [index, setIndex] = useState(0);
   const [done, setDone] = useState(false);
 
@@ -22,6 +24,7 @@ export default function PracticeSession({ questions, onRestart, backTo }: Props)
   function next() {
     if (isLast) {
       setDone(true);
+      onComplete?.();
       return;
     }
     setIndex(index + 1);

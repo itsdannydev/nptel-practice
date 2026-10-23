@@ -142,7 +142,7 @@ export default function WrongAnswerPractice() {
             <fieldset className="mode-segmented">
               <legend className="sr-only">Quiz mode</legend>
               {QUIZ_MODES.map((m) => (
-                <label key={m} className="mode-segment">
+                <label key={m} className={`mode-segment mode-segment-${m}`}>
                   <input
                     type="radio"
                     name="wrong-mode"

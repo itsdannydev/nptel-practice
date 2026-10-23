@@ -3,6 +3,7 @@ import type { ReactNode } from 'react';
 import QuizSession from './QuizSession';
 import PracticeSession from './PracticeSession';
 import Results from './Results';
+import { recordCompletion } from '../lib/completion';
 import { recordAttempt, type QuizProgress } from '../lib/progress';
 import { recordWrongAnswers } from '../lib/wrongAnswers';
 import type { AnswerResult, Question, QuizMode } from '../lib/types';
@@ -54,6 +55,26 @@ export default function QuizRunner({
     setProgress(undefined);
   }
 
+  // A merged pool (mixed quiz, wrong-answer practice) tags each question with the week it
+  // actually came from; a plain single-week run doesn't, so progressKey (a week number
+  // there) is the fallback. Shared by completion-tracking below and wrong-answer tracking
+  // inside finish().
+  const weekOf = (q: Question) =>
+    q.sourceWeek ?? (typeof progressKey === 'number' ? progressKey : undefined);
+
+  // Marks every distinct week touched by this run as having finished `mode` — skipped
+  // entirely when progressKey is omitted (wrong-answer practice drills a cross-week pool,
+  // not any one week's "real" attempt, same gate recordAttempt below already uses).
+  function recordWeekCompletion(finishedMode: QuizMode, questions: Question[]) {
+    if (progressKey === undefined) return;
+    const weeks = new Set<number>();
+    for (const q of questions) {
+      const w = weekOf(q);
+      if (w !== undefined) weeks.add(w);
+    }
+    for (const w of weeks) recordCompletion(courseId, w, finishedMode);
+  }
+
   // Practice is pure review — no scoring, no results screen.
   if (mode === 'practice') {
     return (
@@ -61,6 +82,7 @@ export default function QuizRunner({
         key={run.id}
         questions={run.questions}
         onRestart={() => start(makeAttempt(), true)}
+        onComplete={() => recordWeekCompletion('practice', run.questions)}
         backTo={backTo}
       />
     );
@@ -77,14 +99,12 @@ export default function QuizRunner({
           finished.filter((r) => !r.correct).map((r) => r.question.id),
         ),
       );
+      recordWeekCompletion(mode, finished.map((r) => r.question));
     }
 
     // Wrong-answer tracking (Rapid Fire/Mock only — Practice never reaches finish() at all, see
     // the early return above). Applies to every run, not just full attempts, so a "Retry
     // missed" pass still counts repeat mistakes and can clear resolved ones.
-    const weekOf = (q: Question) =>
-      q.sourceWeek ?? (typeof progressKey === 'number' ? progressKey : undefined);
-
     const wrong = finished.flatMap((r) => {
       if (r.correct) return [];
       const weekNumber = weekOf(r.question);
